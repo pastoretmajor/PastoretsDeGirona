@@ -7,7 +7,7 @@ const Inici = () => {
     return (
     <div>
       <Navbar />
-      <ImageComponent src={AraSi} alt="Ara si" text="ARA SÍ" />
+      <ImageComponent src={AraSi} alt="ARA SÍ" text="ARA SÍ" />
       <ImageComponent src={Cartell} alt="Cartell" text="" />
       <Footer />
     </div>
