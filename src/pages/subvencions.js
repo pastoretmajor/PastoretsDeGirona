@@ -7,7 +7,7 @@ const Subvencions = () => {
     <div>
       <Navbar />
       <ImageComponent src={ImatgeSubvencions} alt="Subvencions" text="Subvencions" />
-      <h2>PROPERAMENT</h2>
+      <h2>Aquest podría ser el teu espai</h2>
       <Footer />
     </div>
   )

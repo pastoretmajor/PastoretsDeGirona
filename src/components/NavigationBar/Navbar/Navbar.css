@@ -19,8 +19,9 @@
   }
   
   .navbar-logo img{
-    width: 100px; /* Estableix l'amplada de la imatge */
-    height: 100px; /* Estableix l'alçada de la imatge */
+    margin-left: 10px;
+    width: 250px; /* Estableix l'amplada de la imatge */
+    height: 80px; /* Estableix l'alçada de la imatge */
   }
 
   .fa-firstdraft {

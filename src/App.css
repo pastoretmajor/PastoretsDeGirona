@@ -10,11 +10,10 @@
 
 /* Default file created by npx create-react-app my-app  */
 
-body {
+.body {
   margin: 0;
   padding: 0;
 }
-
 
 .App {
   text-align: center;
