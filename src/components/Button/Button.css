@@ -1,0 +1,20 @@
+:root {
+    --primary: #ffffff; /*Color de fons primari*/
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 10px;
+    border-color: #D90559; /* Color exterior del button */
+    font-size: 18px;
+    color: #D90559; /* Color del text de button */
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .btn:hover {
+    color: #1D1D1B; /* Color del text de button on hover */
+    border-color: #414141; /* Color exterior del button on hover */
+    transition: all 0.2s ease-out;
+    background-color: #DADADA;
+  }

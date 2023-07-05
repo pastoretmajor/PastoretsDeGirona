@@ -1,0 +1,24 @@
+.column-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: min-content;
+    grid-gap: 0px;
+  }
+  
+  .column {
+    position: relative;
+  }
+  
+  .column-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .column-content p {
+    margin-top: 10px;
+    text-align: left;
+  }
+  

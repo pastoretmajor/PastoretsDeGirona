@@ -1,0 +1,41 @@
+.dropdown-menu {
+    background: transparent; /* No té color de fons */
+    width: 200px; /* Amplada de 200 px */
+    position: absolute; /* Posició absoluta */
+    top: 80px; /* Espai respecte top */ 
+    list-style: none; /* No té estil */
+    text-align: start; /* Alineació del text a l'inici */
+  }
+  
+  .dropdown-menu li {
+    background: #ffffff; /* Color de fons */
+    cursor: pointer; /* On hover el cursor es converteix a pointer */
+  }
+  
+  .dropdown-menu li:hover {
+    background: #D91E01; /* Color de fons on hover */
+  }
+
+
+  .dropdown-menu.clicked {
+    display: none; /* No tocar */
+  }
+  
+  .dropdown-link {
+    display: block; /* No tocar */
+    height: 100%; /* Alçada del 100% */
+    width: 100%; /* Amplada del 100% */
+    text-decoration: none; /* No hi ha decoració del text */
+    color: #1D1D1B; /* Color del text */
+    padding: 8px; /* Padding */
+  }
+
+  .dropdown-link:hover{
+    color:#ffffff; /* Color del text on hover */
+  }
+  /* Responsive */
+  @media screen and (max-width: 960px) {
+    .fa-caret-down {
+      display: none;
+    }
+  }

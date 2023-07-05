@@ -1,0 +1,88 @@
+.colored-box {
+  overflow: hidden;
+  margin: 0px;
+}
+
+.colored-box p {
+  margin-left: 10px;
+  color: #1D1D1B;
+  font-size: 30px;
+  font-family: 'Rubik', sans-serif; /* Use Rubik font */
+}
+
+.colored-box img {
+  width: 250px;
+  height: 250px;
+}
+
+.colored-box-wrapper {
+  position:static;
+  margin-left: 480px;
+  margin-top: -920px;
+}
+
+.colored-box-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.colored-box-wrapper p {
+  color: #1D1D1B;
+}
+
+.box-image {
+  /* Styles for the image */
+  display: block; /* Ensures the image is a block element */
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Automatically adjusts the height while maintaining aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire box */
+  margin-bottom: 10px; /* Example margin for spacing */
+}
+
+.centered-colored-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.centered-colored-box img {
+  width: 250px;
+  height: 250px;
+}
+
+.centered-colored-box p {
+
+  font-size: 24px;
+  max-width: 500px;
+  word-wrap: break-word;
+}
+
+.circle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #1D1D1B;
+}
+
+.red-circle {
+  width: 400px;
+  height: 400px;
+  background-color: #D90559;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  /* Add transition property for smooth effect */
+}
+
+.red-circle:hover {
+  transform: scale(1.1);
+  /* Increase the size of the circle on hover */
+}
+
+.red-circle a {
+  text-decoration: none;
+  color: #ffffff;
+}

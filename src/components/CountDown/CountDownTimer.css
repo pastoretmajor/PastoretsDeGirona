@@ -1,0 +1,61 @@
+.countdown-container {
+    font-family: 'Signika Negative', sans-serif; /* Use Signika Negative font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+        
+  .countdown-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .countdown-value {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .countdown-label {
+    font-size: 48px;
+  }
+  
+  .countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .countdown-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 280px;
+    border-radius: 0px;
+  }
+  
+  .countdown-value {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .countdown-label {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+      
