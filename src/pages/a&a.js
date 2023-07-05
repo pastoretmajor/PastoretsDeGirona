@@ -306,7 +306,6 @@ const Actors = () => {
       bio: "Text breu",
       imageUrl: castingIcon,
     },
-    
   ];
 
   return (
