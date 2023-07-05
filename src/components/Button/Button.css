@@ -5,9 +5,9 @@
   .btn {
     padding: 8px 20px;
     border-radius: 10px;
-    border-color: #D90559; /* Color exterior del button */
+    border-color: #D91E01; /* Color exterior del button */
     font-size: 18px;
-    color: #D90559; /* Color del text de button */
+    color: #D91E01; /* Color del text de button */
     cursor: pointer;
     background-color: transparent;
   }

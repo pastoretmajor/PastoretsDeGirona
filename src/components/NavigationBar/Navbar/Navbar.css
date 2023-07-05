@@ -94,7 +94,7 @@
     }
   
     .nav-menu.active {
-      background: #242222; /* Color de fons del menu */
+      background: #1D1D1B; /* Color de fons del menu */
       left: 0; /* Distancia respecte l'esquerra */
       opacity: 1; /* Opacitat complerta */
       transition: all 0.5s ease; /* Temps que tarda en fer la transició */
