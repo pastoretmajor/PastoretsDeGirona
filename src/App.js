@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Inici from './pages';
 import Lobra from './pages/lobra';
 import Equip from './pages/equip';
