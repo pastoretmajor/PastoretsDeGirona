@@ -1,10 +1,16 @@
-import React from 'react'
-const Contacta = () => {
+import Navbar from '../components/NavigationBar/Navbar'
+import ImageComponent from '../components/ImageComponent/ImageComponent'
+import ImatgeContacte from '../images/backgroundImageAraSi.jpg'
+import Footer from '../components/Footer/Footer'
+const Contacte = () => {
   return (
     <div>
-      Contacta
+      <Navbar />
+      <ImageComponent src={ImatgeContacte} alt="Contacta'ns" text="Contacta'ns" />
+      <h2>PROPERAMENT</h2>
+      <Footer />
     </div>
   )
 }
 
-export default Contacta
+export default Contacte

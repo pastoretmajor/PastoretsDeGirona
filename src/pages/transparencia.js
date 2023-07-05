@@ -1,8 +1,14 @@
-import React from 'react'
+import Navbar from '../components/NavigationBar/Navbar'
+import ImageComponent from '../components/ImageComponent/ImageComponent'
+import ImatgeTransparencia from '../images/backgroundImageAraSi.jpg'
+import Footer from '../components/Footer/Footer'
 const Transparencia = () => {
   return (
     <div>
-      Transparencia
+      <Navbar />
+      <ImageComponent src={ImatgeTransparencia} alt="Trasnparència" text="Transparència" />
+      <h2>PROPERAMENT</h2>
+      <Footer />
     </div>
   )
 }
