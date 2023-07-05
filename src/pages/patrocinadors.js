@@ -7,9 +7,7 @@ const Patrocinadors = () => {
     <div>
       <Navbar />
       <ImageComponent src={ImatgePatrocinadors} alt="Patrocinadors" text="Patrocinadors" />
-      <div>
         <h2>Aquest podría ser el teu espai</h2>
-      </div>
       <Footer />
     </div>
   )
