@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/PastoretsDeGirona/static/css/main.cd43fc8e.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.2d5bd227.js",
+    "main.js": "/PastoretsDeGirona/static/js/main.a4e00fe1.js",
     "static/media/castingIcon.png": "/PastoretsDeGirona/static/media/castingIcon.c49d6adbc807c6792262.png",
+    "static/media/backgroundImage.webP": "/PastoretsDeGirona/static/media/backgroundImage.cfc0bfdf5223954aa711.webP",
     "static/media/backgroundImageAraSi.jpg": "/PastoretsDeGirona/static/media/backgroundImageAraSi.307b0a2f648413815c58.jpg",
     "static/media/backgroundImage.jpg": "/PastoretsDeGirona/static/media/backgroundImage.1c670e789eb211366866.jpg",
     "static/media/logoHoritzontal.png": "/PastoretsDeGirona/static/media/logoHoritzontal.ac239217aeb6592cdeb8.png",
     "static/media/logoPastorets.png": "/PastoretsDeGirona/static/media/logoPastorets.4d81ac5d5adb6b3673a0.png",
     "index.html": "/PastoretsDeGirona/index.html",
     "main.cd43fc8e.css.map": "/PastoretsDeGirona/static/css/main.cd43fc8e.css.map",
-    "main.2d5bd227.js.map": "/PastoretsDeGirona/static/js/main.2d5bd227.js.map"
+    "main.a4e00fe1.js.map": "/PastoretsDeGirona/static/js/main.a4e00fe1.js.map"
   },
   "entrypoints": [
     "static/css/main.cd43fc8e.css",
-    "static/js/main.2d5bd227.js"
+    "static/js/main.a4e00fe1.js"
   ]
 }
