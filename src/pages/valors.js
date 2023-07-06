@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import ValorsImatge from '../images/backgroundImageAraSi.jpg'
+import ValorsImatge from '../images/backgroundImageAraSi.webP'
 import ValorsLayout from '../components/ValorsLayout/ValorsLayout';
 const Valors = () => {
 

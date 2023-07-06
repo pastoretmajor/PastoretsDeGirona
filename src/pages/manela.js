@@ -1,6 +1,6 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import LaManela from '../images/backgroundImageAraSi.jpg'
+import LaManela from '../images/backgroundImageAraSi.webP'
 import Footer from '../components/Footer/Footer'
 const Manela = () => {
   return (

@@ -4,7 +4,7 @@ import castingIcon from '../images/castingIcon.png';
 import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import EquipActors from '../images/backgroundImage.jpg'
+import EquipActors from '../images/backgroundImage.webP'
 
 const Actors = () => {
   const teamMembers = [

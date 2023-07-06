@@ -1,7 +1,7 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import AraSi from '../images/backgroundImageAraSi.jpg'
-import Cartell from '../images/backgroundImage.jpg'
+import AraSi from '../images/backgroundImageAraSi.webP'
+import Cartell from '../images/backgroundImage.webP'
 import Footer from '../components/Footer/Footer'
 const Inici = () => {
     return (

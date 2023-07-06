@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import AssociacioImatge from '../images/backgroundImageAraSi.jpg'
+import AssociacioImatge from '../images/backgroundImageAraSi.webP'
 import {CenteredColoredBox} from '../components/ColoredBox/ColoredBox';
 import LogoValors from '../images/logoPastorets.png';
 const Associacio = () => {

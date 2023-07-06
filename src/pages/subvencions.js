@@ -1,6 +1,6 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import ImatgeSubvencions from '../images/backgroundImageAraSi.jpg'
+import ImatgeSubvencions from '../images/backgroundImageAraSi.webP'
 import Footer from '../components/Footer/Footer'
 const Subvencions = () => {
   return (
