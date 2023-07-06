@@ -9,9 +9,9 @@ import ObraBackground from '../images/backgroundImage.webP'
 
 const Lobra = () => {
   const boxes = [
-    { width: '480px', height: '400px', backgroundColor: '#DADADA', text: "Pastorets de Girona, una tradició" },
-    { width: '480px', textColor: '#F1F1F1',height: '400px',backgroundColor: '#D91E01', text: "Pastorets ha estat la porta d'entrada al món del teatre d'actors, actrius i tècnics que després han fet el pas al món professional i una escola per a generacions d'aficionats al món del teatre" },
-    { width: '480px', textColor: '#F1F1F1', height: '400px', backgroundColor: '#414141', text: 'Els nous Pastorets continuaran essent de caire familiar i musical amb un format diferent, inclusiu i innovador.' },
+    { width: '480px', height: '480px', backgroundColor: '#DADADA', text: "Pastorets de Girona, una tradició" },
+    { width: '480px', textColor: '#F1F1F1',height: '480px',backgroundColor: '#D91E01', text: "Pastorets ha estat la porta d'entrada al món del teatre d'actors, actrius i tècnics que després han fet el pas al món professional i una escola per a generacions d'aficionats al món del teatre" },
+    { width: '480px', textColor: '#F1F1F1', height: '480px', backgroundColor: '#414141', text: 'Els nous Pastorets continuaran essent de caire familiar i musical amb un format diferent, inclusiu i innovador.' },
   ];
 
   return (
