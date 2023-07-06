@@ -32,7 +32,8 @@
   width: 100%; /* Adjust the width as needed */
   height: auto; /* Automatically adjusts the height while maintaining aspect ratio */
   object-fit: cover; /* Ensures the image covers the entire box */
-  margin-bottom: 10px; /* Example margin for spacing */
+  margin: 0 auto; /* Example margin for spacing */
+
 }
 
 .centered-colored-box {
