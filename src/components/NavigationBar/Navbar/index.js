@@ -5,7 +5,7 @@ import './Navbar.css';
 import Dropdown1 from '../Dropdown/Dropdown1';
 import Dropdown2 from '../Dropdown/Dropdown2';
 import Dropdown3 from '../Dropdown/Dropdown3';
-import logoImage from '../../../images/logoHoritzontal.png';
+import logoImage from '../../../images/logoHoritzontal.webP';
 
 function Navbar() {
   const [click, setClick] = useState(false);
