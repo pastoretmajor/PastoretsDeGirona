@@ -13,7 +13,9 @@
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
+    box-sizing: border-box; /* Add this line */
   }
+  
   
   
   .content-container .text-overlay {
