@@ -9,14 +9,18 @@ const ColoredBox = ({ width, height, backgroundColor, textColor, text, text2, sr
     color: textColor, // Set the text color
   };
 
+  const textStyle = {
+    color: textColor, // Set the text color
+  };
+
   return (
     <a href={link} className="colored-box-link" aria-label="Link cap a la pàgina a la que es vol anar">
       <div className="colored-box" style={boxStyle}>
         {src && <img src={src} alt={alt} className="box-image" />}
         {text && (
           <div>
-            <p>{text}</p>
-            <p>{text2}</p>
+            <p style={textStyle}>{text}</p>
+            <p style={textStyle}>{text2}</p>
           </div>
         )}
       </div>
@@ -32,6 +36,10 @@ const CenteredColoredBox = ({ width, height, backgroundColor, textColor, text, t
     color: textColor, // Set the text color
   };
 
+  const textStyle = {
+    color: textColor, // Set the text color
+  };
+
   return (
     <div className="centered-colored-box" style={boxStyle}>
       {src && <img src={src} alt={alt} className="box-image" />}
@@ -39,15 +47,15 @@ const CenteredColoredBox = ({ width, height, backgroundColor, textColor, text, t
         <a href={link} className="centered-colored-box-link" style={{ textDecoration: 'none' }} aria-label="Link cap a la pàgina a la que es vol anar">
           <div className="red-circle">
             <div className="circle-content">
-              {text && <p>{text}</p>}
-              {text2 && <p>{text2}</p>}
+              {text && <p style={textStyle}>{text}</p>}
+              {text2 && <p style={textStyle}>{text2}</p>}
             </div>
           </div>
         </a>
       ) : (
         <div className="circle-content">
-          {text && <p>{text}</p>}
-          {text2 && <p>{text2}</p>}
+          {text && <p style={textStyle}>{text}</p>}
+          {text2 && <p style={textStyle}>{text2}</p>}
         </div>
       )}
     </div>
