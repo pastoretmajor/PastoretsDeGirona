@@ -9,9 +9,11 @@ const ImageComponent = ({ src, text }) => {
   return (
     <div className="content-container">
       <div className="image-component" style={divStyle}></div>
-      <div className="text-overlay">
+      {text && (
+        <div className="text-overlay">
         <h1>{text}</h1>
       </div>
+      )}
     </div>
   );
 };
