@@ -20,6 +20,8 @@
   
   .navbar-logo img{
     margin-left: 10px;
+    width: 193px; /* Estableix l'amplada de la imatge */
+    height: 80px; /* Estableix l'alçada de la imatge */
   }
 
   .fa-firstdraft {
