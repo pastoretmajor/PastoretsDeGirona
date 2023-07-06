@@ -5,7 +5,8 @@
 
 .colored-box p {
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 30px;
   font-family: 'Rubik', sans-serif; /* Use Rubik font */
 }
@@ -13,12 +14,6 @@
 .colored-box img {
   width: 250px;
   height: 250px;
-}
-
-.colored-box-wrapper {
-  position:static;
-  margin-left: 480px;
-  margin-top: -920px;
 }
 
 .colored-box-link {
