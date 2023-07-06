@@ -8,16 +8,16 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-icons">
-        <a href="https://www.instagram.com" className='icon-instagram'>
+        <a href="https://www.instagram.com" className='icon-instagram' aria-label="Link cap a l'instagram de l'associació Pastorets de Girona">
           <FaInstagram className="icon" />
         </a>
-        <a href="https://www.facebook.com" className='icon-facebook'>
+        <a href="https://www.facebook.com" className='icon-facebook' aria-label="Link cap a el facebook de l'associació Pastorets de Girona">
           <FaFacebook className="icon" />
         </a>
-        <a href="https://www.twitter.com" className='icon-twitter'>
+        <a href="https://www.twitter.com" className='icon-twitter' aria-label="Link cap a el twitter de l'associació Pastorets de Girona">
           <FaTwitter className="icon" />
         </a>
-        <a href="https://www.tiktok.com" className='icon-tiktok'>
+        <a href="https://www.tiktok.com" className='icon-tiktok' aria-label="Link cap a el tiktok de l'associació Pastorets de Girona">
           <FaTiktok className="icon" />
         </a>
       </div>

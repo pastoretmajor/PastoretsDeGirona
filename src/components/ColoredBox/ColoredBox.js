@@ -9,7 +9,7 @@ const ColoredBox = ({ width, height, backgroundColor, text, text2, src, alt, lin
   };
 
   return (
-    <a href={link} className="colored-box-link">
+    <a href={link} className="colored-box-link" aria-label="Link cap a la pàgina a la que es vol anar">
       <div className="colored-box" style={boxStyle}>
         {src && <img src={src} alt={alt} className="box-image" />}
         {text && (
@@ -35,7 +35,7 @@ const CenteredColoredBox = ({ width, height, backgroundColor, text, text2, src, 
     <div className="centered-colored-box" style={boxStyle}>
       {src && <img src={src} alt={alt} className="box-image" />}
       {hasCircle ? (
-        <a href={link} className="centered-colored-box-link" style={{ textDecoration: 'none' }}>
+        <a href={link} className="centered-colored-box-link" style={{ textDecoration: 'none' }} aria-label="Link cap a la pàgina a la que es vol anar">
           <div className="red-circle">
             <div className="circle-content">
               {text && <p>{text}</p>}
