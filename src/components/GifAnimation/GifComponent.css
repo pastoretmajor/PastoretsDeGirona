@@ -1,0 +1,12 @@
+/* Estil per al component GifComponent */
+
+.gif-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif {
+  max-width: 100%;
+  height: auto;
+}
