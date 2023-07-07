@@ -1,6 +1,6 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import AraSi from '../images/backgroundImageAraSi.webP'
+import AraSi from '../images/alaAngelGris.webP'
 import ImatgeCalendari from '../images/calendariPastorets.webP'
 import Footer from '../components/Footer/Footer'
 import TeatreMunicipalInterior from '../images/teatreMunicipalInterior.webP'

@@ -5,7 +5,7 @@ import ColumnLayout from '../components/ColumnLayout/ColumnLayout';
 import { ColoredBox } from '../components/ColoredBox/ColoredBox';
 import Logo from '../images/logoPastorets.webP';
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import ObraBackground from '../images/backgroundImage.webP'
+import ObraBackground from '../images/alaNegreRtL.webP'
 
 const Lobra = () => {
   const boxes = [

@@ -4,7 +4,7 @@ import castingIcon from '../images/castingIcon.webP';
 import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import EquipTecnic from '../images/backgroundImage.webP'
+import EquipTecnic from '../images/angelNeonStyle.webP'
 
 const Ajudants = () => {
   const teamMembers = [

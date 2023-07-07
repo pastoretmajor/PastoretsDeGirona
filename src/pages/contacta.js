@@ -1,6 +1,6 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import ImatgeContacte from '../images/backgroundImageAraSi.webP'
+import ImatgeContacte from '../images/alaAngelBlanc.webP'
 import Footer from '../components/Footer/Footer'
 const Contacte = () => {
   return (

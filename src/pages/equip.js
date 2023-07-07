@@ -4,7 +4,7 @@ import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import ColumnLayout from '../components/ColumnLayout/ColumnLayout';
 import {CenteredColoredBox} from '../components/ColoredBox/ColoredBox';
-import EquipHuma from '../images/backgroundImage.webP'
+import EquipHuma from '../images/banyesNormals.webP'
 import Logo from '../images/logoPastorets.webP'
 const Equip = () => {
 

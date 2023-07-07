@@ -3,8 +3,8 @@ import CountdownTimer from '../components/CountDown/CountDownTimer'
 import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
-import EntradesImatge from '../images/backgroundImageAraSi.webP'
-import FotoTeatre from '../images/backgroundImage.webP'
+import EntradesImatge from '../images/banyesNormals.webP'
+import FotoTeatre from '../images/teatreMunicipalInterior.webP'
 const Entrades = () => {
 
   const targetDate = new Date(2023,12,25,17,30,0).getTime();
