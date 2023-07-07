@@ -76,68 +76,6 @@
   .menu-icon {
     display: none; /* No tocar */
   }
-  /* Reactive */
-  @media screen and (max-width: 960px) {
-    .NavbarItems {
-      position: relative;
-    }
-  
-    .nav-menu {
-      display: flex; /* Posició dins el menú */
-      flex-direction: column; /* Es mostra com a columnes */
-      width: 100%; /* Amplada del 100% */
-      height: 90vh; /* Alçada */
-      position: absolute; /* Posició fixa absoluta */
-      top: 80px; /* Distancia del top */
-      left: -100%; /* Separació respecte la esquerra */
-      opacity: 1; /* Opacitat completa */
-      transition: all 0.5s ease; /* Temps que tarda en fer la transició */
-    }
-  
-    .nav-menu.active {
-      background: #1D1D1B; /* Color de fons del menu */
-      left: 0; /* Distancia respecte l'esquerra */
-      opacity: 1; /* Opacitat complerta */
-      transition: all 0.5s ease; /* Temps que tarda en fer la transició */
-      z-index: 1; /* Posició sobre quin va davant */
-    }
-  
-    .nav-links {
-      text-align: center; /* Posició dels drop down elements */
-      padding: 2rem; /* Padding */
-      width: 100%; /* Amplada del 100% */
-      display: table; /* Es mostra en forma de taula */
-    }
-  
-    .navbar-logo {
-      position: absolute; /* Posició absoluta */
-      top: 0; /* Espai respecte top */
-      left: 0; /* Espai respecte l'esquerra */
-      transform: translate(25%, 50%); /* Posició */
-    }
-  
-    .nav-links-mobile {
-      display: block; /* No tocar */
-      text-align: center; /* Alineació del text al centre */
-      padding: 1.5rem; /* Padding */
-      margin: 2rem auto; /* Marge */
-      width: 80%; /* Amplada d'un 80% */
-      color: #fff; /* Color del text */
-      font-size: 1.5rem; /* Tamany del text */
-    }
-  
-    .nav-links-mobile:hover {
-      background: #fff; /* Color de fons on hover */
-      color: #e7e7e7; /* Color del text on hover */
-      transition: 250ms; /* Temps de transició */
-    }
-  
-    button {
-      display: none; /* No tocar */
-    }
-  }
-
-
 
   /* Provisional */
   h2{
