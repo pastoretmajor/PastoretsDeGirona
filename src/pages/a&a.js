@@ -5,6 +5,7 @@ import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import EquipActors from '../images/dimoniOrigami.webP'
+import BlurEquipActors from '../images/dimoniOrigamiBlur.webP'
 
 const Actors = () => {
   const teamMembers = [
@@ -311,7 +312,7 @@ const Actors = () => {
   return (
     <div>
       <Navbar />
-      <ImageComponent src={EquipActors} alt="Actors i Actrius" text="Actors I Actrius" />
+      <ImageComponent src={EquipActors} blurSrc={BlurEquipActors} alt="Actors i Actrius" text="Actors I Actrius" />
       <div className="team-grid">
       <div className="team-grid__cards">
         {teamMembers.map((teamMember, index) => (
