@@ -33,7 +33,13 @@ const ImageComponent = ({ src, blurSrc, text }) => {
   };
 
   const divStyle = {
-    backgroundImage: `url(${isLoaded ? src : blurSrc})`,
+    backgroundImage: `url(${src})`,
+    opacity: isLoaded ? 1 : 0,
+  };
+
+  const blurDivStyle = {
+    backgroundImage: `url(${blurSrc})`,
+    opacity: isLoaded ? 0 : 1,
   };
 
   return (
@@ -44,6 +50,7 @@ const ImageComponent = ({ src, blurSrc, text }) => {
         ref={imageRef}
         onLoad={handleLoad}
       ></div>
+      <div className="blur-image-component" style={blurDivStyle}></div>
       {text && (
         <div className="text-overlay">
           <h1>{text}</h1>
