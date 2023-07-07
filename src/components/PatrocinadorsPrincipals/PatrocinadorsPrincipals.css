@@ -8,7 +8,7 @@
     overflow: hidden;
     border-width: 2px;
     border-style: solid;
-    border-image: radial-gradient(#1D1D1B, #D91E01, #1D1D1B);
+    border-image: radial-gradient(#1D1D1B, #F1F1F1, #1D1D1B);
     border-image-slice: 1;
     background-color: #1D1D1B;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
