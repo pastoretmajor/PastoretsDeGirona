@@ -1,0 +1,30 @@
+.logos-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-width: 2px;
+    border-style: solid;
+    border-image: radial-gradient(#1D1D1B, #D91E01, #1D1D1B);
+    border-image-slice: 1;
+    border-radius: 10px;
+    background-color: #1D1D1B;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  .logo-item {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .logo-item img {
+    max-width: 100%;
+    height: auto;
+  }
