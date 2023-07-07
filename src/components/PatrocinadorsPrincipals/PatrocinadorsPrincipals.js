@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../images/laManela.gif';
 import './PatrocinadorsPrincipals.css';
+import { CenteredColoredBox } from '../ColoredBox/ColoredBox';
 
 const PatrocinadorsPrincipals = () => {
   const logos = [
@@ -14,6 +15,7 @@ const PatrocinadorsPrincipals = () => {
 
   return (
     <div>
+      <CenteredColoredBox text={"ÀNGELS"} height={"100px"} width={"1440px"} backgroundColor={"#1D1D1B"}  textColor={"#F1F1F1"}/>
       <div className="logos-container">
         {logos.map((logo, index) => (
           <div key={index} className="logo-item">
