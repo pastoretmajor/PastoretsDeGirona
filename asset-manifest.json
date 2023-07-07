@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PastoretsDeGirona/static/css/main.b4273e07.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.7f02d7b2.js",
+    "main.css": "/PastoretsDeGirona/static/css/main.e136ce90.css",
+    "main.js": "/PastoretsDeGirona/static/js/main.1284c977.js",
     "static/media/teatreMunicipalInterior.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/alaAngelBlanc.webP": "/PastoretsDeGirona/static/media/alaAngelBlanc.6f09ea9d2cdbfaf1fd4d.webP",
     "static/media/esqueletImatge.webP": "/PastoretsDeGirona/static/media/esqueletImatge.d59c336911ab9c77cf9e.webP",
@@ -17,15 +17,29 @@
     "static/media/banyesRecargolades.webP": "/PastoretsDeGirona/static/media/banyesRecargolades.ccd9137646c95d8067b9.webP",
     "static/media/plomaAngel.webP": "/PastoretsDeGirona/static/media/plomaAngel.29029817257a9490273a.webP",
     "static/media/dimoniOrigami.webP": "/PastoretsDeGirona/static/media/dimoniOrigami.7431abfa7a498f971d68.webP",
+    "static/media/teatreMunicipalInteriorBlur.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInteriorBlur.9cb1857ffeb3772464a9.webP",
+    "static/media/banyesNormalsBlur.webP": "/PastoretsDeGirona/static/media/banyesNormalsBlur.011f1a034de0658f01a5.webP",
     "static/media/laManela.gif": "/PastoretsDeGirona/static/media/laManela.fc6fb943bd699d2ab4e6.gif",
+    "static/media/angelNeonStyleBlur.webP": "/PastoretsDeGirona/static/media/angelNeonStyleBlur.c1419032b6892d7207b0.webP",
+    "static/media/banyesRecargoladesBlur.webP": "/PastoretsDeGirona/static/media/banyesRecargoladesBlur.75f43ecb85ac961dff3d.webP",
+    "static/media/esqueletImatgeBlur.webP": "/PastoretsDeGirona/static/media/esqueletImatgeBlur.2ef8fdeb7c4900a72f78.webP",
+    "static/media/calendariPastoretsBlur.webP": "/PastoretsDeGirona/static/media/calendariPastoretsBlur.29f364b3ef92726b215b.webP",
+    "static/media/alaAngelBlancBlur.webP": "/PastoretsDeGirona/static/media/alaAngelBlancBlur.6adbd9030a4f63e68fea.webP",
+    "static/media/alaNegreRtLBlur.webP": "/PastoretsDeGirona/static/media/alaNegreRtLBlur.f901f25af53039a9e7c7.webP",
+    "static/media/mascaraDimoniBlur.webP": "/PastoretsDeGirona/static/media/mascaraDimoniBlur.00d038f5e00226e819d3.webP",
+    "static/media/alaNegreLtRBlur.webP": "/PastoretsDeGirona/static/media/alaNegreLtRBlur.e001f954e10e4814e3fa.webP",
+    "static/media/alaAngelGrisBlur.webP": "/PastoretsDeGirona/static/media/alaAngelGrisBlur.4a1e0eff2c3f13fa8daa.webP",
+    "static/media/plomaAngelBlur.webP": "/PastoretsDeGirona/static/media/plomaAngelBlur.b12d47252bbbb4bd2bd1.webP",
+    "static/media/forcaCompletaBlur.webP": "/PastoretsDeGirona/static/media/forcaCompletaBlur.db6b97dcbb8ee52629ef.webP",
+    "static/media/dimoniOrigamiBlur.webP": "/PastoretsDeGirona/static/media/dimoniOrigamiBlur.b286366ba739431abad1.webP",
     "static/media/logoHoritzontal.webP": "/PastoretsDeGirona/static/media/logoHoritzontal.ac8585f8b7ab9fda7e3d.webP",
     "static/media/logoPastorets.webP": "/PastoretsDeGirona/static/media/logoPastorets.778f1e676f4d2fcb17ba.webP",
     "index.html": "/PastoretsDeGirona/index.html",
-    "main.b4273e07.css.map": "/PastoretsDeGirona/static/css/main.b4273e07.css.map",
-    "main.7f02d7b2.js.map": "/PastoretsDeGirona/static/js/main.7f02d7b2.js.map"
+    "main.e136ce90.css.map": "/PastoretsDeGirona/static/css/main.e136ce90.css.map",
+    "main.1284c977.js.map": "/PastoretsDeGirona/static/js/main.1284c977.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4273e07.css",
-    "static/js/main.7f02d7b2.js"
+    "static/css/main.e136ce90.css",
+    "static/js/main.1284c977.js"
   ]
 }
