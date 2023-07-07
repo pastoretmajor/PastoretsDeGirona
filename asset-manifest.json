@@ -1,21 +1,31 @@
 {
   "files": {
     "main.css": "/PastoretsDeGirona/static/css/main.e18ed54d.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.79d57ed8.js",
+    "main.js": "/PastoretsDeGirona/static/js/main.7f02d7b2.js",
     "static/media/teatreMunicipalInterior.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
-    "static/media/castingIcon.png": "/PastoretsDeGirona/static/media/castingIcon.c49d6adbc807c6792262.png",
+    "static/media/alaAngelBlanc.webP": "/PastoretsDeGirona/static/media/alaAngelBlanc.6f09ea9d2cdbfaf1fd4d.webP",
+    "static/media/esqueletImatge.webP": "/PastoretsDeGirona/static/media/esqueletImatge.d59c336911ab9c77cf9e.webP",
+    "static/media/mascaraDimoni.webP": "/PastoretsDeGirona/static/media/mascaraDimoni.5c49f963947522dcedf2.webP",
+    "static/media/angelNeonStyle.webP": "/PastoretsDeGirona/static/media/angelNeonStyle.80c830b1c98e310d2465.webP",
+    "static/media/forcaCompleta.webP": "/PastoretsDeGirona/static/media/forcaCompleta.e627d95a276c13785a84.webP",
+    "static/media/alaNegreRtL.webP": "/PastoretsDeGirona/static/media/alaNegreRtL.124bfadc4da0dbf34cca.webP",
     "static/media/calendariPastorets.webP": "/PastoretsDeGirona/static/media/calendariPastorets.e755922c751e99109238.webP",
-    "static/media/backgroundImageAraSi.webP": "/PastoretsDeGirona/static/media/backgroundImageAraSi.fafcc1b7871b0d0aa86b.webP",
-    "static/media/backgroundImage.webP": "/PastoretsDeGirona/static/media/backgroundImage.cfc0bfdf5223954aa711.webP",
+    "static/media/alaAngelGris.webP": "/PastoretsDeGirona/static/media/alaAngelGris.488e687de755cc509973.webP",
+    "static/media/banyesNormals.webP": "/PastoretsDeGirona/static/media/banyesNormals.306f59f2b2ca3bfd81da.webP",
+    "static/media/castingIcon.webP": "/PastoretsDeGirona/static/media/castingIcon.f08b068ff719e0a920d4.webP",
+    "static/media/alaNegreLtR.webP": "/PastoretsDeGirona/static/media/alaNegreLtR.f693764048ed013ce3f5.webP",
+    "static/media/banyesRecargolades.webP": "/PastoretsDeGirona/static/media/banyesRecargolades.ccd9137646c95d8067b9.webP",
+    "static/media/plomaAngel.webP": "/PastoretsDeGirona/static/media/plomaAngel.29029817257a9490273a.webP",
+    "static/media/dimoniOrigami.webP": "/PastoretsDeGirona/static/media/dimoniOrigami.7431abfa7a498f971d68.webP",
     "static/media/laManela.gif": "/PastoretsDeGirona/static/media/laManela.fc6fb943bd699d2ab4e6.gif",
-    "static/media/logoPastorets.png": "/PastoretsDeGirona/static/media/logoPastorets.4d81ac5d5adb6b3673a0.png",
     "static/media/logoHoritzontal.webP": "/PastoretsDeGirona/static/media/logoHoritzontal.ac8585f8b7ab9fda7e3d.webP",
+    "static/media/logoPastorets.webP": "/PastoretsDeGirona/static/media/logoPastorets.778f1e676f4d2fcb17ba.webP",
     "index.html": "/PastoretsDeGirona/index.html",
     "main.e18ed54d.css.map": "/PastoretsDeGirona/static/css/main.e18ed54d.css.map",
-    "main.79d57ed8.js.map": "/PastoretsDeGirona/static/js/main.79d57ed8.js.map"
+    "main.7f02d7b2.js.map": "/PastoretsDeGirona/static/js/main.7f02d7b2.js.map"
   },
   "entrypoints": [
     "static/css/main.e18ed54d.css",
-    "static/js/main.79d57ed8.js"
+    "static/js/main.7f02d7b2.js"
   ]
 }
