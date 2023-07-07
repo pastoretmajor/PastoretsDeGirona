@@ -5,6 +5,8 @@ import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import EquipTecnic from '../images/forcaCompleta.webP'
+import BlurEquipTecnic from '../images/forcaCompletaBlur.webP'
+
 
 const Tecnics = () => {
   const teamMembers = [
@@ -114,7 +116,7 @@ const Tecnics = () => {
   return (
     <div>
       <Navbar />
-      <ImageComponent src={EquipTecnic} alt="Equip tecnic" text="Equip Tècnic" />
+      <ImageComponent src={EquipTecnic} blurSrc={BlurEquipTecnic} alt="Equip tecnic" text="Equip Tècnic" />
       <div className="team-grid">
       <div className="team-grid__cards">
         {teamMembers.map((teamMember, index) => (

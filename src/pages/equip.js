@@ -5,6 +5,8 @@ import ImageComponent from '../components/ImageComponent/ImageComponent'
 import ColumnLayout from '../components/ColumnLayout/ColumnLayout';
 import {CenteredColoredBox} from '../components/ColoredBox/ColoredBox';
 import EquipHuma from '../images/banyesNormals.webP'
+import BlurEquipHuma from '../images/banyesNormalsBlur.webP'
+
 import Logo from '../images/logoPastorets.webP'
 const Equip = () => {
 
@@ -17,7 +19,7 @@ const Equip = () => {
   return (
     <div>
       <Navbar />
-      <ImageComponent src={EquipHuma} alt="Equip huma" text="Equip humà" />
+      <ImageComponent src={EquipHuma} blurSrc={BlurEquipHuma} alt="Equip huma" text="Equip humà" />
       <CenteredColoredBox width="1440px" height="530px" backgroundColor="#F1F1F1" src={Logo} alt="Logo" text="L'Associació Pastorets de Girona, està formada per persones professionals dels diferents àmibts teatrals i persones amateurs amb una àmplia experiència en el món dels Pastorets de Girona"/>
       <ColumnLayout boxes={boxes} centered={true}/>
       <Footer />
