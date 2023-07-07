@@ -9,8 +9,6 @@ const urlsToCache = [
   '/static/js/bundle.js', // Adjust the path to your main JavaScript bundle
   '/static/css/main.cd43fc8e.css', // Adjust the path to your main CSS bundle
   '/static/media/angel.webP',
-  '/static/media/backgroundImage.webp',
-  '/static/media/backgroundImageAraSi.webp',
   '/static/media/castingIcon.webP',
   '/static/media/devil.webP',
   '/static/media/logoHoritzontal.webP',
