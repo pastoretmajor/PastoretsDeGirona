@@ -4,7 +4,7 @@ import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import AssociacioImatge from '../images/backgroundImageAraSi.webP'
 import {CenteredColoredBox} from '../components/ColoredBox/ColoredBox';
-import LogoValors from '../images/logoPastorets.png';
+import LogoValors from '../images/logoPastorets.webP';
 const Associacio = () => {
   return (
     <div>

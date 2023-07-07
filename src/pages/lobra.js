@@ -3,7 +3,7 @@ import Navbar from '../components/NavigationBar/Navbar';
 import Footer from '../components/Footer/Footer';
 import ColumnLayout from '../components/ColumnLayout/ColumnLayout';
 import { ColoredBox } from '../components/ColoredBox/ColoredBox';
-import Logo from '../images/logoPastorets.png';
+import Logo from '../images/logoPastorets.webP';
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import ObraBackground from '../images/backgroundImage.webP'
 
