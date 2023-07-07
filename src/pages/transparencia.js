@@ -1,6 +1,8 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import ImatgeTransparencia from '../images/alaAngelGris.webP'
 import BlurImatgeTransparencia from '../images/alaAngelGrisBlur.webP'
 
@@ -10,6 +12,7 @@ const Transparencia = () => {
       <Navbar />
       <ImageComponent src={ImatgeTransparencia} blurSrc={BlurImatgeTransparencia} alt="Trasnparència" text="Transparència" />
       <h2>PROPERAMENT</h2>
+      <PatrocinadorsPrincipals />
       <Footer />
     </div>
   )

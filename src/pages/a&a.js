@@ -4,6 +4,8 @@ import castingIcon from '../images/castingIcon.webP';
 import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import EquipActors from '../images/dimoniOrigami.webP'
 import BlurEquipActors from '../images/dimoniOrigamiBlur.webP'
 
@@ -330,6 +332,7 @@ const Actors = () => {
         ))}
       </div>
     </div>
+      <PatrocinadorsPrincipals />
       <Footer />
     </div>
     

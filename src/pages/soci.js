@@ -1,6 +1,8 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import ImatgeSocis from '../images/alaNegreLtR.webP'
 import BlurImatgeSocis from '../images/alaNegreLtRBlur.webP'
 
@@ -10,6 +12,7 @@ const Soci = () => {
       <Navbar />
       <ImageComponent src={ImatgeSocis} blurSrc={BlurImatgeSocis} alt="Fes-te soci" text="Fes-te soci" />
       <h2>PROPERAMENT</h2>
+      <PatrocinadorsPrincipals />
       <Footer />
     </div>
   )

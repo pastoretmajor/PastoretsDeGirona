@@ -4,6 +4,8 @@ import castingIcon from '../images/castingIcon.webP';
 import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import EquipTecnic from '../images/forcaCompleta.webP'
 import BlurEquipTecnic from '../images/forcaCompletaBlur.webP'
 
@@ -134,6 +136,7 @@ const Tecnics = () => {
         ))}
       </div>
     </div>
+      <PatrocinadorsPrincipals />
       <Footer />
     </div>
     

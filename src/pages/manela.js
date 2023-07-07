@@ -2,6 +2,8 @@ import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 import GifComponent from '../components/GifAnimation/GifComponent'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import gifUrl from '../images/laManela.gif'
 import LaManela from '../images/plomaAngel.webP'
 import BlurLaManela from '../images/plomaAngelBlur.webP'
@@ -13,6 +15,7 @@ const Manela = () => {
       <Navbar />
       <ImageComponent src={LaManela} blurSrc={BlurLaManela} alt="La Manela" text="La Manela" />
       <GifComponent gif={gifUrl}/>
+      <PatrocinadorsPrincipals />      
       <Footer />
     </div>
   )

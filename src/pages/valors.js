@@ -3,6 +3,8 @@ import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import ValorsLayout from '../components/ValorsLayout/ValorsLayout';
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import ValorsImatge from '../images/alaAngelBlanc.webP'
 import BlurValorsImatge from '../images/alaAngelBlancBlur.webP'
 
@@ -22,6 +24,7 @@ const Valors = () => {
       <Navbar />
       <ImageComponent src={ValorsImatge} blurSrc={BlurValorsImatge} alt="Valors" text="Valors" />
       <ValorsLayout boxes={boxes}  centered={true}/>
+      <PatrocinadorsPrincipals />
       <Footer />
     </div>
   )

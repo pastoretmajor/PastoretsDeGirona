@@ -1,6 +1,8 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import AraSi from '../images/alaAngelGris.webP'
 import BlurAraSi from '../images/alaAngelGrisBlur.webP'
 import ImatgeCalendari from '../images/calendariPastorets.webP'
@@ -15,6 +17,7 @@ const Inici = () => {
       <ImageComponent src={AraSi} blurSrc={BlurAraSi} alt="ARA SÍ" text="ARA SÍ" />
       <ImageComponent src={ImatgeCalendari} blurSrc={BlurImatgeCalendari} alt="ImatgeCalendari" text="" />
       <ImageComponent src={TeatreMunicipalInterior} blurSrc={BlurTeatreMunicipalInterior} alt="Venta d'entrades" text="Venta d'entrades" />
+      <PatrocinadorsPrincipals />
       <Footer />
     </div>
     )

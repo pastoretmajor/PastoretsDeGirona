@@ -3,6 +3,8 @@ import CountdownTimer from '../components/CountDown/CountDownTimer'
 import Navbar from '../components/NavigationBar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import EntradesImatge from '../images/banyesNormals.webP'
 import BlurEntradesImatge from '../images/banyesNormalsBlur.webP'
 import FotoTeatre from '../images/teatreMunicipalInterior.webP'
@@ -18,6 +20,7 @@ const Entrades = () => {
       <ImageComponent src={EntradesImatge} blurSrc={BlurEntradesImatge} alt="Compra entrades" text="Compra entrades" />
       <ImageComponent src={FotoTeatre} blurSrc={BlurFotoTeatre} alt="FotoTeatre"/>
       <CountdownTimer targetDate={targetDate} />
+      <PatrocinadorsPrincipals />
       <Footer />
     </div>
   )

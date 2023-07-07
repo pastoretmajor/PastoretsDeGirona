@@ -1,5 +1,7 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+
 import ImatgeContacte from '../images/alaAngelBlanc.webP'
 import BlurImatgeContacte from '../images/alaAngelBlancBlur.webP'
 
@@ -10,6 +12,7 @@ const Contacte = () => {
       <Navbar />
       <ImageComponent src={ImatgeContacte} blurSrc={BlurImatgeContacte} alt="Contacta'ns" text="Contacta'ns" />
       <h2>PROPERAMENT</h2>
+      <PatrocinadorsPrincipals />
       <Footer />
     </div>
   )
