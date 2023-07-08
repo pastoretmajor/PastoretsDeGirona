@@ -4,6 +4,9 @@ import axios from 'axios';
 const DB = () => {
   const [notes, setNotes] = useState([]);
   const [newNoteContent, setNewNoteContent] = useState('');
+  const [editNoteId, setEditNoteId] = useState(null);
+  const [editNoteContent, setEditNoteContent] = useState('');
+const [editNoteImportant, setEditNoteImportant] = useState(false);
 
   useEffect(() => {
     axios.get('http://localhost:3001/api/notes')
@@ -51,6 +54,39 @@ const DB = () => {
       });
   };
 
+  const handleEditInputChange = (event) => {
+    setEditNoteContent(event.target.value);
+  };
+
+  const handleEditFormSubmit = (event, noteId) => {
+    event.preventDefault();
+  
+    if (editNoteContent.trim() === '') {
+      return; // Do not update with empty content
+    }
+  
+    const updatedNote = {
+      content: editNoteContent,
+      important: editNoteImportant
+    };
+  
+    axios.put(`http://localhost:3001/api/notes/${noteId}`, updatedNote)
+      .then(response => {
+        const updatedNotes = notes.map(note => {
+          if (note.id === noteId) {
+            return response.data;
+          }
+          return note;
+        });
+        setNotes(updatedNotes);
+        setEditNoteId(null);
+        setEditNoteContent('');
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  };  
+
   return (
     <div>
       <h1>Gestor de la Base de Dades de l'Associació Pastorets de Girona</h1>
@@ -64,11 +100,41 @@ const DB = () => {
         <button type="submit">Add Note</button>
       </form>
       <ul>
-        {notes.map(note => (
-          <li key={note.id}>{note.content}
-                <button onClick={() => handleDeleteNote(note.id)}>Delete</button>
-          </li>
-        ))}
+      {notes.map(note => (
+  <li key={note.id}>
+    <div>
+      {note.id === editNoteId ? (
+        <form onSubmit={(e) => handleEditFormSubmit(e, note.id)}>
+          <input
+            type="text"
+            value={editNoteContent}
+            onChange={handleEditInputChange}
+          />
+          <label>
+            <input
+              type="checkbox"
+              checked={editNoteImportant}
+              onChange={() => setEditNoteImportant(!editNoteImportant)}
+            />
+            Important
+          </label>
+          <button type="submit">Save</button>
+          <button onClick={() => setEditNoteId(null)}>Cancel</button>
+        </form>
+      ) : (
+        <>
+          {note.content}
+          <button onClick={() => {
+            setEditNoteId(note.id);
+            setEditNoteContent(note.content);
+            setEditNoteImportant(note.important);
+          }}>Edit</button>
+          <button onClick={() => handleDeleteNote(note.id)}>Delete</button>
+        </>
+      )}
+    </div>
+  </li>
+))}
       </ul>
     </div>
   );
