@@ -14,6 +14,7 @@ import Manela from './pages/manela';
 import Associacio from './pages/associacio';
 import Valors from './pages/valors';
 import Soci from './pages/soci';
+import DB from './pages/db';
 const App = () => {
   return (
     <Router>
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/associacio" element={<Associacio />} />
           <Route path="/valors" element={<Valors />} />
           <Route path="/soci" element={<Soci />} />
+          <Route path="/db" element={<DB />} />
         </Routes>
     </Router>
   )
