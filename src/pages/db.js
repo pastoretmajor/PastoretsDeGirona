@@ -3,7 +3,7 @@ import axios from 'axios';
 import { format, parseISO } from 'date-fns';
 
 const DB = () => {
-  const API_URL = 'http://localhost:3001/api/Persones';
+  const API_URL = 'http://localhost:3001/api/persones';
   const [nom, setNom] = useState('');
   const [cognom1, setCognom1] = useState('');
   const [cognom2, setCognom2] = useState('');
@@ -129,10 +129,10 @@ const DB = () => {
           <input type="text" placeholder="Cognom2" value={cognom2} onChange={(e) => setCognom2(e.target.value)} />
 
           <label>Telèfon:</label>
-          <input type="text" placeholder="+34 666 66 66 66" value={telf} onChange={(e) => setTelf(e.target.value)} />
+          <input type="text" placeholder="+34 000 00 00 00" value={telf} onChange={(e) => setTelf(e.target.value)} />
 
           <label>e-mail:</label>
-          <input type="email" placeholder="pastoret.major@pastoretsdegirona.cat" value={mail} onChange={(e) => setMail(e.target.value)} />
+          <input type="email" placeholder="correu.exemple@gmail.com" value={mail} onChange={(e) => setMail(e.target.value)} />
 
           <label>Data:</label>
           <input type="date" value={dataNaixement || dataNaixementOriginalFormatted} onChange={(e) => setDataNaixement(e.target.value)} required />
