@@ -26,3 +26,8 @@
     max-width: 100%;
     height: auto;
   }
+
+  .logo-item img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
