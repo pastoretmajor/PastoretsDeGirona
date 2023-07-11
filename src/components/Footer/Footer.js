@@ -22,13 +22,6 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-contact">
-      <div className="footer-icon">
-          <IoCall className="icon" />
-        </div>
-        <p>+34 666 66 66 66</p>
-        <div className="footer-icon">
-          <IoMail className="icon" />
-        </div>
         <p>
             <a href={`mailto:${email}`} className='email-link'>{email}</a>
         </p>

@@ -15,7 +15,7 @@ const Equip = () => {
 
   const boxes = [
     { width: '480px', height: '400px', textColor:'#F1F1F1', backgroundColor: '#C41919', text: "Equip tècnic" },
-    { width: '480px', height: '400px', textColor:'#F1F1F1', backgroundColor: '#414141', text: "Actors i Actrius" },
+    { width: '480px', height: '400px', textColor:'#F1F1F1', backgroundColor: '#414141', text: "Actors i actrius" },
     { width: '480px', height: '400px', backgroundColor: '#D9D9D9', text: "Ajudants de producció" },
   ];
 

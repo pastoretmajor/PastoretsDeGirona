@@ -11,7 +11,7 @@ export const MenuItems = [
       cName: 'dropdown-link'
     },
     {
-      title: 'Actors I Actrius',
+      title: 'Actors i actrius',
       path: '/actors',
       cName: 'dropdown-link'
     },
