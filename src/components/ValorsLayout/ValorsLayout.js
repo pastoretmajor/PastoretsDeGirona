@@ -1,20 +1,14 @@
 import React from 'react';
 import './ValorsLayout.css';
-import { ColoredBox, CenteredColoredBox } from '../ColoredBox/ColoredBox';
+import ColoredCircle from '../ColoredCircle/ColoredCircle';
 
-const ValorsLayout = ({ boxes, centered }) => {
+const ValorsLayout = ({ circles }) => {
   return (
     <div className="valors-layout">
-      {boxes.map((box, index) => (
+      {circles.map((circle, index) => (
         <div key={index} className="valors">
           <div className="valors-content">
-            {centered ? (
-              <CenteredColoredBox {...box} />
-            ) : (
-              <ColoredBox {...box}>
-                {box.hasCircle && <div className="red-circle"></div>}
-              </ColoredBox>
-            )}
+              <ColoredCircle {...circle} />
           </div>
         </div>
       ))}
