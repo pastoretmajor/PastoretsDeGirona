@@ -3,7 +3,7 @@ import axios from 'axios';
 import { format, parseISO } from 'date-fns';
 
 const DB = () => {
-  const API_URL = 'http://localhost:3001/api/persones';
+  const API_URL = 'http://localhost:3001/api/Persones';
   const [nom, setNom] = useState('');
   const [cognom1, setCognom1] = useState('');
   const [cognom2, setCognom2] = useState('');
