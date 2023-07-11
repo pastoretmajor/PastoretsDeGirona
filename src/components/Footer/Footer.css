@@ -26,7 +26,7 @@
   }
   
   .icon {
-    color: #1D1D1D;
+    color: #DADADA;
     width: 25px;
     height: 25px;
     padding: 5px;
@@ -66,5 +66,9 @@
 
   .footer-contact a {
     font-family: 'Rubik', sans-serif;
-    color : #1D1D1D
+    color : #DADADA
+  }
+
+  .footer-contact:hover a {
+    color: #1D1D1D;
   }
