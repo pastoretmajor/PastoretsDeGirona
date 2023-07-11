@@ -14,12 +14,11 @@
   .hovered {
     background-color: #414141;
     transform: scale(1.1);
-    transition: transform 1.2s;
-  }
+    transition: transform 1s;
+}
   
   .hovered .text {
     color: #F1F1F1;
-    transition: color 1.5s;
   }
 
   .text {
