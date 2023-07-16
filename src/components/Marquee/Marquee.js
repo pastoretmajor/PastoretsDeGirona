@@ -18,7 +18,7 @@ const Marquee = () => {
 
 
   return (
-    <FastMarquee speed={40} direction="left">
+    <FastMarquee speed={30} direction="left">
         {images.map((image, index) => (
             <img key={index} src={image} alt="Logos" />
         ))}
