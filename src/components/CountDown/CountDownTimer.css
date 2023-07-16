@@ -1,13 +1,12 @@
 .countdown-container {
-    font-family: 'Signika Negative', sans-serif; /* Use Signika Negative font */
+    font-family: 'Rubik', sans-serif; /* Use Rubik font */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin: 0;
     padding: 0;
-    color: #ffffff;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
     overflow: hidden;
   }
         
@@ -49,12 +48,12 @@
   }
   
   .countdown-value {
-    font-size: 48px;
+    font-size: 80px;
     font-weight: bold;
   }
   
   .countdown-label {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 5px;
   }
   

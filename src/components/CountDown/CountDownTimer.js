@@ -25,22 +25,13 @@ const CountdownTimer = ({ targetDate }) => {
     return () => clearInterval(interval);
   }, [targetDate]);
 
-  const getRandomColor = () => {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  };
-
   return (
     <div className="countdown-container">
       <div className="countdown-row">
         <div
           className="countdown-rectangle"
           style={{
-            background: `linear-gradient(to bottom left, ${getRandomColor()}, ${getRandomColor()})`,
+            background: `#1D1D1B`,
           }}
         >
           <span className="countdown-value">{countdown.days}</span>
@@ -51,7 +42,7 @@ const CountdownTimer = ({ targetDate }) => {
         <div
           className="countdown-rectangle"
           style={{
-            background: `linear-gradient(to top left, ${getRandomColor()}, ${getRandomColor()})`,
+            background: `#1D1D1B`,
           }}
         >
           <span className="countdown-value">{countdown.hours}</span>
@@ -62,7 +53,7 @@ const CountdownTimer = ({ targetDate }) => {
         <div
           className="countdown-rectangle"
           style={{
-            background: `linear-gradient(to top right, ${getRandomColor()}, ${getRandomColor()})`,
+            background: `#1D1D1B`,
           }}
         >
           <span className="countdown-value">{countdown.minutes}</span>
@@ -73,7 +64,7 @@ const CountdownTimer = ({ targetDate }) => {
         <div
           className="countdown-rectangle"
           style={{
-            background: `linear-gradient(to bottom right, ${getRandomColor()}, ${getRandomColor()})`,
+            background: `#1D1D1B`,
           }}
         >
           <span className="countdown-value">{countdown.seconds}</span>
