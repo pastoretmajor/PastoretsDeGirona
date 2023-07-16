@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
     box-sizing: border-box;
     overflow: hidden;
     border-width: 2px;
@@ -15,6 +14,7 @@
   }
   
   .logo-item {
+    margin-left:10px;
     width: 200px;
     height: 200px;
     box-sizing: border-box;
