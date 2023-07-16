@@ -6,15 +6,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     transition: background-color 2s;
     margin: 20px;
   }
   
   .hovered {
     background-color: #414141;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: transform 1s;
+    
 }
   
   .hovered .text {
@@ -22,12 +22,14 @@
   }
 
   .text {
+    justify-content: justify;
     font-family: 'Rubik', sans-serif;
     color: #1D1D1D;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     z-index: 1;
     margin: 50px;
+    cursor: default;
   }
   
   
