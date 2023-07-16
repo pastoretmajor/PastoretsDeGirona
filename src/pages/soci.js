@@ -10,7 +10,7 @@ const Soci = () => {
   return (
     <div>
       <Navbar />
-      <ImageComponent src={ImatgeSocis} blurSrc={BlurImatgeSocis} alt="Fes-te soci" text="Fes-te soci" />
+      <ImageComponent src={ImatgeSocis} blurSrc={BlurImatgeSocis} alt="Fes una donació" text="Fes una donació" />
       <h2>PROPERAMENT</h2>
       <PatrocinadorsPrincipals />
       <Footer />
