@@ -6,9 +6,10 @@
     align-items: center; /* Justificació dels items de la navigation bar */
     font-size: 20px; /* Tamany del text de la navigation bar */
     margin : 0 auto; /* Elimina el default margin */
-    max-width: 1600px; /* Estableix el màxim d'amplada */
+    max-width: 1440px; /* Estableix el màxim d'amplada */
     position: relative;
     z-index: 2;
+    
   }
   
   .navbar-logo {
@@ -38,7 +39,7 @@
     padding: 0; /* No hi ha padding */
     margin-right: 50px; /* Elimina el dafault margin */
     font-family: 'Roboto', sans-serif; /* Use Roboto font */    
-
+    overflow: hidden;
     font-size: 18px;
   }
   
