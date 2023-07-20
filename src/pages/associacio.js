@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/NavigationBar/Navbar'
+import Burger from '../components/Burger/Burger'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
@@ -14,6 +15,7 @@ const Associacio = () => {
   return (
     <div>
       <Navbar />
+      <Burger />
       <ImageComponent src={AssociacioImatge} blurSrc={BlurAssociacioImatge} alt="Associació" text="Associació" />
       <CenteredColoredBox width="1440px" height="400px" backgroundColor="#D90559" src={LogoValors} alt="LogoValors"/>
       <CenteredColoredBox width="1440px" height="400px" backgroundColor="#FFFFFF" src={LogoValors} alt="LogoValors"/>

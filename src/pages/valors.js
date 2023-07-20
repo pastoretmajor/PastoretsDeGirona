@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/NavigationBar/Navbar'
+import Burger from '../components/Burger/Burger'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import ValorsLayout from '../components/ValorsLayout/ValorsLayout';
@@ -21,6 +22,7 @@ const Valors = () => {
   return (
     <div>
       <Navbar />
+      <Burger />
       <ImageComponent src={ValorsImatge} blurSrc={BlurValorsImatge} alt="Valors" text="Valors" />
       <ValorsLayout circles={circles}/>
       <PatrocinadorsPrincipals />

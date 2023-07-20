@@ -1,6 +1,7 @@
 import React from 'react'
 import CountdownTimer from '../components/CountDown/CountDownTimer'
 import Navbar from '../components/NavigationBar/Navbar'
+import Burger from '../components/Burger/Burger'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
@@ -17,6 +18,7 @@ const Entrades = () => {
   return (
     <div>
       <Navbar />
+      <Burger />
       <ImageComponent src={EntradesImatge} blurSrc={BlurEntradesImatge} alt="Compra entrades" text="Compra entrades" />
       <ImageComponent src={FotoTeatre} blurSrc={BlurFotoTeatre} alt="FotoTeatre"/>
       <CountdownTimer targetDate={targetDate} />

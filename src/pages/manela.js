@@ -1,4 +1,6 @@
 import Navbar from '../components/NavigationBar/Navbar'
+import Burger from '../components/Burger/Burger'
+
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 import GifComponent from '../components/GifAnimation/GifComponent'
@@ -13,6 +15,7 @@ const Manela = () => {
   return (
     <div>
       <Navbar />
+      <Burger />
       <ImageComponent src={LaManela} blurSrc={BlurLaManela} alt="La Manela" text="La Manela" />
       <GifComponent gif={gifUrl}/>
       <PatrocinadorsPrincipals />      

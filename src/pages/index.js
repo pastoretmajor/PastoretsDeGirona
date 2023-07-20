@@ -1,4 +1,6 @@
 import Navbar from '../components/NavigationBar/Navbar'
+import Burger from '../components/Burger/Burger'
+
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
@@ -14,6 +16,7 @@ const Inici = () => {
     return (
     <div>
       <Navbar />
+      <Burger />      
       <ImageComponent src={AraSi} blurSrc={BlurAraSi} alt="ARA SÍ" text="ARA SÍ" />
       <ImageComponent src={ImatgeCalendari} blurSrc={BlurImatgeCalendari} alt="ImatgeCalendari" text="" />
       <ImageComponent src={TeatreMunicipalInterior} blurSrc={BlurTeatreMunicipalInterior} alt="Venta d'entrades" text="Venta d'entrades" />

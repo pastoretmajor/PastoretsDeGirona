@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/NavigationBar/Navbar';
+import Burger from '../components/Burger/Burger'
 import Footer from '../components/Footer/Footer';
 import ColumnLayout from '../components/ColumnLayout/ColumnLayout';
 import { ColoredBox } from '../components/ColoredBox/ColoredBox';
@@ -20,6 +21,7 @@ const Lobra = () => {
   return (
     <div>
       <Navbar />
+      <Burger />
       <ImageComponent src={ObraBackground} blurSrc={BlurObraBackground} alt="L'obra" text="L'obra" />
       <ColumnLayout boxes={boxes}  centered={false}/>
       <ColoredBox width="1440px" height="700px" backgroundColor="#F1F1F1" src={Logo} alt="Logo" text="Després d'un any sense els Pastorets a la ciutat de Girona i amb la voluntat de tornar a representar-los durant quatre dies al Teatre Municipal, hem creat un nou text a on es barreja el món actual amb el passat. Els nous Pastorets continuaran essent de caire familiar i musical amb un format diferent, inclusiu i innovador." text2="L'obra combina humor, música, modernitat i tradició per explicar la història del naixement de Jesús i els diferents obstacles que van passant als personatges típics de la nostra cultura catalana"/>

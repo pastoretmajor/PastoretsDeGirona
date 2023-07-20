@@ -5,7 +5,7 @@ import Equip from './pages/equip';
 import Transparencia from './pages/transparencia';
 import Patrocinadors from './pages/patrocinadors';
 import Subvencions from './pages/subvencions';
-import Contacta from './pages/contacta';
+import Contacte from './pages/contacte';
 import Tecnics from './pages/tecnics';
 import Actors from './pages/a&a';
 import Ajudants from './pages/ajudants';
@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/transparencia" element={<Transparencia />} />
           <Route path="/patrocinadors" element={<Patrocinadors />} />
           <Route path="/subvencions" element={<Subvencions />} />
-          <Route path="/contacta" element={<Contacta />} />
+          <Route path="/contacte" element={<Contacte />} />
           <Route path="/tecnics" element={<Tecnics />} />
           <Route path="/actors" element={<Actors />} />
           <Route path="/ajudants" element={<Ajudants />} />

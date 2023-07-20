@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../components/NavigationBar/Navbar'
+import Burger from '../components/Burger/Burger'
+
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import ColumnLayout from '../components/ColumnLayout/ColumnLayout';
@@ -22,6 +24,7 @@ const Equip = () => {
   return (
     <div>
       <Navbar />
+      <Burger />      
       <ImageComponent src={EquipHuma} blurSrc={BlurEquipHuma} alt="Equip huma" text="Equip humà" />
       <CenteredColoredBox width="1440px" height="530px" backgroundColor="#F1F1F1" src={Logo} alt="Logo" text="L'Associació Pastorets de Girona, està formada per persones professionals dels diferents àmibts teatrals i persones amateurs amb una àmplia experiència en el món dels Pastorets de Girona"/>
       <ColumnLayout boxes={boxes} centered={true}/>

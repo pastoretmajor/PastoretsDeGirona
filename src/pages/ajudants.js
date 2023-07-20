@@ -2,6 +2,7 @@ import React from 'react';
 import TeamMemberCard from '../components/TeamMemberCard/TeamMemberCard';
 import castingIcon from '../images/castingIcon.webP';
 import Navbar from '../components/NavigationBar/Navbar'
+import Burger from '../components/Burger/Burger'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
@@ -197,6 +198,7 @@ const Ajudants = () => {
   return (
     <div>
       <Navbar />
+      <Burger />
       <ImageComponent src={EquipTecnic} blurSrc={BlurEquipTecnic} alt="Ajudants de Producció" text="Ajudants de Producció" />
       <div className="team-grid">
       <div className="team-grid__cards">
