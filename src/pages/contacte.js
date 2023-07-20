@@ -1,4 +1,6 @@
 import Navbar from '../components/NavigationBar/Navbar'
+import Burger from '../components/Burger/Burger'
+
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
@@ -10,6 +12,7 @@ const Contacte = () => {
   return (
     <div>
       <Navbar />
+      <Burger />      
       <ImageComponent src={ImatgeContacte} blurSrc={BlurImatgeContacte} alt="Contacta'ns" text="Contacta'ns" />
       <h2>PROPERAMENT</h2>
       <PatrocinadorsPrincipals />
