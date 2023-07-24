@@ -1,20 +1,31 @@
 .colored-box {
   overflow: hidden;
-  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #1D1D1B;
+  padding: 20px;
 }
 
 .colored-box p {
-  margin-top: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-top: 10px;
   font-size: 30px;
-  font-family: 'Rubik', sans-serif; /* Use Rubik font */
-  text-align: justify;
+  font-family: 'Rubik', sans-serif;
+  text-align: left;
 }
 
 .colored-box img {
-  width: 250px;
-  height: 250px;
+  max-width: 20%;
+  height: auto;
 }
 
 .colored-box-link {
@@ -23,13 +34,11 @@
 }
 
 .box-image {
-  /* Styles for the image */
-  display: block; /* Ensures the image is a block element */
-  width: 100%; /* Adjust the width as needed */
-  height: auto; /* Automatically adjusts the height while maintaining aspect ratio */
-  object-fit: cover; /* Ensures the image covers the entire box */
-  margin: 0 auto; /* Example margin for spacing */
-
+  /* Estilos para la imagen */
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .centered-colored-box {
@@ -37,13 +46,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: justify;
+  text-align: left;
   overflow: hidden;
 }
 
 .centered-colored-box img {
-  width: 250px;
-  height: 250px;
+  width: 20%;
+  height: auto;
 }
 
 .centered-colored-box p {
@@ -67,12 +76,10 @@
   background-color: #D91E01;
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
-  /* Add transition property for smooth effect */
 }
 
 .red-circle:hover {
   transform: scale(1.1);
-  /* Increase the size of the circle on hover */
 }
 
 .red-circle a {

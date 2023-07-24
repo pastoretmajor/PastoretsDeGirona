@@ -16,10 +16,12 @@ import Logo from '../images/logoPastorets.webP'
 const Equip = () => {
 
   const boxes = [
-    { width: '480px', height: '400px', textColor:'#F1F1F1', backgroundColor: '#C41919', text: "Equip tècnic" },
-    { width: '480px', height: '400px', textColor:'#F1F1F1', backgroundColor: '#414141', text: "Actors i actrius" },
-    { width: '480px', height: '400px', backgroundColor: '#D9D9D9', text: "Ajudants de producció" },
+    { textColor:'#F1F1F1', backgroundColor: '#C41919', text: "Equip tècnic" },
+    { textColor:'#F1F1F1', backgroundColor: '#414141', text: "Actors i actrius" },
+    { backgroundColor: '#D9D9D9', text: "Ajudants de producció" },
   ];
+
+  const backgroundColors = boxes.map((box) => box.backgroundColor);
 
   return (
     <div>
@@ -27,7 +29,7 @@ const Equip = () => {
       <Burger />      
       <ImageComponent src={EquipHuma} blurSrc={BlurEquipHuma} alt="Equip huma" text="Equip humà" />
       <CenteredColoredBox width="1440px" height="530px" backgroundColor="#F1F1F1" src={Logo} alt="Logo" text="L'Associació Pastorets de Girona, està formada per persones professionals dels diferents àmibts teatrals i persones amateurs amb una àmplia experiència en el món dels Pastorets de Girona"/>
-      <ColumnLayout boxes={boxes} centered={true}/>
+      <ColumnLayout boxes={boxes} centered={true} backgroundColors={backgroundColors} />
       <PatrocinadorsPrincipals />
       <Footer />
     </div>
