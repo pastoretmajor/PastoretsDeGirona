@@ -32,4 +32,12 @@
     cursor: default;
   }
   
-  
+  @media (max-width: 1110px) {
+  .circle {
+    width: 250px;
+    height: 250px;
+  }
+  .text {
+    font-size: 10px;
+  }
+  }
