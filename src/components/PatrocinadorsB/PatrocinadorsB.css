@@ -81,11 +81,3 @@
         font-size: 16px;
     }
 }
-
-
-  
-  @media screen and (max-width: 780px) {
-    .patrocinadorB {
-      flex-basis: 50%;
-    }
-  }

@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import logoEmpresa1 from '../../images/logoLaTostadora.png';
 import logoEmpresa2 from '../../images/logoLaTostadora.png';
 import logoEmpresa3 from '../../images/logoLaTostadora.png';
+import logoEmpresa4 from '../../images/logoLaTostadora.png';
+import logoEmpresa5 from '../../images/logoLaTostadora.png';
+import logoEmpresa6 from '../../images/logoLaTostadora.png';
+
 
 import './PatrocinadorsA.css';
 
@@ -21,7 +25,21 @@ const patrocinadors = [
     descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu. Nam lacinia nisi et nunc viverra consequat. Maecenas ac varius arcu. Fusce nec euismod diam, vitae malesuada nulla. Vivamus quis orci eu lorem eleifend fringilla id non augue. Fusce quis consequat ex. Vestibulum fringilla, magna a venenatis vehicula, metus nisl blandit ipsum, scelerisque lobortis risus sem at elit. Donec sed tellus viverra, mollis enim id, venenatis velit. Nam bibendum, lectus et tincidunt lobortis, nunc leo pellentesque leo, ac auctor risus tortor eu nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rhoncus porttitor ex eu gravida. Vivamus ullamcorper erat at lacus volutpat, non congue libero hendrerit. Morbi quis arcu enim. Donec ultricies sit amet massa eu pulvinar.',
     link: 'https://www.latostadora.com/',
   },
-  // Add more patrocinadors here
+  {
+    logo: logoEmpresa4,
+    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu. Nam lacinia nisi et nunc viverra consequat. Maecenas ac varius arcu. Fusce nec euismod diam, vitae malesuada nulla. Vivamus quis orci eu lorem eleifend fringilla id non augue. Fusce quis consequat ex. Vestibulum fringilla, magna a venenatis vehicula, metus nisl blandit ipsum, scelerisque lobortis risus sem at elit. Donec sed tellus viverra, mollis enim id, venenatis velit. Nam bibendum, lectus et tincidunt lobortis, nunc leo pellentesque leo, ac auctor risus tortor eu nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rhoncus porttitor ex eu gravida. Vivamus ullamcorper erat at lacus volutpat, non congue libero hendrerit. Morbi quis arcu enim. Donec ultricies sit amet massa eu pulvinar.',
+    link: 'https://www.latostadora.com/',
+  },
+  {
+    logo: logoEmpresa5,
+    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu. Nam lacinia nisi et nunc viverra consequat. Maecenas ac varius arcu. Fusce nec euismod diam, vitae malesuada nulla. Vivamus quis orci eu lorem eleifend fringilla id non augue. Fusce quis consequat ex. Vestibulum fringilla, magna a venenatis vehicula, metus nisl blandit ipsum, scelerisque lobortis risus sem at elit. Donec sed tellus viverra, mollis enim id, venenatis velit. Nam bibendum, lectus et tincidunt lobortis, nunc leo pellentesque leo, ac auctor risus tortor eu nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rhoncus porttitor ex eu gravida. Vivamus ullamcorper erat at lacus volutpat, non congue libero hendrerit. Morbi quis arcu enim. Donec ultricies sit amet massa eu pulvinar.',
+    link: 'https://www.latostadora.com/',
+  },
+  {
+    logo: logoEmpresa6,
+    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu. Nam lacinia nisi et nunc viverra consequat. Maecenas ac varius arcu. Fusce nec euismod diam, vitae malesuada nulla. Vivamus quis orci eu lorem eleifend fringilla id non augue. Fusce quis consequat ex. Vestibulum fringilla, magna a venenatis vehicula, metus nisl blandit ipsum, scelerisque lobortis risus sem at elit. Donec sed tellus viverra, mollis enim id, venenatis velit. Nam bibendum, lectus et tincidunt lobortis, nunc leo pellentesque leo, ac auctor risus tortor eu nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rhoncus porttitor ex eu gravida. Vivamus ullamcorper erat at lacus volutpat, non congue libero hendrerit. Morbi quis arcu enim. Donec ultricies sit amet massa eu pulvinar.',
+    link: 'https://www.latostadora.com/',
+  },
 ];
 
 const Patrocinador = ({ logo, descripcio, link }) => {
