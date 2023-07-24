@@ -21,4 +21,15 @@
     margin-top: 47%;
     text-align: center;
   }
-  
+
+
+  /* Estils per pantalla més petita que 1110px (1 columna) */
+@media (max-width: 1110px) {
+  .valors-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .valors-content p {
+    margin-top: 0; /* Eliminem el marge superior per centrar el contingut verticalment */
+  }
+}
