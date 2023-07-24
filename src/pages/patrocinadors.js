@@ -1,5 +1,7 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import Burger from '../components/Burger/Burger'
+import PatrocinadorsA from '../components/PatrocinadorsA/PatrocinadorsA'
+import PatrocinadorsB from '../components/PatrocinadorsB/PatrocinadorsB'
 
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
@@ -14,6 +16,8 @@ const Patrocinadors = () => {
       <Burger />
       <ImageComponent src={ImatgePatrocinadors} blurSrc={BlurImatgePatrocinadors} alt="Patrocinadors" text="Patrocinadors" />
         <h2>Aquest podría ser el teu espai</h2>
+      <PatrocinadorsA />
+      <PatrocinadorsB />
       <Marquee />
       <Footer />
     </div>

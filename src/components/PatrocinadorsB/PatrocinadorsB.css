@@ -1,0 +1,91 @@
+/* Add a flex container to hold the logos */
+.patrocinadors-containerB {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .patrocinadorB {
+    position: relative;
+    cursor: pointer;
+    flex-basis: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .patrocinadorB img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .patrocinadorB .infoB {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(29, 29, 29, 0.8);
+    color: white;
+    padding: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align items vertically with space between them */
+    height: 100%; /* Fill the available height within the .patrocinador container */
+    font-size: 14px;
+  }
+  
+  .patrocinadorB:hover .infoB {
+    height: 100%;
+    opacity: 1;
+    cursor:default;
+  }
+  
+  .patrocinadorB .infoB .button-containerB {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .patrocinadorB .infoB button {
+    background-color: #D91E01;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    font-size: 18px;
+  }
+  
+  .patrocinadorB .infoB button:hover {
+    background-color: #941400;
+  }
+  
+  .patrocinadorB .infoB .descriptionB {
+    max-height: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  /* Responsive styles */
+@media screen and (max-width: 1110px) {
+    .patrocinadorB {
+      flex-basis: 33.33%;
+    }
+    .patrocinadorB .infoB {
+        font-size: 16px;
+    }
+}
+
+
+  
+  @media screen and (max-width: 780px) {
+    .patrocinadorB {
+      flex-basis: 50%;
+    }
+  }

@@ -1,0 +1,85 @@
+/* Base styles */
+.patrocinadors-containerA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .patrocinadorA {
+    position: relative;
+    cursor: pointer;
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .patrocinadorA img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .patrocinadorA .infoA {
+    position: absolute;
+    bottom: -100%; /* Move the container below the patrocinadorA */
+    left: 0;
+    right: 0;
+    background-color: rgba(29, 29, 29, 0.8);
+    color: white;
+    padding: 8px;
+    transition: bottom 0.3s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 14px;
+  }
+  
+  .patrocinadorA:hover .infoA {
+    bottom: 0; /* Move the container back up to its original position */
+    cursor: default;
+  }
+  
+  .patrocinadorA .infoA .button-containerA {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .patrocinadorA .infoA button {
+    background-color: #d91e01;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    font-size: 18px;
+  }
+  
+  .patrocinadorA .infoA button:hover {
+    background-color: #941400;
+  }
+  
+  .patrocinadorA .infoA .descriptionA {
+    max-height: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 1110px) {
+    .patrocinadorA {
+      flex-basis: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .patrocinadorA {
+      flex-basis: 100%;
+    }
+  }
+  
