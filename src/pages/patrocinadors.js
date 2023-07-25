@@ -15,7 +15,7 @@ const Patrocinadors = () => {
       <Navbar />
       <Burger />
       <ImageComponent src={ImatgePatrocinadors} blurSrc={BlurImatgePatrocinadors} alt="Patrocinadors" text="Patrocinadors" />
-        <h2>Aquest podría ser el teu espai</h2>
+        <h2>Aquest podria ser el teu espai</h2>
       <PatrocinadorsA />
       <PatrocinadorsB />
       <Marquee />

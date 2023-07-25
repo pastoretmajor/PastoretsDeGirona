@@ -42,18 +42,18 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/lobra' className='nav-links' onClick={closeMobileMenu}>
-              L'obra
+              L'OBRA
             </Link>
           </li>
           <li className='nav-item' onMouseEnter={handleDropdown1} onMouseLeave={() => setDropdown1(false)}>
             <Link to='/equip' className='nav-links' onClick={closeMobileMenu}>
-              Equip Humà
+              EQUIP HUMÀ
             </Link>
             {dropdown1 && <Dropdown1 />}
           </li>
           <li className='nav-item'>
             <Link to='/manela' className='nav-links' onClick={closeMobileMenu}>
-              La Manela
+              LA MANELA
             </Link>
           </li>
           <li className='nav-item'>
@@ -61,19 +61,19 @@ function Navbar() {
           </li>
           <li className='nav-item' onMouseEnter={handleDropdown2} onMouseLeave={() => setDropdown2(false)}>
             <Link to='/associacio' className='nav-links' onClick={closeMobileMenu}>
-              Associació
+              ASSOCIACIÓ
             </Link>
             {dropdown2 && <Dropdown2 />}
           </li>
           <li className='nav-item' onMouseEnter={handleDropdown3} onMouseLeave={() => setDropdown3(false)}>
             <Link to='/transparencia' className='nav-links' onClick={closeMobileMenu}>
-              Transparència
+              TRANSPARÈNCIA
             </Link>
             {dropdown3 && <Dropdown3 />}
           </li>
           <li className='nav-item'>
             <Link to='/contacte' className='nav-links' onClick={closeMobileMenu}>
-              Contacta'ns
+              CONTACTA'NS
             </Link>
           </li>
         </ul>

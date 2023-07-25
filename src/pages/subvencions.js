@@ -12,7 +12,7 @@ const Subvencions = () => {
       <Navbar />
       <Burger />
       <ImageComponent src={ImatgeSubvencions} blurSrc={BlurImatgeSubvencions} alt="Subvencions" text="Subvencions" />
-      <h2>Aquest podría ser el teu espai</h2>
+      <h2>Aquest podria ser el teu espai</h2>
       <Footer />
     </div>
   )

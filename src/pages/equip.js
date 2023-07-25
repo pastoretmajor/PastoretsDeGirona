@@ -28,7 +28,7 @@ const Equip = () => {
       <Navbar />
       <Burger />      
       <ImageComponent src={EquipHuma} blurSrc={BlurEquipHuma} alt="Equip huma" text="Equip humà" />
-      <CenteredColoredBox width="1440px" height="530px" backgroundColor="#F1F1F1" src={Logo} alt="Logo" text="L'Associació Pastorets de Girona, està formada per persones professionals dels diferents àmibts teatrals i persones amateurs amb una àmplia experiència en el món dels Pastorets de Girona"/>
+      <CenteredColoredBox width="1440px" height="530px" backgroundColor="#F1F1F1" src={Logo} alt="Logo" text="L'Associació Pastorets de Girona, està formada per professionals dels diferents àmibts teatrals i amateurs amb una àmplia experiència en el món dels Pastorets de Girona"/>
       <ColumnLayout boxes={boxes} centered={true} backgroundColors={backgroundColors} />
       <PatrocinadorsPrincipals />
       <Footer />

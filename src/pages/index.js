@@ -17,7 +17,7 @@ const Inici = () => {
     <div>
       <Navbar />
       <Burger />      
-      <ImageComponent src={AraSi} blurSrc={BlurAraSi} alt="ARA SÍ" text="ARA SÍ" />
+      <ImageComponent src={AraSi} blurSrc={BlurAraSi} alt="Pastorets de Girona ara sí" text="Pastorets de Girona"/>
       <ImageComponent src={ImatgeCalendari} blurSrc={BlurImatgeCalendari} alt="ImatgeCalendari" text="" />
       <ImageComponent src={TeatreMunicipalInterior} blurSrc={BlurTeatreMunicipalInterior} alt="Venta d'entrades" text="Venta d'entrades" />
       <PatrocinadorsPrincipals />

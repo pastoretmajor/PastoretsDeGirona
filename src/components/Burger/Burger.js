@@ -18,34 +18,34 @@ const Burger = () => {
       {isOpen && (
         <nav className="menu">
           <ul>
-            <li><a href="#/">Inici</a></li>
-            <li><a href="#/lobra">L'obra</a></li>
+            <li><a href="#/">INICI</a></li>
+            <li><a href="#/lobra">L'OBRA</a></li>
             <li>
-              <a href="#/equip">Equip humà</a>
+              <a href="#/equip">EQUIP HUMÀ </a>
               <ul>
-                <li><a href="#/tecnics">Equip tècnic</a></li>
-                <li><a href="#/actors">Actors i actrius</a></li>
-                <li><a href="#/ajudants">Ajudants de producció</a></li>
+                <li><a href="#/tecnics">· Equip tècnic</a></li>
+                <li><a href="#/actors">· Actors i actrius</a></li>
+                <li><a href="#/ajudants">· Ajudants de producció</a></li>
               </ul>
             </li>
-            <li><a href="#/manela">La Manela</a></li>
-            <li><a href="#/entrades">Compra entrades</a></li>
+            <li><a href="#/manela">LA MANELA</a></li>
+            <li><a href="#/entrades">ENTRADES</a></li>
             <li>
-              <a href="#/associacio">Associació</a>
+              <a href="#/associacio">ASSOCIACIÓ</a>
               <ul>
-                <li><a href="#/valors">Valors</a></li>
-                <li><a href="https://www.fundacioesplaigirona.cat/" rel="noopener noreferrer" target="_blank">Fundació esplai Girona</a></li>
-                <li><a href="#/donacio">Fes una donació</a></li>
+                <li><a href="#/valors">· Valors</a></li>
+                <li><a href="https://www.fundacioesplaigirona.cat/" rel="noopener noreferrer" target="_blank">· Fundació esplai Girona</a></li>
+                <li><a href="#/donacio">· Fes una donació</a></li>
               </ul>
             </li>
             <li>
-              <a href="#/transparencia">Transparència</a>
+              <a href="#/transparencia">TRANSPARÈNCIA</a>
               <ul>
-                <li><a href="#/subvencions">Subvencions</a></li>
-                <li><a href="#/patrocinadors">Patrocinadors</a></li>
+                <li><a href="#/subvencions">· Subvencions</a></li>
+                <li><a href="#/patrocinadors">· Patrocinadors</a></li>
               </ul>
             </li>
-            <li><a href="#/contacte">Contacta'ns</a></li>
+            <li><a href="#/contacte">CONTACTA'NS</a></li>
           </ul>
         </nav>
       )}
