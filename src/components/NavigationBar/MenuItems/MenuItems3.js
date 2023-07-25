@@ -6,8 +6,8 @@ I al cName és el class name s'hi ha de posar 'dropdown-link'
 
 export const MenuItems = [
     {
-      title: 'Subvencions',
-      path: '/subvencions',
+      title: 'Col·laboradors',
+      path: '/collaboradors',
       cName: 'dropdown-link'
     },
     {

@@ -13,7 +13,6 @@ import image9 from '../../images/logoLaTostadora.png';
 // Importa les altres imatges que necessitis aquí
 
 const Marquee = () => {
-  // Crea una llista amb les imatges duplicades
   const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image1, image2, image3, image4, image5, image6, image7, image8, image9];
 
 
