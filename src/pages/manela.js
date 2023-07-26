@@ -7,7 +7,9 @@ import GifComponent from '../components/GifAnimation/GifComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
 import gifUrl from '../images/logos/laManela.gif'
-import LaManela from '../images/banners/lamanela-pastorets-de-girona.png'
+import LaManela from '../images/banners/lamanela-pastorets-de-girona.webP'
+import LaManelaBlur from '../images/blured/lamanela-pastorets-de-girona.webP'
+
 
 const Manela = () => {
 
@@ -15,7 +17,7 @@ const Manela = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={LaManela} alt="La Manela" text="La Manela" />
+      <ImageComponent src={LaManela} blurSrc={LaManelaBlur} alt="La Manela" text="La Manela" />
       <GifComponent gif={gifUrl}/>
       <PatrocinadorsPrincipals />      
       <Footer />

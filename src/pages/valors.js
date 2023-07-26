@@ -6,7 +6,9 @@ import ImageComponent from '../components/ImageComponent/ImageComponent'
 import ValorsLayout from '../components/ValorsLayout/ValorsLayout';
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import ValorsImatge from '../images/banners/valors-pastorets-de-girona.png'
+import ValorsImatge from '../images/banners/valors-pastorets-de-girona.webP'
+import ValorsImatgeBlur from '../images/blured/valors-pastorets-de-girona.webP'
+
 
 const Valors = () => {
   const circles = [
@@ -22,7 +24,7 @@ const Valors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ValorsImatge} alt="Valors" text="Valors" />
+      <ImageComponent src={ValorsImatge} blurSrc={ValorsImatgeBlur}  alt="Valors" text="Valors" />
       <ValorsLayout circles={circles}/>
       <PatrocinadorsPrincipals />
       <Footer />

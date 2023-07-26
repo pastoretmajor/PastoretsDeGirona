@@ -5,14 +5,16 @@ import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import ImatgeSocis from '../images/banners/feste-soci-pastorets-de-girona.png'
+import ImatgeSocis from '../images/banners/feste-soci-pastorets-de-girona.webP'
+import ImatgeSocisBlur from '../images/blured/feste-soci-pastorets-de-girona.webP'
+
 
 const Soci = () => {
   return (
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ImatgeSocis} alt="Fes una donació" text="Fes una donació" />
+      <ImageComponent src={ImatgeSocis} blurSrc={ImatgeSocisBlur} alt="Fes una donació" text="Fes una donació" />
       <h2>PROPERAMENT</h2>
       <PatrocinadorsPrincipals />
       <Footer />

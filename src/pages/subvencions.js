@@ -3,7 +3,8 @@ import Burger from '../components/Burger/Burger'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 
-import ImatgeCollaboradors from '../images/banners/transparencia-pastorets-de-girona.png'
+import ImatgeCollaboradors from '../images/banners/transparencia-pastorets-de-girona.webP'
+import ImatgeCollaboradorsBlur from '../images/blured/transparencia-pastorets-de-girona.webP'
 
 
 const Col·laboradors = () => {
@@ -11,7 +12,7 @@ const Col·laboradors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ImatgeCollaboradors} alt="Col·laboradors" text="Col·laboradors" />
+      <ImageComponent src={ImatgeCollaboradors} blurSrc={ImatgeCollaboradorsBlur} alt="Col·laboradors" text="Col·laboradors" />
       <h2>Aquest podria ser el teu espai</h2>
       <Footer />
     </div>

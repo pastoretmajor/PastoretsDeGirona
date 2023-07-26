@@ -4,7 +4,9 @@ import Burger from '../components/Burger/Burger'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import ImatgeContacte from '../images/banners/contactar-pastorets-de-girona.png'
+import ImatgeContacte from '../images/banners/contactar-pastorets-de-girona.webP'
+import ImatgeContacteBlur from '../images/blured/contactar-pastorets-de-girona.webP'
+
 
 import Footer from '../components/Footer/Footer'
 const Contacte = () => {
@@ -12,7 +14,7 @@ const Contacte = () => {
     <div>
       <Navbar />
       <Burger />      
-      <ImageComponent src={ImatgeContacte} alt="Contacta'ns" text="Contacta'ns" />
+      <ImageComponent src={ImatgeContacte} blurSrc={ImatgeContacteBlur} alt="Contacta'ns" text="Contacta'ns" />
       <h2>PROPERAMENT</h2>
       <PatrocinadorsPrincipals />
       <Footer />

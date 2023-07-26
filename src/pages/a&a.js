@@ -7,7 +7,8 @@ import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import EquipActors from '../images/banners/equiptecnic-actorsactrius-ajudantsproduccio.png'
+import EquipActors from '../images/banners/equiptecnic-actorsactrius-ajudantsproduccio.webP'
+import EquipActorsBlur from '../images/blured/equiptecnic-actorsactrius-ajudantsproduccio.webP'
 
 const Actors = () => {
   const teamMembers = [
@@ -165,7 +166,7 @@ const Actors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={EquipActors} alt="Actors i Actrius" text="Actors I Actrius" />
+      <ImageComponent src={EquipActors} blurSrc={EquipActorsBlur} alt="Actors i Actrius" text="Actors I Actrius" />
       <div className="team-grid">
       <div className="team-grid__cards">
         {teamMembers.map((teamMember, index) => (

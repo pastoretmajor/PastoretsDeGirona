@@ -6,7 +6,9 @@ import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import EntradesImatge from '../images/banners/entrades-pastorets-de-girona.png'
+import EntradesImatge from '../images/banners/entrades-pastorets-de-girona.webP'
+import EntradesImatgeBlur from '../images/blured/entrades-pastorets-de-girona.webP'
+
 import FotoTeatre from '../images/banners/teatreMunicipalInterior.webP'
 import BlurFotoTeatre from '../images/blured/teatreMunicipalInteriorBlur.webP'
 
@@ -18,7 +20,7 @@ const Entrades = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={EntradesImatge} alt="Compra entrades" text="Compra entrades" />
+      <ImageComponent src={EntradesImatge} blurSrc={EntradesImatgeBlur} alt="Compra entrades" text="Compra entrades" />
       <ImageComponent src={FotoTeatre} blurSrc={BlurFotoTeatre} alt="FotoTeatre"/>
       <CountdownTimer targetDate={targetDate} />
       <PatrocinadorsPrincipals />

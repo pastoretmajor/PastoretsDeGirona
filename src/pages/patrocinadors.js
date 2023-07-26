@@ -6,14 +6,16 @@ import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 import Marquee from '../components/Marquee/Marquee'
 
-import ImatgePatrocinadors from '../images/banners/transparencia-pastorets-de-girona.png'
+import ImatgePatrocinadors from '../images/banners/transparencia-pastorets-de-girona.webP'
+import ImatgePatrocinadorsBlur from '../images/blured/transparencia-pastorets-de-girona.webP'
+
 
 const Patrocinadors = () => {
   return (
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ImatgePatrocinadors} alt="Patrocinadors" text="Patrocinadors" />
+      <ImageComponent src={ImatgePatrocinadors} blurSrc={ImatgePatrocinadorsBlur} alt="Patrocinadors" text="Patrocinadors" />
         <h2>Aquest podria ser el teu espai</h2>
       <PatrocinadorsA />
       <PatrocinadorsB />

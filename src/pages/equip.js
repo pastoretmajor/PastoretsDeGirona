@@ -8,7 +8,9 @@ import ColumnLayout from '../components/ColumnLayout/ColumnLayout';
 import {CenteredColoredBox} from '../components/ColoredBox/ColoredBox';
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import EquipHuma from '../images/banners/equip-huma-pastorets-de-girona.png'
+import EquipHuma from '../images/banners/equip-huma-pastorets-de-girona.webP'
+import EquipHumaBlur from '../images/blured/equip-huma-pastorets-de-girona.webP'
+
 
 import EquipTecnic from '../images/logos/bombeta.svg'
 import ActorsActrius from '../images/logos/mascares.svg'
@@ -28,7 +30,7 @@ const Equip = () => {
     <div>
       <Navbar />
       <Burger />      
-      <ImageComponent src={EquipHuma} alt="Equip huma" text="Equip humà" />
+      <ImageComponent src={EquipHuma} blurSrc={EquipHumaBlur} alt="Equip huma" text="Equip humà" />
       <CenteredColoredBox backgroundColor="#F1F1F1" src={Logo} alt="Logo" text="L'Associació Pastorets de Girona, està formada per professionals dels diferents àmibts teatrals i amateurs amb una àmplia experiència en el món dels Pastorets de Girona"/>
       <ColumnLayout boxes={boxes} centered={true} backgroundColors={backgroundColors} />
       <PatrocinadorsPrincipals />
