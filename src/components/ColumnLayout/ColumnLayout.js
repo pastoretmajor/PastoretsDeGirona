@@ -21,3 +21,5 @@ const ColumnLayout = ({ boxes, centered, backgroundColors }) => {
 };
 
 export default ColumnLayout;
+
+

@@ -15,3 +15,13 @@
   align-items: center;
   justify-content: space-betweens;
 }
+
+@media (max-width: 1110px) {
+  .column-layout {
+    flex-direction: column; 
+  }
+
+  .column {
+    width: 100%; 
+  }
+}
