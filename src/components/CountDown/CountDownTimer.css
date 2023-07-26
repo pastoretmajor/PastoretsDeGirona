@@ -1,3 +1,4 @@
+/* Estils comuns */
 .countdown-container {
   font-family: 'Rubik', sans-serif; /* Use Rubik font */
   display: flex; /* Convertim el container en un flexbox */
@@ -39,4 +40,20 @@
   font-size: 20px;
   margin-top: 5px;
   font-weight: bold;
+}
+
+/* Estils per a pantalles més petites que 1110px */
+@media (max-width: 1110px) {
+  .countdown-rectangle{
+    width: 100%;
+  }
+  .countdown-row {
+    height: 90px;
+  }
+  .countdown-value {
+    font-size: 16px;
+  }
+  .countdown-label {
+    font-size: 8px;
+  }
 }
