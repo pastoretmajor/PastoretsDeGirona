@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/PastoretsDeGirona/static/css/main.c47ae3ab.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.cda62354.js",
-    "static/media/fons-index-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/fons-index-pastorets-de-girona.d701033155ae5f1eee2b.png",
+    "main.js": "/PastoretsDeGirona/static/js/main.ccd3752c.js",
     "static/media/teatreMunicipalInterior.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
+    "static/media/fons-index-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/calendariPastorets.webP": "/PastoretsDeGirona/static/media/calendariPastorets.e755922c751e99109238.webP",
     "static/media/castingIcon.webP": "/PastoretsDeGirona/static/media/castingIcon.f08b068ff719e0a920d4.webP",
-    "static/media/lamanela-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/lamanela-pastorets-de-girona.43588066cf84863a0e1d.png",
-    "static/media/associacio-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/associacio-pastorets-de-girona.02f48e97af6de9a76839.png",
-    "static/media/feste-soci-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/feste-soci-pastorets-de-girona.71e0e34d294bb08b4e1a.png",
-    "static/media/lobra-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/lobra-pastorets-de-girona.dda38e635d85996e3a1b.png",
-    "static/media/equiptecnic-actorsactrius-ajudantsproduccio.png": "/PastoretsDeGirona/static/media/equiptecnic-actorsactrius-ajudantsproduccio.81072b759713edcd66a1.png",
-    "static/media/transparencia-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/transparencia-pastorets-de-girona.06027803cfee31e5cf32.png",
-    "static/media/entrades-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/entrades-pastorets-de-girona.7086514a6b4667748943.png",
-    "static/media/equip-huma-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/equip-huma-pastorets-de-girona.937e9e82d476c985eb9c.png",
+    "static/media/lamanela-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/lamanela-pastorets-de-girona.c2505560136b49b51474.webP",
     "static/media/logoLaTostadora.png": "/PastoretsDeGirona/static/media/logoLaTostadora.b5dfad02381f6a3970fc.png",
-    "static/media/valors-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/valors-pastorets-de-girona.f5b2f83bc3872786b21b.png",
-    "static/media/contactar-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/contactar-pastorets-de-girona.60d32ff13a933bea8c5f.png",
+    "static/media/associacio-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/associacio-pastorets-de-girona.5b0e09ddf5069c48ae4d.webP",
+    "static/media/feste-soci-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/feste-soci-pastorets-de-girona.8ac623081b89da332c30.webP",
+    "static/media/lobra-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/lobra-pastorets-de-girona.767d47f184e0bcfd46ae.webP",
+    "static/media/equiptecnic-actorsactrius-ajudantsproduccio.webP": "/PastoretsDeGirona/static/media/equiptecnic-actorsactrius-ajudantsproduccio.0f52a1e4dc6a4b8e6dcb.webP",
     "static/media/teatreMunicipalInteriorBlur.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInteriorBlur.9cb1857ffeb3772464a9.webP",
+    "static/media/transparencia-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/transparencia-pastorets-de-girona.5175a28e8a21ab1da8fc.webP",
+    "static/media/entrades-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/entrades-pastorets-de-girona.6cbb32569cb722df6b64.webP",
+    "static/media/equip-huma-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/equip-huma-pastorets-de-girona.3fe5320a6ce25d36b7ae.webP",
+    "static/media/valors-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/valors-pastorets-de-girona.db885abdc9392ca6e429.webP",
+    "static/media/contactar-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/contactar-pastorets-de-girona.33e8fc0df95eac67db28.webP",
     "static/media/laManela.gif": "/PastoretsDeGirona/static/media/laManela.fc6fb943bd699d2ab4e6.gif",
     "static/media/ara-si-segell.png": "/PastoretsDeGirona/static/media/ara-si-segell.576a54d017355b062b62.png",
     "static/media/calendariPastoretsBlur.webP": "/PastoretsDeGirona/static/media/calendariPastoretsBlur.29f364b3ef92726b215b.webP",
@@ -28,10 +28,10 @@
     "static/media/bombeta.svg": "/PastoretsDeGirona/static/media/bombeta.e9f33a1ba0baf56d3b1348c7ab45e591.svg",
     "index.html": "/PastoretsDeGirona/index.html",
     "main.c47ae3ab.css.map": "/PastoretsDeGirona/static/css/main.c47ae3ab.css.map",
-    "main.cda62354.js.map": "/PastoretsDeGirona/static/js/main.cda62354.js.map"
+    "main.ccd3752c.js.map": "/PastoretsDeGirona/static/js/main.ccd3752c.js.map"
   },
   "entrypoints": [
     "static/css/main.c47ae3ab.css",
-    "static/js/main.cda62354.js"
+    "static/js/main.ccd3752c.js"
   ]
 }
