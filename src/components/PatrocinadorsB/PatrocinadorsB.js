@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import logoEmpresa1 from '../../images/logoLaTostadora.png';
-import logoEmpresa2 from '../../images/logoLaTostadora.png';
-import logoEmpresa3 from '../../images/logoLaTostadora.png';
-import logoEmpresa4 from '../../images/logoLaTostadora.png';
-import logoEmpresa5 from '../../images/logoLaTostadora.png';
-import logoEmpresa6 from '../../images/logoLaTostadora.png';
-import logoEmpresa7 from '../../images/logoLaTostadora.png';
-import logoEmpresa8 from '../../images/logoLaTostadora.png';
-import logoEmpresa9 from '../../images/logoLaTostadora.png';
-import logoEmpresa10 from '../../images/logoLaTostadora.png';
+import logoEmpresa1 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa2 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa3 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa4 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa5 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa6 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa7 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa8 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa9 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoEmpresa10 from '../../images/patrocinadors/logoLaTostadora.png';
 
 import './PatrocinadorsB.css';
 

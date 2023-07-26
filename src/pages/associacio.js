@@ -4,19 +4,18 @@ import Burger from '../components/Burger/Burger'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
-
-import AssociacioImatge from '../images/banyesRecargolades.webP'
-import BlurAssociacioImatge from '../images/banyesRecargoladesBlur.webP'
-
 import {CenteredColoredBox} from '../components/ColoredBox/ColoredBox';
-import LogoValors from '../images/logoPastorets.webP';
+
+import AssociacioImatge from '../images/banners/associacio-pastorets-de-girona.png'
+
+import LogoValors from '../images/logos/logoPastorets.webP';
 
 const Associacio = () => {
   return (
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={AssociacioImatge} blurSrc={BlurAssociacioImatge} alt="Associació" text="Associació" />
+      <ImageComponent src={AssociacioImatge} alt="Associació" text="Associació" />
       <CenteredColoredBox backgroundColor="#D90559" src={LogoValors} alt="LogoValors"/>
       <CenteredColoredBox backgroundColor="#FFFFFF" src={LogoValors} alt="LogoValors"/>
       <CenteredColoredBox backgroundColor="#79CD8D" src={LogoValors} alt="LogoValors"/>

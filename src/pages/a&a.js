@@ -1,15 +1,14 @@
 import React from 'react';
 import TeamMemberCard from '../components/TeamMemberCard/TeamMemberCard';
-import castingIcon from '../images/castingIcon.webP';
+
 import Navbar from '../components/NavigationBar/Navbar'
 import Burger from '../components/Burger/Burger'
-
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import EquipActors from '../images/dimoniOrigami.webP'
-import BlurEquipActors from '../images/dimoniOrigamiBlur.webP'
+import castingIcon from '../images/logos/castingIcon.webP';
+import EquipActors from '../images/banners/equiptecnic-actorsactrius-ajudantsproduccio.png'
 
 const Actors = () => {
   const teamMembers = [
@@ -317,7 +316,7 @@ const Actors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={EquipActors} blurSrc={BlurEquipActors} alt="Actors i Actrius" text="Actors I Actrius" />
+      <ImageComponent src={EquipActors} alt="Actors i Actrius" text="Actors I Actrius" />
       <div className="team-grid">
       <div className="team-grid__cards">
         {teamMembers.map((teamMember, index) => (

@@ -1,14 +1,14 @@
 import FastMarquee from 'react-fast-marquee'
 import './PatrocinadorsPrincipals.css';
-import image1 from '../../images/laManela.gif';
-import image2 from '../../images/devil.webP';
-import image3 from '../../images/castingIcon.webP';
-import image4 from '../../images/logoLaTostadora.png';
-import image5 from '../../images/logoLaTostadora.png';
-import image6 from '../../images/logoLaTostadora.png';
-import image7 from '../../images/logoLaTostadora.png';
-import image8 from '../../images/logoLaTostadora.png';
-import image9 from '../../images/logoLaTostadora.png';
+import image1 from '../../images/logos/laManela.gif';
+import image2 from '../../images/logos/devil.webP';
+import image3 from '../../images/logos/castingIcon.webP';
+import image4 from '../../images/patrocinadors/logoLaTostadora.png';
+import image5 from '../../images/patrocinadors/logoLaTostadora.png';
+import image6 from '../../images/patrocinadors/logoLaTostadora.png';
+import image7 from '../../images/patrocinadors/logoLaTostadora.png';
+import image8 from '../../images/patrocinadors/logoLaTostadora.png';
+import image9 from '../../images/patrocinadors/logoLaTostadora.png';
 
 // Importa les altres imatges que necessitis aquí
 

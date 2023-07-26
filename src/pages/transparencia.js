@@ -4,15 +4,14 @@ import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import ImatgeTransparencia from '../images/alaAngelGris.webP'
-import BlurImatgeTransparencia from '../images/alaAngelGrisBlur.webP'
+import ImatgeTransparencia from '../images/banners/transparencia-pastorets-de-girona.png'
 
 const Transparencia = () => {
   return (
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ImatgeTransparencia} blurSrc={BlurImatgeTransparencia} alt="Trasnparència" text="Transparència" />
+      <ImageComponent src={ImatgeTransparencia} alt="Trasnparència" text="Transparència" />
       <h2>PROPERAMENT</h2>
       <PatrocinadorsPrincipals />
       <Footer />

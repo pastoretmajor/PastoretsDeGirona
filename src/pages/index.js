@@ -5,19 +5,18 @@ import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import AraSi from '../images/alaAngelGris.webP'
-import BlurAraSi from '../images/alaAngelGrisBlur.webP'
-import ImatgeCalendari from '../images/calendariPastorets.webP'
-import BlurImatgeCalendari from '../images/calendariPastoretsBlur.webP'
-import TeatreMunicipalInterior from '../images/teatreMunicipalInterior.webP'
-import BlurTeatreMunicipalInterior from '../images/teatreMunicipalInteriorBlur.webP'
+import AraSi from '../images/banners/fons-index-pastorets-de-girona.png'
+import ImatgeCalendari from '../images/banners/calendariPastorets.webP'
+import BlurImatgeCalendari from '../images/blured/calendariPastoretsBlur.webP'
+import TeatreMunicipalInterior from '../images/banners/teatreMunicipalInterior.webP'
+import BlurTeatreMunicipalInterior from '../images/blured/teatreMunicipalInteriorBlur.webP'
 
 const Inici = () => {
     return (
     <div>
       <Navbar />
       <Burger />      
-      <ImageComponent src={AraSi} blurSrc={BlurAraSi} alt="Pastorets de Girona ara sí" text="Pastorets de Girona"/>
+      <ImageComponent src={AraSi} alt="Pastorets de Girona ara sí" text="Pastorets de Girona"/>
       <ImageComponent src={ImatgeCalendari} blurSrc={BlurImatgeCalendari} alt="ImatgeCalendari" text="" />
       <ImageComponent src={TeatreMunicipalInterior} blurSrc={BlurTeatreMunicipalInterior} alt="Venta d'entrades" text="Venta d'entrades" />
       <PatrocinadorsPrincipals />

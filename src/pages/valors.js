@@ -6,8 +6,7 @@ import ImageComponent from '../components/ImageComponent/ImageComponent'
 import ValorsLayout from '../components/ValorsLayout/ValorsLayout';
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import ValorsImatge from '../images/alaAngelBlanc.webP'
-import BlurValorsImatge from '../images/alaAngelBlancBlur.webP'
+import ValorsImatge from '../images/banners/valors-pastorets-de-girona.png'
 
 const Valors = () => {
   const circles = [
@@ -23,7 +22,7 @@ const Valors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ValorsImatge} blurSrc={BlurValorsImatge} alt="Valors" text="Valors" />
+      <ImageComponent src={ValorsImatge} alt="Valors" text="Valors" />
       <ValorsLayout circles={circles}/>
       <PatrocinadorsPrincipals />
       <Footer />
