@@ -1,9 +1,11 @@
 import React from 'react';
 import './ColoredBox.css';
 
-const ColoredBox = ({ backgroundColor, textColor, text, text2, src, alt, link }) => {
+const ColoredBox = ({ backgroundColor, textColor, text, text2, src, alt, link, paddingLeft, paddingRight }) => {
   const boxStyle = {
     color: textColor,
+    paddingLeft: paddingLeft,
+    paddingRight: paddingRight, 
   };
 
   const backgroundStyle = {
