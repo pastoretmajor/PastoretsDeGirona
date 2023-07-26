@@ -10,13 +10,15 @@ import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/Patro
 
 import EquipHuma from '../images/banners/equip-huma-pastorets-de-girona.png'
 
-
+import EquipTecnic from '../images/logos/bombeta.svg'
+import ActorsActrius from '../images/logos/mascares.svg'
 import Logo from '../images/logos/logoPastorets.webP'
+
 const Equip = () => {
 
   const boxes = [
-    { textColor:'#F1F1F1', backgroundColor: '#C41919', text: "Equip tècnic", src: Logo, alt: "Logo Equip Tècnic"},
-    { textColor:'#F1F1F1', backgroundColor: '#414141', text: "Actors i actrius", src: Logo, alt: "Logo Actors i actrius" },
+    { textColor:'#F1F1F1', backgroundColor: '#C41919', text: "Equip tècnic", src: EquipTecnic, alt: "Logo Equip Tècnic"},
+    { textColor:'#F1F1F1', backgroundColor: '#414141', text: "Actors i actrius", src: ActorsActrius, alt: "Logo Actors i actrius" },
     { backgroundColor: '#D9D9D9', text: "Ajudants de producció", src: Logo, alt: "Logo Ajudants de producció" },
   ];
 
