@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import './ImageComponent.css';
 
 const ImageComponent = ({ src, blurSrc, text }) => {
@@ -35,11 +36,13 @@ const ImageComponent = ({ src, blurSrc, text }) => {
   const divStyle = {
     backgroundImage: `url(${src})`,
     opacity: isLoaded ? 1 : 0,
+    transition: 'opacity 0.5s ease',
   };
 
   const blurDivStyle = {
-    backgroundImage: `url(${blurSrc})`,
+    backgroundImage: blurSrc ? `url(${blurSrc})` : '',
     opacity: isLoaded ? 0 : 1,
+    transition: 'opacity 0.5s ease',
   };
 
   return (
@@ -50,7 +53,9 @@ const ImageComponent = ({ src, blurSrc, text }) => {
         ref={imageRef}
         onLoad={handleLoad}
       ></div>
-      <div className="blur-image-component" style={blurDivStyle}></div>
+      {blurSrc && (
+        <div className="blur-image-component" style={blurDivStyle}></div>
+      )}
       {text && (
         <div className="text-overlay">
           <h1>{text}</h1>
@@ -58,6 +63,12 @@ const ImageComponent = ({ src, blurSrc, text }) => {
       )}
     </div>
   );
+};
+
+ImageComponent.propTypes = {
+  src: PropTypes.string.isRequired,
+  blurSrc: PropTypes.string,
+  text: PropTypes.string,
 };
 
 export default ImageComponent;
