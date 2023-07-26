@@ -1,0 +1,83 @@
+/* Add a flex container to hold the logos */
+.patrocinadors-containerC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .patrocinadorC {
+    position: relative;
+    cursor: pointer;
+    flex-basis: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .patrocinadorC img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .patrocinadorC .infoC {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(29, 29, 29, 0.8);
+    color: white;
+    padding: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align items vertically with space between them */
+    height: 100%; /* Fill the available height within the .patrocinador container */
+    font-size: 14px;
+  }
+  
+  .patrocinadorC:hover .infoC {
+    height: 100%;
+    opacity: 1;
+    cursor:default;
+  }
+  
+  .patrocinadorC .infoC .button-containerC {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .patrocinadorC .infoC button {
+    background-color: #D91E01;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    font-size: 18px;
+  }
+  
+  .patrocinadorC .infoC button:hover {
+    background-color: #941400;
+  }
+  
+  .patrocinadorC .infoC .descriptionC {
+    max-height: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  /* Responsive styles */
+@media screen and (max-width: 1110px) {
+    .patrocinadorC {
+      flex-basis: 33.33%;
+    }
+    .patrocinadorC .infoB {
+        font-size: 16px;
+    }
+}
