@@ -10,6 +10,7 @@
   .dropdown-menu li {
     background: #ffffff; /* Color de fons */
     cursor: pointer; /* On hover el cursor es converteix a pointer */
+    border-bottom: 1px solid #F1F1F1;
   }
   
   .dropdown-menu li:hover {
