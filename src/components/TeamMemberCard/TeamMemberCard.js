@@ -1,10 +1,11 @@
 import React from 'react';
 import './TeamGrid.css';
 
-const TeamMemberCard = ({ name }) => {
+const TeamMemberCard = ({ name, rol }) => {
   return (
     <div className="team-member-card">
-      <h2 className="team-member-card__name">{name}</h2>
+      <h3 className="team-member-card__rol">{rol}</h3>
+      <h4 className="team-member-card__name">{name}</h4>
     </div>
   );
 };

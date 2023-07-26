@@ -14,39 +14,46 @@ const Tecnics = () => {
   const teamMembers = [
     {
       name: "Salvador de Castro",
+      rol: "Director"
     },
     {
       name: "Núria Donato",
+      rol: "Ajudant de direcció"
     },
     {
       name: "Alba Saló",
+      rol: "Gestió de comunicació i màrqueting"
     },
     {
       name: "Paula Saló",
     },
     {
       name: "Natàlia Donato",
+      rol: "Tècnic de caracterització"
     },
     {
       name: "Josep Mitjà",
+      rol: "Gestió administrativa"
     },
     {
       name: "Marta Nadal Jimenez",
+      rol: "Tècnic de llums i so"
     },
     {
       name: "Daniel Moreta",
+      rol: "Director musical"
     },
     {
       name: "Isaac d'Aiguaviva",
+      rol: "Disseny d'escenografia"
     },
     {
       name: "Pau Morales",
+      rol: "Dissenyador gràfic"
     },
     {
       name: "Joan Cano",
-    },
-    {
-      name: "Carme Parramon",
+      rol: "Gestió de personal"
     },
   ];
 
@@ -60,6 +67,7 @@ const Tecnics = () => {
         {teamMembers.map((teamMember, index) => (
           <TeamMemberCard
             key={index}
+            rol={teamMember.rol}
             name={teamMember.name}
           />
         ))}
