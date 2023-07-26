@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PastoretsDeGirona/static/css/main.c47ae3ab.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.ccd3752c.js",
+    "main.js": "/PastoretsDeGirona/static/js/main.6648f9ef.js",
     "static/media/teatreMunicipalInterior.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/fons-index-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/calendariPastorets.webP": "/PastoretsDeGirona/static/media/calendariPastorets.e755922c751e99109238.webP",
@@ -19,7 +19,7 @@
     "static/media/valors-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/valors-pastorets-de-girona.db885abdc9392ca6e429.webP",
     "static/media/contactar-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/contactar-pastorets-de-girona.33e8fc0df95eac67db28.webP",
     "static/media/laManela.gif": "/PastoretsDeGirona/static/media/laManela.fc6fb943bd699d2ab4e6.gif",
-    "static/media/ara-si-segell.png": "/PastoretsDeGirona/static/media/ara-si-segell.576a54d017355b062b62.png",
+    "static/media/ara-si-segell-PastoretsDeGirona.png": "/PastoretsDeGirona/static/media/ara-si-segell-PastoretsDeGirona.ca3755a764ff8dfe9f16.png",
     "static/media/calendariPastoretsBlur.webP": "/PastoretsDeGirona/static/media/calendariPastoretsBlur.29f364b3ef92726b215b.webP",
     "static/media/logoHoritzontal.webP": "/PastoretsDeGirona/static/media/logoHoritzontal.ac8585f8b7ab9fda7e3d.webP",
     "static/media/logoPastorets.webP": "/PastoretsDeGirona/static/media/logoPastorets.778f1e676f4d2fcb17ba.webP",
@@ -28,10 +28,10 @@
     "static/media/bombeta.svg": "/PastoretsDeGirona/static/media/bombeta.e9f33a1ba0baf56d3b1348c7ab45e591.svg",
     "index.html": "/PastoretsDeGirona/index.html",
     "main.c47ae3ab.css.map": "/PastoretsDeGirona/static/css/main.c47ae3ab.css.map",
-    "main.ccd3752c.js.map": "/PastoretsDeGirona/static/js/main.ccd3752c.js.map"
+    "main.6648f9ef.js.map": "/PastoretsDeGirona/static/js/main.6648f9ef.js.map"
   },
   "entrypoints": [
     "static/css/main.c47ae3ab.css",
-    "static/js/main.ccd3752c.js"
+    "static/js/main.6648f9ef.js"
   ]
 }
