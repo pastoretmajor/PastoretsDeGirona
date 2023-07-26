@@ -5,72 +5,11 @@
   margin: 20px;
 }
 
-.team-grid__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
 .team-member-card {
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.team-member-card__image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.team-member-card__details {
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .team-member-card__name {
   font-size: 18px;
   font-weight: bold;
-}
-
-.team-member-card__role {
-  font-size: 16px;
-  font-weight: bold;
-  color: #888;
-}
-
-.team-member-card__bio {
-  font-size: 14px;
-  color: #555;
-}
-
-.team-member-card__social {
-  margin-top: 10px;
-}
-
-.team-member-card__social a {
-  margin-right: 10px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #333;
-  color: white;
-  transition: background-color 0.3s ease;
-}
-
-.team-member-card__social a:hover {
-  background-image: linear-gradient(
-    115deg,
-    #ff0000 0%,
-    #ff7b47 25%,
-    #001a8b 50%,
-    #4dffff 75%,
-    #a2ff9a 100%
-  );
-}
-
-.team-member-card__social a:hover svg {
-  color: rgb(255, 255, 255);
 }
