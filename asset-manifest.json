@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PastoretsDeGirona/static/css/main.f94a9f0e.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.0858a99e.js",
+    "main.css": "/PastoretsDeGirona/static/css/main.060748f8.css",
+    "main.js": "/PastoretsDeGirona/static/js/main.08e9798d.js",
     "static/media/fons-index-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/fons-index-pastorets-de-girona.d701033155ae5f1eee2b.png",
     "static/media/teatreMunicipalInterior.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/calendariPastorets.webP": "/PastoretsDeGirona/static/media/calendariPastorets.e755922c751e99109238.webP",
@@ -19,16 +19,17 @@
     "static/media/contactar-pastorets-de-girona.png": "/PastoretsDeGirona/static/media/contactar-pastorets-de-girona.60d32ff13a933bea8c5f.png",
     "static/media/teatreMunicipalInteriorBlur.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInteriorBlur.9cb1857ffeb3772464a9.webP",
     "static/media/laManela.gif": "/PastoretsDeGirona/static/media/laManela.fc6fb943bd699d2ab4e6.gif",
+    "static/media/ara-si-segell.png": "/PastoretsDeGirona/static/media/ara-si-segell.576a54d017355b062b62.png",
     "static/media/calendariPastoretsBlur.webP": "/PastoretsDeGirona/static/media/calendariPastoretsBlur.29f364b3ef92726b215b.webP",
     "static/media/logoHoritzontal.webP": "/PastoretsDeGirona/static/media/logoHoritzontal.ac8585f8b7ab9fda7e3d.webP",
     "static/media/logoPastorets.webP": "/PastoretsDeGirona/static/media/logoPastorets.778f1e676f4d2fcb17ba.webP",
     "static/media/devil.webP": "/PastoretsDeGirona/static/media/devil.f3dc50b16cd49dde07cb.webP",
     "index.html": "/PastoretsDeGirona/index.html",
-    "main.f94a9f0e.css.map": "/PastoretsDeGirona/static/css/main.f94a9f0e.css.map",
-    "main.0858a99e.js.map": "/PastoretsDeGirona/static/js/main.0858a99e.js.map"
+    "main.060748f8.css.map": "/PastoretsDeGirona/static/css/main.060748f8.css.map",
+    "main.08e9798d.js.map": "/PastoretsDeGirona/static/js/main.08e9798d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f94a9f0e.css",
-    "static/js/main.0858a99e.js"
+    "static/css/main.060748f8.css",
+    "static/js/main.08e9798d.js"
   ]
 }
