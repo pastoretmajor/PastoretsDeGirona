@@ -28,45 +28,25 @@ const CountdownTimer = ({ targetDate }) => {
   return (
     <div className="countdown-container">
       <div className="countdown-row">
-        <div
-          className="countdown-rectangle"
-          style={{
-            background: `#414141`,
-          }}
-        >
+        <div className="countdown-rectangle">
           <span className="countdown-value">{countdown.days}</span>
           <span className="countdown-label">DIES</span>
         </div>
       </div>
       <div className="countdown-row">
-        <div
-          className="countdown-rectangle"
-          style={{
-            background: `#414141`,
-          }}
-        >
+        <div className="countdown-rectangle">
           <span className="countdown-value">{countdown.hours}</span>
           <span className="countdown-label">HORES</span>
         </div>
       </div>
       <div className="countdown-row">
-        <div
-          className="countdown-rectangle"
-          style={{
-            background: `#414141`,
-          }}
-        >
+        <div className="countdown-rectangle">
           <span className="countdown-value">{countdown.minutes}</span>
           <span className="countdown-label">MINUTS</span>
         </div>
       </div>
       <div className="countdown-row">
-        <div
-          className="countdown-rectangle"
-          style={{
-            background: `#414141`,
-          }}
-        >
+        <div className="countdown-rectangle">
           <span className="countdown-value">{countdown.seconds}</span>
           <span className="countdown-label">SEGONS</span>
         </div>

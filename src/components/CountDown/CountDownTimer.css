@@ -1,61 +1,42 @@
 .countdown-container {
-    font-family: 'Rubik', sans-serif; /* Use Rubik font */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    color: #f1f1f1;
-    overflow: hidden;
-  }
-        
-  .countdown-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .countdown-value {
-    font-size: 48px;
-    font-weight:bold;
-  }
-  
-  .countdown-label {
-    font-size: 48px;
-  }
-  
-  .countdown-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .countdown-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .countdown-rectangle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 360px;
-    height: 280px;
-    border-radius: 0px;
-  }
-  
-  .countdown-value {
-    font-size: 80px;
-    font-weight: bold;
-  }
-  
-  .countdown-label {
-    font-size: 20px;
-    margin-top: 5px;
-    font-weight: bold;
-  }
-  
-      
+  font-family: 'Rubik', sans-serif; /* Use Rubik font */
+  display: flex; /* Convertim el container en un flexbox */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; /* Assegurem que ocupa tot l'espai disponible en altura */
+  margin: 0;
+  padding: 0;
+  color: #f1f1f1;
+  overflow: hidden;
+}
+
+.countdown-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  height: 360px;
+}
+
+.countdown-rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0px;
+  background-color: #414141;
+  flex: 1; 
+}
+
+.countdown-value {
+   font-size: 80px;
+   font-weight: bold;
+}
+
+.countdown-label {
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: bold;
+}
