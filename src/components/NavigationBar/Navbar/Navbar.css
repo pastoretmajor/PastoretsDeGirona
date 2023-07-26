@@ -50,8 +50,9 @@
     height: 80px;
     justify-content: center; /* Add this line to center the text vertically */
     border-right: 1px solid #F1F1F1;
-    border-left: 1px solid #F1F1F1;
-
+  }
+  .nav-item:last-child{
+    border-right: none;
   }
   
   .nav-links {
