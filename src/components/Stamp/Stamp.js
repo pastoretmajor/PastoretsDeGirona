@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import StampAraSi from "../../images/logos/ara-si-segell-PastoretsDeGirona.png";
+import StampAraSi from "../../images/logos/AraSi_inclinat.png";
 import "./Stamp.css";
 
 const Stamp = () => {

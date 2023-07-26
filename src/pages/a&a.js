@@ -89,9 +89,6 @@ const Actors = () => {
       name: "Júlia Ruhí Barnés",
     },
     {
-      name: "Jordi Quera Juher",
-    },
-    {
       name: "Flora Bosch Capdeferro",
     },
     {
@@ -159,6 +156,18 @@ const Actors = () => {
     },
     {
       name: "Paula Rullo Burgués",
+    },
+    {
+      name: "Teresa Felip Palahí",
+    },
+    {
+      name: "Isidre Fàbrega",
+    },
+    {
+      name: "Estrella Bosch Capdeferro",
+    },
+    {
+      name: "Rosa Fàbrega Salazarmauri",
     },
   ];
 
