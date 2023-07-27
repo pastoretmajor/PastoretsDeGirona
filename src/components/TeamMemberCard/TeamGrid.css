@@ -11,11 +11,13 @@
 }
 
 .team-member-card__name {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .team-member-card__rol {
+  font-family: 'Rubik', sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
 }
