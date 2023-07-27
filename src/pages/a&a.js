@@ -13,17 +13,38 @@ import EquipActorsBlur from '../images/blured/equiptecnic-actorsactrius-ajudants
 const Actors = () => {
   const teamMembers = [
     {
-      name: "Olga Miralles",
-    },
-    {
-      name: "Xavier Sagrera Auñón",
-    },
-    {
       name: "Clara Arxer Vargas",
       
     },
     {
-      name: "Joan Maria Soler Reguera",
+      name: "Anna Batlle",
+    },
+    {
+      name: "Maria Batlle",
+    },
+    {
+      name: "Marta Batlle Martinez",
+    },
+    {
+      name: "Pere Batlle Martinez",
+    },
+    {
+      name: "Maria Benitez Diaz",
+    },
+    {
+      name: "Estrella Bosch Capdeferro",
+    },
+    {
+      name: "Flora Bosch Capdeferro",
+    },
+    {
+      name: "Aina Carreras Ribas",
+    },
+    {
+      name: "David Camacho Cateura",
+    },
+    {
+      name: "Pol Campos",
     },
     {
       name: "Adrià Cano Puigvert",
@@ -35,34 +56,53 @@ const Actors = () => {
       name: "Eva Casadevall Adroher",
     },
     {
-      name: "Gerard Serrat",
+      name: "Aina Castillo",
     },
     {
-      name: "Maria Benitez Diaz",
+      name: "Cristina Cortés Bayod",
     },
     {
-      name: "Joaquim de Rioja Bosch",
-    },
-    {
-      name: "Oriol Marsal Piferrer",
-    },
-    {
-      name: "Sugita Puig Bertran",
+      name: "Rita Dengra Reyner",
     },
     {
       name: "Vicky Expósito",
     },
     {
-      name: "Anna Batlle",
+      name: "Isidre Fàbrega",
     },
     {
-      name: "Maria Batlle",
+      name: "Rosa Fàbrega Salazarmauri",
     },
     {
-      name: "Pere Batlle Martinez",
+      name: "Teresa Felip Palahí",
     },
     {
-      name: "Marta Batlle Martinez",
+      name: "David Gonzàlez",
+    },
+    {
+      name: "Irene Gonzàlez Comalda",
+    },
+    {
+      name: "Robert Gonzàlez Díez",
+    },
+    {
+      name: "Irene Hereu Roca",
+    },
+    
+    {
+      name: "Oriol Marsal Piferrer",
+    },
+    {
+      name: "Eduard Martí Pujolràs",
+    },
+    {
+      name: "Max Massò Boadas",
+    },
+    {
+      name: "Olga Miralles",
+    },
+    {
+      name: "Marta Mitjà Cortés",
     },
     {
       name: "Ariadna Morales Donato",
@@ -74,97 +114,60 @@ const Actors = () => {
       name: "Arnau Morales Donato",
     },
     {
-      name: "Cristina Cortés Bayod",
-    },
-    {
-      name: "Sònia Poch Anglada",
-    },
-    {
-      name: "Elisabet Sierra Hereu",
-    },
-    {
-      name: "David Vilanova Buixó",
-    },
-    {
-      name: "Júlia Ruhí Barnés",
-    },
-    {
-      name: "Flora Bosch Capdeferro",
-    },
-    {
-      name: "Estrella Bosch Capdeferro",
-    },
-    {
-      name: "Rita Dengra Reyner",
-    },
-    {
-      name: "Marta Mitjà Cortés",
-    },
-    {
-      name: "David Gonzàlez",
-    },
-    {
-      name: "David Camacho Cateura",
-    },
-    {
-      name: "Aina Castillo",
-    },
-    {
-      name: "Paula Sanz Nadal",
-    },
-    {
-      name: "Francina Soler Donato",
-    },
-    {
-      name: "Aina Carreras Ribas",
-    },
-    {
-      name: "Max Massò Boadas",
-    },
-    {
-      name: "Daniel Peracaula",
-    },
-    {
-      name: "Eduard Martí Pujolràs",
-    },
-    {
-      name: "Laura Prats Tremoleda",
-    },
-    {
-      name: "Robert Gonzàlez Díez",
-    },
-    {
-      name: "Irene Gonzàlez Comalda",
-    },
-    {
-      name: "Aleix Sagrera Casals",
-    },
-    {
-      name: "Pol Campos",
-    },
-    {
-      name: "Irene Hereu Roca",
-    },
-    {
-      name: "Josep Lluis Traiter Bota",
-    },
-    {
       name: "Mariona Moreta Mitjà",
     },
     {
       name: "Marcel Moreta Mitjà",
     },
     {
+      name: "Daniel Peracaula",
+    },
+    {
+      name: "Laura Prats Tremoleda",
+    },
+    {
+      name: "Sònia Poch Anglada",
+    },
+    {
+      name: "Sugita Puig Bertran",
+    },
+    
+    {
+      name: "Joaquim de Rioja Bosch",
+    },
+    {
+      name: "Júlia Ruhí Barnés",
+    },
+    {
       name: "Paula Rullo Burgués",
     },
+
     {
-      name: "Teresa Felip Palahí",
+      name: "Aleix Sagrera Casals",
     },
     {
-      name: "Isidre Fàbrega",
+      name: "Xavier Sagrera Auñón",
     },
     {
-      name: "Rosa Fàbrega Salazarmauri",
+      name: "Paula Sanz Nadal",
+    },
+    {
+      name: "Gerard Serrat",
+    },
+    {
+      name: "Joan Maria Soler Reguera",
+    },
+    {
+      name: "Francina Soler Donato",
+    },
+    {
+      name: "Elisabet Sierra Hereu",
+    },
+    {
+      name: "Josep Lluis Traiter Bota",
+    },
+    {
+      name: "David Vilanova Buixó",
     },
   ];
 
