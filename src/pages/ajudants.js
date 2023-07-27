@@ -40,7 +40,7 @@ const Ajudants = () => {
       name: "Antoni Fernandez Sandoval",
     },
     {
-      name: "Alba Morales",
+      name: "Alba Morales Donato",
     },
     {
       name: "Maria Puigvert Pell",
