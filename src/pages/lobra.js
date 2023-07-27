@@ -7,7 +7,7 @@ import { ColoredBox } from '../components/ColoredBox/ColoredBox';
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals';
 import ImageComponent from '../components/ImageComponent/ImageComponent';
 
-import Logo from '../images/logos/logoPastorets.webP';
+import Logo from '../images/logos/logoBarretinaSenseFons.png';
 import ObraBackground from '../images/banners/lobra-pastorets-de-girona.webP';
 import ObraBackgroundBlur from '../images/blured/lobra-pastorets-de-girona.webP';
 

@@ -14,7 +14,7 @@ import EquipHumaBlur from '../images/blured/equip-huma-pastorets-de-girona.webP'
 
 import EquipTecnic from '../images/logos/bombeta.svg'
 import ActorsActrius from '../images/logos/mascares.svg'
-import Logo from '../images/logos/logoPastorets.webP'
+import Logo from '../images/logos/logoBarretinaSenseFons.png'
 
 const Equip = () => {
 
