@@ -16,22 +16,16 @@ const Ajudants = () => {
       name: "Lluís Bachs",
     },
     {
-      name: "Imma Salazarmauri Roig",
+      name: "Montserrat Bertran",
     },
     {
-      name: "Miquel Saló Soler",
+      name: "Gemma Boada Casals",
     },
     {
-      name: "Sara Pujolràs Naspreda",
+      name: "Jordi Carreras Tarrés",
     },
     {
-      name: "Josep Maria Martí",
-    },
-    {
-      name: "Carmina Juher Iglesias",
-    },
-    {
-      name: "Oriol Tugas Prats",
+      name: "Marc Camacho Cateura",
     },
     {
       name: "Cristina Esteve i Bosch",
@@ -40,7 +34,31 @@ const Ajudants = () => {
       name: "Antoni Fernandez Sandoval",
     },
     {
+      name: "Carmina Juher Iglesias",
+    },
+    {
+      name: "Josep Maria Martí",
+    },
+    {
+      name: "Iris Martí Pujolràs",
+    },
+    {
+      name: "Cora Mir Sánchez",
+    },
+    {
       name: "Alba Morales Donato",
+    },
+    {
+      name: "Sara Pujolràs Naspreda",
+    },
+    {
+      name: "Anna Palahí Mundet"
+    },
+    {
+      name: "Carme Parramon Colom",
+    },
+    {
+      name: "Mariona Pèlach",
     },
     {
       name: "Maria Puigvert Pell",
@@ -49,35 +67,17 @@ const Ajudants = () => {
       name: "Carme Rocas Alsina",
     },
     {
-      name: "Montserrat Bertran",
+      name: "Imma Salazarmauri Roig",
+    },
+    {
+      name: "Miquel Saló Soler",
     },
     {
       name: "Joan Solà Espuña",
     },
     {
-      name: "Marc Camacho Cateura",
-    },
-    {
-      name: "Jordi Carreras Tarrés",
-    },
-    {
-      name: "Gemma Boada Casals",
-    },
-    {
-      name: "Iris Martí Pujolràs",
-    },
-    {
-      name: "Mariona Pèlach",
-    },
-    {
-      name: "Carme Parramon Colom",
-    },
-    {
-      name: "Anna Palahí Mundet"
-    },
-    {
-      name: "Cora Mir Sánchez",
-    },
+      name: "Oriol Tugas Prats",
+    },   
   ];
 
   return (
