@@ -71,7 +71,7 @@ const Actors = () => {
       name: "Rosa Fàbrega Salazarmauri",
     },
     {
-      name: "Teresa Felip Palahí",
+      name: "Teresa Felipe Palahí",
     },
     {
       name: "David Gonzàlez",
