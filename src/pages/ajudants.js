@@ -76,7 +76,7 @@ const Ajudants = () => {
       name: "Anna Palahí Mundet"
     },
     {
-      name: "Cora Mir Sanchez",
+      name: "Cora Mir Sánchez",
     },
   ];
 
