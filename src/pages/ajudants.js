@@ -13,7 +13,7 @@ import EquipTecnicBlur from '../images/blured/equiptecnic-actorsactrius-ajudants
 const Ajudants = () => {
   const teamMembers = [
     {
-      name: "Lluís Bachs",
+      name: "Lluís Bachs Panadés",
     },
     {
       name: "Montserrat Bertran",
@@ -64,7 +64,7 @@ const Ajudants = () => {
       name: "Carme Parramon Colom",
     },
     {
-      name: "Mariona Pèlach",
+      name: "Mariona Pèlach i de Ribot",
     },
     {
       name: "Maria Puigvert Pell",
