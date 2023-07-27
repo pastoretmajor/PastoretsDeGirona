@@ -29,6 +29,9 @@ const Actors = () => {
       name: "Adrià Cano Puigvert",
     },
     {
+      name: "Joel Cano Puigvert",
+    },
+    {
       name: "Eva Casadevall Adroher",
     },
     {
@@ -89,13 +92,13 @@ const Actors = () => {
       name: "Flora Bosch Capdeferro",
     },
     {
+      name: "Estrella Bosch Capdeferro",
+    },
+    {
       name: "Rita Dengra Reyner",
     },
     {
       name: "Marta Mitjà Cortés",
-    },
-    {
-      name: "Joel Cano Puigvert",
     },
     {
       name: "David Gonzàlez",
@@ -159,9 +162,6 @@ const Actors = () => {
     },
     {
       name: "Isidre Fàbrega",
-    },
-    {
-      name: "Estrella Bosch Capdeferro",
     },
     {
       name: "Rosa Fàbrega Salazarmauri",
