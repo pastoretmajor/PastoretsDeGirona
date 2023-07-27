@@ -40,6 +40,10 @@
     height: 300px;
   }
   .circle-valors .text {
-    font-size: 10px;
+    font-size: 30px;
+  }
+  .circle-valors:hover .text {
+    font-weight: normal; /* Text is regular when hovered */
+    font-size: 14px;
   }
 }
