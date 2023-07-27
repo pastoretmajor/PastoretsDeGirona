@@ -32,7 +32,7 @@ const Tecnics = () => {
       rol: "Tècnic de caracterització"
     },
     {
-      name: "Josep Mitjà",
+      name: "Josep Mitjà Pau",
       rol: "Gestió administrativa"
     },
     {
@@ -48,7 +48,7 @@ const Tecnics = () => {
       rol: "Disseny d'escenografia"
     },
     {
-      name: "Pau Morales",
+      name: "Pau Morales Albert",
       rol: "Dissenyador gràfic"
     },
     {
