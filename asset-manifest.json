@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PastoretsDeGirona/static/css/main.5b728f82.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.e25a8363.js",
+    "main.css": "/PastoretsDeGirona/static/css/main.a26d750c.css",
+    "main.js": "/PastoretsDeGirona/static/js/main.882d0f92.js",
     "static/media/teatreMunicipalInterior.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/fons-index-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/calendariPastorets.webP": "/PastoretsDeGirona/static/media/calendariPastorets.e755922c751e99109238.webP",
@@ -29,11 +29,11 @@
     "static/media/mascares.svg": "/PastoretsDeGirona/static/media/mascares.c4ce0a5370e06ecf6a958432d72f3a9d.svg",
     "static/media/bombeta.svg": "/PastoretsDeGirona/static/media/bombeta.e9f33a1ba0baf56d3b1348c7ab45e591.svg",
     "index.html": "/PastoretsDeGirona/index.html",
-    "main.5b728f82.css.map": "/PastoretsDeGirona/static/css/main.5b728f82.css.map",
-    "main.e25a8363.js.map": "/PastoretsDeGirona/static/js/main.e25a8363.js.map"
+    "main.a26d750c.css.map": "/PastoretsDeGirona/static/css/main.a26d750c.css.map",
+    "main.882d0f92.js.map": "/PastoretsDeGirona/static/js/main.882d0f92.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b728f82.css",
-    "static/js/main.e25a8363.js"
+    "static/css/main.a26d750c.css",
+    "static/js/main.882d0f92.js"
   ]
 }
