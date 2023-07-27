@@ -55,7 +55,7 @@ const Ajudants = () => {
       name: "Joan Solà Espuña",
     },
     {
-      name: "Marc Camacho",
+      name: "Marc Camacho Cateura",
     },
     {
       name: "Jordi Carreras",
@@ -70,7 +70,7 @@ const Ajudants = () => {
       name: "Mariona Pèlach",
     },
     {
-      name: "Carme Parramon",
+      name: "Carme Parramon Colom",
     },
     {
       name: "Anna Palahí Mundet"

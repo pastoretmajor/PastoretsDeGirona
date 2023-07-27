@@ -35,7 +35,7 @@ const Actors = () => {
       name: "Gerard Serrat",
     },
     {
-      name: "Maria Benitez",
+      name: "Maria Benitez Diaz",
     },
     {
       name: "Joaquim de Rioja Bosch",
@@ -125,7 +125,7 @@ const Actors = () => {
       name: "Eduard Martí Pujolràs",
     },
     {
-      name: "Laura Prats",
+      name: "Laura Prats Tremoleda",
     },
     {
       name: "Robert Gonzàlez Díez",
@@ -134,7 +134,7 @@ const Actors = () => {
       name: "Irene Gonzàlez Comalda",
     },
     {
-      name: "Aleix Sagrera",
+      name: "Aleix Sagrera Casals",
     },
     {
       name: "Pol Campos",
