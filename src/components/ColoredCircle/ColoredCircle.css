@@ -1,43 +1,40 @@
-.circle {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-color: #DADADA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 2s;
-    margin: 20px;
-  }
-  
-  .hovered {
-    background-color: #414141;
-    transform: scale(1.05);
-    transition: transform 1s;
-    
+.circle-valors {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #DADADA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background-color 2s;
+  margin: 20px;
+  overflow: hidden;
 }
-  
-  .hovered .text {
-    color: #F1F1F1;
-  }
 
-  .text {
-    justify-content: justify;
-    font-family: 'Rubik', sans-serif;
-    color: #1D1D1D;
-    font-size: 20px;
-    font-weight: bold;
-    z-index: 1;
-    margin: 50px;
-    cursor: default;
-  }
-  
-  @media (max-width: 1110px) {
-  .circle {
+.circle-valors:hover {
+  color: #F1F1F1;
+  background-color: #414141;
+  transform: scale(1.05);
+  transition: transform 1s;
+}
+
+.circle-valors .text {
+  justify-content: justify;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1;
+  margin: 50px;
+  cursor: default;
+}
+
+@media (max-width: 1110px) {
+  .circle-valors {
     width: 300px;
     height: 300px;
   }
-  .text {
+  .circle-valors .text {
     font-size: 10px;
   }
-  }
+}

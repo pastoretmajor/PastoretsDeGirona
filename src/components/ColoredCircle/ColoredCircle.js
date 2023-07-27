@@ -12,7 +12,7 @@ const ColoredCircle = ({ defaultText, hoverText }) => {
     setIsHovered(false);
   };
 
-  const circleClassName = isHovered ? 'circle hovered' : 'circle';
+  const circleClassName = isHovered ? 'circle-valors hovered' : 'circle-valors';
 
   return (
     <div
@@ -20,10 +20,8 @@ const ColoredCircle = ({ defaultText, hoverText }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="circle-content">
-        <span className="text">
-          {isHovered ? hoverText : defaultText}
-        </span>
+      <div className="text">
+        {isHovered ? hoverText : defaultText}
       </div>
     </div>
   );

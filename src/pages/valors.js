@@ -1,35 +1,63 @@
-import React from 'react'
-import Navbar from '../components/NavigationBar/Navbar'
-import Burger from '../components/Burger/Burger'
-import Footer from '../components/Footer/Footer'
-import ImageComponent from '../components/ImageComponent/ImageComponent'
+import React from 'react';
+import Navbar from '../components/NavigationBar/Navbar';
+import Burger from '../components/Burger/Burger';
+import Footer from '../components/Footer/Footer';
+import ImageComponent from '../components/ImageComponent/ImageComponent';
 import ValorsLayout from '../components/ValorsLayout/ValorsLayout';
-import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
+import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals';
 
-import ValorsImatge from '../images/banners/valors-pastorets-de-girona.webP'
-import ValorsImatgeBlur from '../images/blured/valors-pastorets-de-girona.webP'
-
+import ValorsImatge from '../images/banners/valors-pastorets-de-girona.webP';
+import ValorsImatgeBlur from '../images/blured/valors-pastorets-de-girona.webP';
 
 const Valors = () => {
   const circles = [
-    { defaultText: 'Emprenedoria i Innovació', hoverText: 'Plantegem els reptes com a oportunitats per crear una innovadora representació teatral sobre Nadal. Mirem cap al futur i ens enfoquem en aspectes de l’actualitat.' },
-    { defaultText: 'Girona Km0', hoverText: 'Estimem Girona i la seva gent. Per això treballem per promoure la representació teatral a la ciutat i interpretat a través de la seva gent, sempre obert a tothom qui hi vulgui participar.' },
-    { defaultText: 'Paritat i perspectiva de gènere', hoverText: 'Tenim el compromís d’assolir espais d’activitat segurs, unes relacions basades en la llibertat i el respecte entre les persones i conseqüentment lliures de situacions d’assetjament sexual i per raó de sexe.' },
-    { defaultText: 'Sostenibilitat', hoverText: 'Apostem per la sostenibilitat a través de diferents aspectes dins i fora l’escenari, reduint al màxim l’impacte ambiental del material utilitzat per l’escenari, vestuari i il·luminació.' },
-    { defaultText: 'Tradicions catalanes', hoverText: 'Vetllem per la perduració de la cultura catalana a la nostra ciutat. Els Pastorets és una representació teatral nadalenca que té els seus orígens en l’època medieval i ha perdurat fins als nostres dies.' },
-    { defaultText: 'Transparència', hoverText: 'Creiem en la importància del principi de transparència i de les bones pràctiques com a forma de mostrar la gestió de l’Associació Pastorets de Girona, així com de l’assoliment de la finalitat per la qual ha estat constituïda. També estem compromesos amb tots els socis, sòcies i membres de l’associació, i per tant oferim una informació clara i transparent sobre la gestió d’aquesta associació.' },
-  ]
+    {
+      defaultText: 'Emprenedoria \ni \nInnovació',
+      hoverText: 'Plantegem els reptes com a oportunitats per crear una innovadora representació teatral sobre Nadal. Mirem cap al futur i ens enfoquem en aspectes de l’actualitat.'
+    },
+    {
+      defaultText: 'Girona \nKm0',
+      hoverText: 'Estimem Girona i la seva gent. Per això treballem per promoure la representació teatral a la ciutat i interpretat a través de la seva gent, sempre obert a tothom qui hi vulgui participar.'
+    },
+    {
+      defaultText: 'Paritat i perspectiva \nde gènere',
+      hoverText: 'Tenim el compromís d’assolir espais d’activitat segurs, unes relacions basades en la llibertat i el respecte entre les persones i conseqüentment lliures de situacions d’assetjament sexual i per raó de sexe.'
+    },
+    {
+      defaultText: 'Sostenibilitat',
+      hoverText: 'Apostem per la sostenibilitat a través de diferents aspectes dins i fora l’escenari, reduint al màxim l’impacte ambiental del material utilitzat per l’escenari, vestuari i il·luminació.'
+    },
+    {
+      defaultText: 'Tradicions \ncatalanes',
+      hoverText: 'Vetllem per la perduració de la cultura catalana a la nostra ciutat. Els Pastorets és una representació teatral nadalenca que té els seus orígens en l’època medieval i ha perdurat fins als nostres dies.'
+    },
+    {
+      defaultText: 'Transparència',
+      hoverText: 'Creiem en la importància del principi de transparència i de les bones pràctiques com a forma de mostrar la gestió de l’Associació Pastorets de Girona, així com de l’assoliment de la finalitat per la qual ha estat constituïda. També estem compromesos amb tots els socis, sòcies i membres de l’associació, i per tant oferim una informació clara i transparent sobre la gestió d’aquesta associació.'
+    },
+  ];
+
+  // Function to render text with line breaks
+  const renderTextWithLineBreaks = (text) => {
+    const lines = text.split('\n');
+    return lines.map((line, index) => <div key={index}>{line}</div>);
+  };
 
   return (
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ValorsImatge} blurSrc={ValorsImatgeBlur}  alt="Valors" text="Valors" opacity={.5}/>
-      <ValorsLayout circles={circles}/>
+      <ImageComponent src={ValorsImatge} blurSrc={ValorsImatgeBlur} alt="Valors" text="Valors" opacity={0.5} />
+      <ValorsLayout
+        circles={circles.map((circle) => ({
+          defaultText: renderTextWithLineBreaks(circle.defaultText),
+          hoverText: circle.hoverText
+        }))}
+      />
       <PatrocinadorsPrincipals />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Valors
+export default Valors;
