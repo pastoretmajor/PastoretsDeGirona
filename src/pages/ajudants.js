@@ -75,6 +75,9 @@ const Ajudants = () => {
     {
       name: "Anna Palahí Mundet"
     },
+    {
+      name: "Cora Mir Sanchez",
+    },
   ];
 
   return (

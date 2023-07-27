@@ -29,9 +29,6 @@ const Actors = () => {
       name: "Adrià Cano Puigvert",
     },
     {
-      name: "Cora Mir Sanchez",
-    },
-    {
       name: "Eva Casadevall Adroher",
     },
     {
