@@ -2,12 +2,12 @@
 
 .fixed-image {
     position: fixed;
-    bottom: 10px;
+    bottom: 150px;
     right: 200px;
     width: 300px;
     opacity: 0; /* Comença amb opacitat 0 per a l'efecte d'aparició */
     animation: bounceIn 1s forwards; /* Nom de l'animació i duració */
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
   }
   
   @keyframes bounceIn {
