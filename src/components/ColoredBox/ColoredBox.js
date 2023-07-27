@@ -1,11 +1,12 @@
 import React from 'react';
 import './ColoredBox.css';
 
-const ColoredBox = ({ backgroundColor, textColor, text, text2, src, alt, link, paddingLeft, paddingRight }) => {
+const ColoredBox = ({ backgroundColor, textColor, text, text2, src, alt, link, paddingLeft, paddingRight, height }) => {
   const boxStyle = {
     color: textColor,
     paddingLeft: paddingLeft,
     paddingRight: paddingRight, 
+    height: height,
   };
 
   const backgroundStyle = {
@@ -25,9 +26,10 @@ const ColoredBox = ({ backgroundColor, textColor, text, text2, src, alt, link, p
   );
 };
 
-const CenteredColoredBox = ({ backgroundColor, textColor, text, text2, src, alt, link, hasCircle }) => {
+const CenteredColoredBox = ({ backgroundColor, textColor, text, text2, src, alt, link, hasCircle, height }) => {
   const boxStyle = {
     color: textColor,
+    height: height,
   };
 
   const backgroundStyle = {

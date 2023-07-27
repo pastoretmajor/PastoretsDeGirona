@@ -65,7 +65,7 @@ const ImageComponent = ({ src, blurSrc, text, opacity }) => {
       )}
       
     </div>
-        <ColoredBox text=" "/>
+        <ColoredBox text=" " height="5px"/>
     </div>
   );
 };
