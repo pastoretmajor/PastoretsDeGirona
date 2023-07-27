@@ -11,7 +11,7 @@ const Stamp = () => {
       const scrollY = window.scrollY;
       
       // Si la posició és a la part superior de la pàgina, mostrem la imatge
-      if (scrollY <= 475) {
+      if (scrollY <= 375) {
         setShowImage(true);
       } else {
         setShowImage(false);
