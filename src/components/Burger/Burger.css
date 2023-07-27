@@ -54,5 +54,8 @@
     .burger-icon {
         display: none;
     }
+    .burger-menu {
+      display: none;
+    }
   }
   
