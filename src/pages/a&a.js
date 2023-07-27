@@ -44,9 +44,6 @@ const Actors = () => {
       name: "David Camacho Cateura",
     },
     {
-      name: "Pol Campos",
-    },
-    {
       name: "Adrià Cano Puigvert",
     },
     {
