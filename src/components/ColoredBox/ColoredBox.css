@@ -85,3 +85,14 @@
   color: #ffffff;
   cursor: pointer;
 }
+
+
+@media (max-width: 1110px) {
+  .box-content{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .colored-box p{
+    font-size: 16px;
+  }
+}
