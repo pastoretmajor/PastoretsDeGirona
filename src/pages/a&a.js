@@ -56,7 +56,7 @@ const Actors = () => {
       name: "Eva Casadevall Adroher",
     },
     {
-      name: "Aina Castillo",
+      name: "Aina Castillo Tremols",
     },
     {
       name: "Cristina Cortés Bayod",
