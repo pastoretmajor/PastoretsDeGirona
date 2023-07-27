@@ -13,7 +13,7 @@ const Col·laboradors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ImatgeCollaboradors} blurSrc={ImatgeCollaboradorsBlur} alt="Col·laboradors" text="Col·laboradors" />
+      <ImageComponent src={ImatgeCollaboradors} blurSrc={ImatgeCollaboradorsBlur} alt="Col·laboradors" text="Col·laboradors" opacity={.5}/>
       <h2>Aquest podria ser el teu espai</h2>
       <Colaborators />
       <Footer />

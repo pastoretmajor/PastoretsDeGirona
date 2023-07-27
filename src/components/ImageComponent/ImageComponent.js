@@ -1,8 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import './ImageComponent.css';
+import { ColoredBox } from '../ColoredBox/ColoredBox'
 
-const ImageComponent = ({ src, blurSrc, text }) => {
+const ImageComponent = ({ src, blurSrc, text, opacity }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const imageRef = useRef(null);
 
@@ -35,17 +36,18 @@ const ImageComponent = ({ src, blurSrc, text }) => {
 
   const divStyle = {
     backgroundImage: `url(${src})`,
-    opacity: isLoaded ? 1 : 0,
+    opacity: isLoaded ? opacity || 1 : 0,
     transition: 'opacity 0.5s ease',
   };
 
   const blurDivStyle = {
     backgroundImage: blurSrc ? `url(${blurSrc})` : '',
-    opacity: isLoaded ? 0 : 1,
+    opacity: isLoaded ? 0 : opacity || 1,
     transition: 'opacity 0.5s ease',
   };
 
   return (
+    <div>
     <div className="content-container">
       <div
         className="image-component"
@@ -61,6 +63,9 @@ const ImageComponent = ({ src, blurSrc, text }) => {
           <h1>{text}</h1>
         </div>
       )}
+      
+    </div>
+        <ColoredBox text=" "/>
     </div>
   );
 };

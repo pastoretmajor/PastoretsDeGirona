@@ -14,7 +14,7 @@ const Contacte = () => {
     <div>
       <Navbar />
       <Burger />      
-      <ImageComponent src={ImatgeContacte} blurSrc={ImatgeContacteBlur} alt="Contacta'ns" text="Contacta'ns" />
+      <ImageComponent src={ImatgeContacte} blurSrc={ImatgeContacteBlur} alt="Contacta'ns" text="Contacta'ns" opacity={.5}/>
       <h2>PROPERAMENT</h2>
       <PatrocinadorsPrincipals />
       <Footer />

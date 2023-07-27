@@ -24,7 +24,7 @@ const Valors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ValorsImatge} blurSrc={ValorsImatgeBlur}  alt="Valors" text="Valors" />
+      <ImageComponent src={ValorsImatge} blurSrc={ValorsImatgeBlur}  alt="Valors" text="Valors" opacity={.5}/>
       <ValorsLayout circles={circles}/>
       <PatrocinadorsPrincipals />
       <Footer />

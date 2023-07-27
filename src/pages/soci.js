@@ -14,7 +14,7 @@ const Soci = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ImatgeSocis} blurSrc={ImatgeSocisBlur} alt="Fes una donació" text="Fes una donació" />
+      <ImageComponent src={ImatgeSocis} blurSrc={ImatgeSocisBlur} alt="Fes una donació" text="Fes una donació" opacity={.5}/>
       <h2>PROPERAMENT</h2>
       <PatrocinadorsPrincipals />
       <Footer />

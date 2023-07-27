@@ -20,7 +20,7 @@ const Entrades = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={EntradesImatge} blurSrc={EntradesImatgeBlur} alt="Compra entrades" text="Compra entrades" />
+      <ImageComponent src={EntradesImatge} blurSrc={EntradesImatgeBlur} alt="Compra entrades" text="Compra entrades" opacity={.5}/>
       <ImageComponent src={FotoTeatre} blurSrc={BlurFotoTeatre} alt="FotoTeatre"/>
       <CountdownTimer targetDate={targetDate} />
       <PatrocinadorsPrincipals />

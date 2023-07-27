@@ -17,7 +17,7 @@ const Manela = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={LaManela} blurSrc={LaManelaBlur} alt="La Manela" text="La Manela" />
+      <ImageComponent src={LaManela} blurSrc={LaManelaBlur} alt="La Manela" text="La Manela" opacity={.5}/>
       <GifComponent gif={gifUrl}/>
       <PatrocinadorsPrincipals />      
       <Footer />

@@ -15,7 +15,7 @@ const Patrocinadors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={ImatgePatrocinadors} blurSrc={ImatgePatrocinadorsBlur} alt="Patrocinadors" text="Patrocinadors" />
+      <ImageComponent src={ImatgePatrocinadors} blurSrc={ImatgePatrocinadorsBlur} alt="Patrocinadors" text="Patrocinadors" opacity={.5}/>
         <h2>Aquest podria ser el teu espai</h2>
       <PatrocinadorsA />
       <PatrocinadorsB />

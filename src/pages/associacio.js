@@ -17,7 +17,7 @@ const Associacio = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={AssociacioImatge} blurSrc={AssociacioImatgeBlur} alt="Associació" text="Associació" />
+      <ImageComponent src={AssociacioImatge} blurSrc={AssociacioImatgeBlur} alt="Associació" text="Associació" opacity={.5}/>
       <CenteredColoredBox backgroundColor="#D90559" src={LogoValors} alt="LogoValors"/>
       <CenteredColoredBox backgroundColor="#FFFFFF" src={LogoValors} alt="LogoValors"/>
       <CenteredColoredBox backgroundColor="#79CD8D" src={LogoValors} alt="LogoValors"/>

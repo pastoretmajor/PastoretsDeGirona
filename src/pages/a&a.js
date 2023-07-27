@@ -175,7 +175,7 @@ const Actors = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={EquipActors} blurSrc={EquipActorsBlur} alt="Actors i Actrius" text="Actors I Actrius" />
+      <ImageComponent src={EquipActors} blurSrc={EquipActorsBlur} alt="Actors i Actrius" text="Actors I Actrius" opacity={.5}/>
       <div className="team-grid">
       <div className="team-grid__cards">
         {teamMembers.map((teamMember, index) => (
