@@ -13,20 +13,19 @@ import EquipActorsBlur from '../images/blured/equiptecnic-actorsactrius-ajudants
 const Actors = () => {
   const teamMembers = [
     {
-      name: "Clara Arxer Vargas",
-      
+      name: "Clara Arxer Vargas",  
     },
     {
-      name: "Anna Batlle",
+      name: "Anna Batlle Martínez",
     },
     {
-      name: "Maria Batlle",
+      name: "Maria Batlle Martínez",
     },
     {
-      name: "Marta Batlle Martinez",
+      name: "Marta Batlle Martínez",
     },
     {
-      name: "Pere Batlle Martinez",
+      name: "Pere Batlle Martínez",
     },
     {
       name: "Maria Benitez Diaz",
@@ -96,7 +95,7 @@ const Actors = () => {
       name: "Max Massò Boadas",
     },
     {
-      name: "Olga Miralles",
+      name: "Olga Miralles Burgués",
     },
     {
       name: "Marta Mitjà Cortés",
@@ -149,7 +148,7 @@ const Actors = () => {
       name: "Paula Sanz Nadal",
     },
     {
-      name: "Gerard Serrat",
+      name: "Gerard Serrat Quidiello",
     },
     {
       name: "Joan Maria Soler Reguera",
