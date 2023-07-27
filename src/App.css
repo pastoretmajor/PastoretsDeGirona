@@ -1,11 +1,16 @@
+/*
+
+Joel Cano i Puigvert
+Last update: 27/07/2023
+https://github.com/llop10101
+
+*/
+
 /* Rubik font */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 /* Roboto font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
-/* Default file created by npx create-react-app my-app  */
 
 .body {
   margin: 0;

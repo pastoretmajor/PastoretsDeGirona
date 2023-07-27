@@ -1,4 +1,11 @@
-/* Estils comuns */
+/*
+
+Joel Cano i Puigvert
+Last update: 27/07/2023
+https://github.com/llop10101
+
+*/
+
 .countdown-container {
   font-family: 'Rubik', sans-serif; /* Use Rubik font */
   display: flex; /* Convertim el container en un flexbox */
