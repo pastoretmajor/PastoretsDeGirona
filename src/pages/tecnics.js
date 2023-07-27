@@ -13,7 +13,7 @@ import EquipTecnicBlur from '../images/blured/equiptecnic-actorsactrius-ajudants
 const Tecnics = () => {
   const teamMembers = [
     {
-      name: "Salvador de Castro",
+      name: "Salvador de Castro Vila",
       rol: "Director"
     },
     {
@@ -36,7 +36,7 @@ const Tecnics = () => {
       rol: "Gestió administrativa"
     },
     {
-      name: "Marta Nadal",
+      name: "Marta Nadal Jimenez",
       rol: "Tècnic de llums i so"
     },
     {
