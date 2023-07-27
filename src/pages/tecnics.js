@@ -21,11 +21,8 @@ const Tecnics = () => {
       rol: "Ajudant de direcció"
     },
     {
-      name: "Alba Saló Rocas",
+      name: "Alba Saló Rocas \nPaula Saló rocas",
       rol: "Gestió de comunicació i màrqueting"
-    },
-    {
-      name: "Paula Saló Rocas",
     },
     {
       name: "Natàlia Donato Vilanova",
@@ -57,6 +54,11 @@ const Tecnics = () => {
     },
   ];
 
+  const renderNamesWithLineBreaks = (name) => {
+    const names = name.split('\n');
+    return names.map((part, index) => <div key={index}>{part}</div>);
+  };
+
   return (
     <div>
       <Navbar />
@@ -68,7 +70,7 @@ const Tecnics = () => {
           <TeamMemberCard
             key={index}
             rol={teamMember.rol}
-            name={teamMember.name}
+            name={renderNamesWithLineBreaks(teamMember.name)}
           />
         ))}
       </div>

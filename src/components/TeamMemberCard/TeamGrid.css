@@ -3,22 +3,22 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 20px;
 }
 
 .team-member-card {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .team-member-card__name {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 28px;
+  line-height: 1.5;
 }
 
 .team-member-card__rol {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 70px;
 }
