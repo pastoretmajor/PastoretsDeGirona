@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import './ImageComponent.css';
-import { ColoredBox } from '../ColoredBox/ColoredBox'
 
 const ImageComponent = ({ src, blurSrc, text, opacity }) => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -47,7 +46,6 @@ const ImageComponent = ({ src, blurSrc, text, opacity }) => {
   };
 
   return (
-    <div>
     <div className="content-container">
       <div
         className="image-component"
@@ -64,8 +62,6 @@ const ImageComponent = ({ src, blurSrc, text, opacity }) => {
         </div>
       )}
       
-    </div>
-        <ColoredBox text=" " height="5px"/>
     </div>
   );
 };
