@@ -10,7 +10,7 @@ import AssociacioImatge from '../images/banners/associacio-pastorets-de-girona.w
 import AssociacioImatgeBlur from '../images/blured/associacio-pastorets-de-girona.webP'
 
 
-import LogoValors from '../images/logos/logoPastorets.webP';
+import LogoValors from '../images/logos/logoBarretinaSenseFons.png';
 
 const Associacio = () => {
   return (
