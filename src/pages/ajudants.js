@@ -19,7 +19,7 @@ const Ajudants = () => {
       name: "Imma Salazarmauri Roig",
     },
     {
-      name: "Miques Saló Soler",
+      name: "Miquel Saló Soler",
     },
     {
       name: "Sara Pujolràs",
