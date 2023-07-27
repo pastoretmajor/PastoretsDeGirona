@@ -46,6 +46,9 @@ const Ajudants = () => {
       name: "Cora Mir Sánchez",
     },
     {
+      namme: "Xavier Morales Albert"
+    },
+    {
       name: "Alba Morales Donato",
     },
     {
