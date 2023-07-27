@@ -47,7 +47,7 @@ const Actors = () => {
       name: "Sugita Puig Bertran",
     },
     {
-      name: "Viki Exposito",
+      name: "Vicky Exposito",
     },
     {
       name: "Anna Batlle",
