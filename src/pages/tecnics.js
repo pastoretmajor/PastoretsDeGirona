@@ -17,18 +17,18 @@ const Tecnics = () => {
       rol: "Director"
     },
     {
-      name: "Núria Donato",
+      name: "Núria Donato Vilanova",
       rol: "Ajudant de direcció"
     },
     {
-      name: "Alba Saló",
+      name: "Alba Saló Rocas",
       rol: "Gestió de comunicació i màrqueting"
     },
     {
-      name: "Paula Saló",
+      name: "Paula Saló Rocas",
     },
     {
-      name: "Natàlia Donato",
+      name: "Natàlia Donato Vilanova",
       rol: "Tècnic de caracterització"
     },
     {
@@ -52,7 +52,7 @@ const Tecnics = () => {
       rol: "Dissenyador gràfic"
     },
     {
-      name: "Joan Cano",
+      name: "Joan Cano Dorca",
       rol: "Gestió de personal"
     },
   ];
