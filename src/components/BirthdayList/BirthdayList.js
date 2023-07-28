@@ -19,7 +19,7 @@ const BirthdayList = ({ teamMembers }) => {
 
   return (
     <div className="container">
-      <h2>Avui fa anys</h2>
+      <h2>Avui és el seu dia</h2>
       {birthdaysToday.length > 0 ? (
         <div>
           <ul>
