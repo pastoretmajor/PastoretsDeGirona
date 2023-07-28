@@ -13,18 +13,18 @@ const Valors = () => {
   const circles = [
     {
       defaultText: 'Emprenedoria \ni \nInnovació',
-      hoverText: 'Plantegem els reptes com a oportunitats per crear una innovadora representació teatral sobre Nadal. Mirem cap al futur i ens enfoquem en aspectes de l’actualitat.',
+      hoverText: 'Plantegem els reptes com a oportunitats per crear una representació teatral innovadora sobre el Nadal. Mirem cap al futur i ens enfoquem en aspectes de l’actualitat.',
       circleColor: "#DADADA",
     },
     {
       defaultText: 'Girona \nKm0',
-      hoverText: 'Estimem Girona i la seva gent. Per això treballem per promoure la representació teatral a la ciutat i interpretat a través de la seva gent, sempre obert a tothom qui hi vulgui participar.',
+      hoverText: 'Estimem Girona i la seva gent. Per això treballem per promoure la representació teatral a la ciutat i amb la seva gent, sempre obert a tothom que hi vulgui participar.',
       circleColor: "#D91E01",
       textColor: "#F1F1F1"
     },
     {
       defaultText: 'Paritat i perspectiva \nde gènere',
-      hoverText: 'Tenim el compromís d’assolir espais d’activitat segurs, unes relacions basades en la llibertat i el respecte entre les persones i conseqüentment lliures de situacions d’assetjament sexual i per raó de sexe.',
+      hoverText: 'Tenim el compromís d’assolir espais d’activitat segurs, amb relacions basades en la llibertat i el respecte entre les persones i conseqüentment lliures de situacions d’assetjament sexual i per raó de sexe.',
       circleColor: "#414141",
       textColor: "#F1F1F1"
       },
@@ -42,7 +42,7 @@ const Valors = () => {
     },
     {
       defaultText: 'Transparència',
-      hoverText: 'Creiem en la importància del principi de transparència i de les bones pràctiques com a forma de mostrar la gestió de l’Associació Pastorets de Girona, així com de l’assoliment de la finalitat per la qual ha estat constituïda. També estem compromesos amb tots els socis, sòcies i membres de l’associació, i per tant oferim una informació clara i transparent sobre la gestió d’aquesta associació.',
+      hoverText: 'Creiem en la importància de la transparència i les bones pràctiques com a forma de mostrar la gestió de l’Associació Pastorets de Girona i de l’assoliment de la finalitat per la qual ha estat constituïda, com a mostra del compromís amb tots els socis, sòcies i membres de l’associació.',
       circleColor: "#DADADA"
     },
   ];
