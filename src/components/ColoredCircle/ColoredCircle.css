@@ -7,8 +7,8 @@ https://github.com/llop10101
 */
 
 .circle-valors {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   background-color: #DADADA;
   display: flex;
@@ -39,7 +39,7 @@ https://github.com/llop10101
 
 .circle-valors:hover .text {
   font-weight: normal; /* Text is regular when hovered */
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (max-width: 1110px) {
@@ -52,6 +52,6 @@ https://github.com/llop10101
   }
   .circle-valors:hover .text {
     font-weight: normal; /* Text is regular when hovered */
-    font-size: 12px;
+    font-size: 10px;
   }
 }
