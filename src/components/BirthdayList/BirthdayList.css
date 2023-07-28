@@ -45,9 +45,13 @@ https://github.com/llop10101
 
   @media (max-width: 1110px) {
 
+    h2 {
+    font-size: 27px;
+    }
+
     b{
         font-size: 30px;
-      }
+    }
 
     .member p {
         font-size: 12px;
