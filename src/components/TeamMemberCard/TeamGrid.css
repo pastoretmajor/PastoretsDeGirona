@@ -1,20 +1,28 @@
 /*
 
 Joel Cano i Puigvert
-Last update: 27/07/2023
+Last update: 28/07/2023
 https://github.com/llop10101
 
 */
 
+/* Regles per a la visualització de dues columnes en mode normal */
 .team-grid {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .team-member-card {
-  margin-bottom: 0px;
+  flex-basis: 50%; /* Cada columna ocupa el 50% de l'espai disponible */
+  margin-bottom: 20px;
+  max-width: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .team-member-card__name {
@@ -29,4 +37,15 @@ https://github.com/llop10101
   font-size: 18px;
   font-weight: normal;
   margin-top: 70px;
+}
+
+
+@media (max-width: 1110px) {
+  .team-member-card {
+    flex-basis: 100%; /* Cada targeta ocupa tot l'espai d'una sola columna */
+    margin-right: 0; /* Eliminem l'espai entre les columnes */
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

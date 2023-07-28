@@ -167,25 +167,31 @@ const Actors = () => {
     },
   ];
 
+  // Split the teamMembers array into two columns
+  const midIndex = Math.ceil(teamMembers.length / 2);
+  const firstColumn = teamMembers.slice(0, midIndex);
+  const secondColumn = teamMembers.slice(midIndex);
+
   return (
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={EquipActors} blurSrc={EquipActorsBlur} alt="Actors i actrius" text="Actors i actrius" opacity={.5}/>
+      <ImageComponent src={EquipActors} blurSrc={EquipActorsBlur} alt="Actors i actrius" text="Actors i actrius" opacity={0.5} />
       <div className="team-grid">
-      <div className="team-grid__cards">
-        {teamMembers.map((teamMember, index) => (
-          <TeamMemberCard
-            key={index}
-            name={teamMember.name}
-          />
-        ))}
+        <div className="team-grid__column">
+          {firstColumn.map((teamMember, index) => (
+            <TeamMemberCard key={index} name={teamMember.name} />
+          ))}
+        </div>
+        <div className="team-grid__column">
+          {secondColumn.map((teamMember, index) => (
+            <TeamMemberCard key={index} name={teamMember.name} />
+          ))}
+        </div>
       </div>
-    </div>
       <PatrocinadorsPrincipals />
       <Footer />
     </div>
-    
   );
 };
 
