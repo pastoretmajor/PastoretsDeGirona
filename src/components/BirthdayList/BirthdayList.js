@@ -21,15 +21,13 @@ const BirthdayList = ({ teamMembers }) => {
     <div className="container">
       <h2>Avui és el seu dia</h2>
       {birthdaysToday.length > 0 ? (
-        <div>
-          <ul>
-            {birthdaysToday.map((teamMember, index) => (
-              <li key={index}>
-                {teamMember.name}
-                {teamMember.msg && <p>{teamMember.msg}</p>}
-              </li>
-            ))}
-          </ul>
+        <div className="members-container">
+          {birthdaysToday.map((teamMember, index) => (
+            <div className="member" key={index}>
+              <b>{teamMember.name}</b>
+              {teamMember.msg && <p>{teamMember.msg}</p>}
+            </div>
+          ))}
         </div>
       ) : (
         <p>Avui fa anys... Una persona que encara no s'ha apuntat!</p>
