@@ -40,7 +40,7 @@ const Ajudants = () => {
       name: "Carmina Juher Iglesias",
     },
     {
-      name: "Josep Maria Martí",
+      name: "Josep M. Martí Aliu",
     },
     {
       name: "Iris Martí Pujolràs",
@@ -55,9 +55,6 @@ const Ajudants = () => {
       name: "Alba Morales Donato",
     },
     {
-      name: "Sara Pujolràs Naspreda",
-    },
-    {
       name: "Anna Palahí Mundet"
     },
     {
@@ -68,6 +65,9 @@ const Ajudants = () => {
     },
     {
       name: "Maria Puigvert Pell",
+    },
+    {
+      name: "Sara Pujolràs Naspreda",
     },
     {
       name: "Carme Rocas Alsina",
