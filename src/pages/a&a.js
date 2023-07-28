@@ -109,7 +109,7 @@ const Actors = () => {
     {
       name: "Teresa Felipe Palahí",
       birth: new Date(2007,6,29),
-      msg: "Moltes felicitats a la nova membre, esperem que en siguin molts més!",
+      msg: "Per molts anys a la nova membre, esperem que en siguin molts més!",
     },
     {
       name: "David Gonzàlez",
