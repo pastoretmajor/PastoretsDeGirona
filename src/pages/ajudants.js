@@ -90,22 +90,22 @@ const Ajudants = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={EquipTecnic} blurSrc={EquipTecnicBlur} alt="Ajudants de Producció" text="Ajudants de Producció" opacity={.5}/>
+      <ImageComponent src={EquipTecnic} blurSrc={EquipTecnicBlur} alt="Ajudants de Producció" text="Ajudants de Producció" opacity={0.5} />
       <div className="team-grid">
-      <div className="team-grid__cards">
-        {teamMembers.map((teamMember, index) => (
-          <TeamMemberCard
-            key={index}
-            name={teamMember.name}
-          />
-        ))}
+        <div className="team-grid__cards">
+          {teamMembers.map((teamMember, index) => (
+            <TeamMemberCard
+              key={index}
+              name={teamMember.name}
+            />
+          ))}
+        </div>
       </div>
-    </div>
       <PatrocinadorsPrincipals />
       <Footer />
     </div>
-    
   );
 };
+
 
 export default Ajudants;
