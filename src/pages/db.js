@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { format, parseISO } from 'date-fns';
 
 const DB = () => {
   const API_URL = 'http://localhost:3001/api/persones';
@@ -12,7 +11,7 @@ const DB = () => {
   const [dataNaixement, setDataNaixement] = useState('');
   const [persones, setPersones] = useState([]);
   const [selectedPersona, setSelectedPersona] = useState(null);
-  const [dataNaixementOriginalFormatted, setDataNaixementOriginalFormatted] = useState('');
+  const [editPersona, setEditPersona] = useState(null); // Separate state for edit form
 
   const fetchPersones = async () => {
     try {
@@ -20,7 +19,6 @@ const DB = () => {
       setPersones(response.data);
     } catch (error) {
       console.error('Error fetching persones:', error);
-      // Handle the error
     }
   };
 
@@ -43,18 +41,15 @@ const DB = () => {
     try {
       const response = await axios.post(API_URL, newPersona);
       console.log('New persona added:', response.data);
-      // Reset the form after successful submission
       setNom('');
       setCognom1('');
       setCognom2('');
       setTelf('');
       setMail('');
       setDataNaixement('');
-      // Refresh the list of persons
       fetchPersones();
     } catch (error) {
       console.error('Error adding persona:', error);
-      // Handle the error
     }
   };
 
@@ -62,55 +57,44 @@ const DB = () => {
     try {
       await axios.delete(`${API_URL}/${id}`);
       console.log('Persona deleted:', id);
-      // Refresh the list of persons after deletion
       fetchPersones();
     } catch (error) {
       console.error('Error deleting persona:', error);
-      // Handle the error
     }
   };
 
   const handleEdit = (persona) => {
     setSelectedPersona(persona);
-    setNom(persona.nom);
-    setCognom1(persona.cognom1);
-    setCognom2(persona.cognom2 || '');
-    setTelf(persona.telf || '');
-    setMail(persona.mail || '');
-    setDataNaixement(persona.dataNaixement);
-    const formattedDate = format(parseISO(persona.dataNaixement), 'yyyy-MM-dd');
-    setDataNaixementOriginalFormatted(formattedDate); // Emmagatzemar la data de naixement original formatejada
+    setEditPersona({ // Update the edit form state with the selected persona
+      nom: persona.nom,
+      cognom1: persona.cognom1,
+      cognom2: persona.cognom2 || '',
+      telf: persona.telf || '',
+      mail: persona.mail || '',
+      dataNaixement: persona.dataNaixement
+    });
   };
-  
 
   const handleUpdate = async (e, id) => {
     e.preventDefault();
 
     const updatedPersona = {
-      nom,
-      cognom1,
-      cognom2,
-      telf,
-      mail,
-      dataNaixement
+      nom: editPersona.nom,
+      cognom1: editPersona.cognom1,
+      cognom2: editPersona.cognom2,
+      telf: editPersona.telf,
+      mail: editPersona.mail,
+      dataNaixement: editPersona.dataNaixement
     };
 
     try {
       const response = await axios.put(`${API_URL}/${id}`, updatedPersona);
       console.log('Persona updated:', response.data);
-      // Clear the selected persona and form fields after successful update
       setSelectedPersona(null);
-      setNom('');
-      setCognom1('');
-      setCognom2('');
-      setTelf('');
-      setMail('');
-      setDataNaixement('');
-      // Refresh the list of persons after update
+      setEditPersona(null); // Reset the edit form state
       fetchPersones();
     } catch (error) {
       console.error('Error updating persona:', error);
-      // Handle the error
     }
   };
 
@@ -129,13 +113,13 @@ const DB = () => {
           <input type="text" placeholder="Cognom2" value={cognom2} onChange={(e) => setCognom2(e.target.value)} />
 
           <label>Telèfon:</label>
-          <input type="text" placeholder="+34 000 00 00 00" value={telf} onChange={(e) => setTelf(e.target.value)} />
+          <input type="text" placeholder="+34000000000" value={telf} onChange={(e) => setTelf(e.target.value)} />
 
           <label>e-mail:</label>
           <input type="email" placeholder="correu.exemple@gmail.com" value={mail} onChange={(e) => setMail(e.target.value)} />
 
           <label>Data:</label>
-          <input type="date" value={dataNaixement || dataNaixementOriginalFormatted} onChange={(e) => setDataNaixement(e.target.value)} required />
+          <input type="date" value={dataNaixement} onChange={(e) => setDataNaixement(e.target.value)} required />
 
           <button type="submit">Afegir Persona</button>
         </div>
@@ -145,57 +129,40 @@ const DB = () => {
       <div className="person-tiles">
         <div className="person-tile">
           <div className="grid-container">
-            <div className="header">Nom</div>
-            <div className="header">Cognoms</div>
-            <div className="header">e-mail</div>
-            <div className="header">Telf</div>
-            <div className="header">Naixement</div>
-            <div className="header">Id</div>
-            <div className="header">Editar</div>
-            <div className="header">Eliminar</div>
-
-
             {persones.map((persona) => (
-              <React.Fragment key={persona.personaId}>
+              <div key={persona.personaId}>
                 {selectedPersona && selectedPersona.personaId === persona.personaId ? (
                   <form onSubmit={(e) => handleUpdate(e, persona.personaId)}>
                     <div className="form-group">
                       <label>Nom:</label>
-                      <input type="text" placeholder="Nom" value={nom} onChange={(e) => setNom(e.target.value)} required />
+                      <input type="text" placeholder="Nom" value={editPersona.nom} onChange={(e) => setEditPersona({ ...editPersona, nom: e.target.value })} required />
 
                       <label>Cognom 1:</label>
-                      <input type="text" placeholder="Cognom1" value={cognom1} onChange={(e) =>setCognom1(e.target.value)} required />
+                      <input type="text" placeholder="Cognom1" value={editPersona.cognom1} onChange={(e) => setEditPersona({ ...editPersona, cognom1: e.target.value })} required />
 
                       <label>Cognom 2:</label>
-                      <input type="text" placeholder="Cognom2" value={cognom2} onChange={(e) => setCognom2(e.target.value)} />
+                      <input type="text" placeholder="Cognom2" value={editPersona.cognom2} onChange={(e) => setEditPersona({ ...editPersona, cognom2: e.target.value })} />
 
                       <label>Telf:</label>
-                      <input type="text" placeholder="+34 666 66 66 66" value={telf} onChange={(e) => setTelf(e.target.value)} />
+                      <input type="text" placeholder="+34000000000" value={editPersona.telf} onChange={(e) => setEditPersona({ ...editPersona, telf: e.target.value })} />
 
                       <label>Mail:</label>
-                      <input type="email" placeholder="pastoret.major@pastoretsdegirona.cat" value={mail} onChange={(e) => setMail(e.target.value)} />
-
-                      <label>Data:</label>
-                      <input type="date" value={dataNaixement} onChange={(e) => setDataNaixement(e.target.value)} required />
+                      <input type="email" placeholder="pastoret.major@pastoretsdegirona.cat" value={editPersona.mail} onChange={(e) => setEditPersona({ ...editPersona, mail: e.target.value })} />
 
                       <button type="submit">Actualitzar</button>
                     </div>
                   </form>
                 ) : (
-                  <React.Fragment>
-                    <div className="field">{persona.nom}</div>
-                    <div className="field">{persona.cognom1} {persona.cognom2}</div>
+                  <div>
+                    <div className="field">{persona.nom} {persona.cognom1} {persona.cognom2}</div>
                     <div className="field">{persona.mail}</div>
                     <div className="field">{persona.telf}</div>
                     <div className="field">{new Date(persona.dataNaixement).toLocaleDateString()}</div>
-                    <div className="field">{persona.personaId}</div>    
                     <button className='button' type='button' onClick={() => handleEdit(persona)}>Editar</button>
                     <button className='button' onClick={() => handleDelete(persona.personaId)}>Eliminar</button>
-                    
-                    
-                  </React.Fragment>
+                  </div>
                 )}
-              </React.Fragment>
+              </div>
             ))}
           </div>
         </div>
