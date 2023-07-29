@@ -254,6 +254,11 @@ const Actors = () => {
       name: "Josep Lluis Traiter Bota",
     },
     {
+      name: "Imma Tremoleda",
+      birth: new Date(1976,6,29),
+      msg: "Felicitats, et desitgem que tinguis un gran dia!"
+    },
+    {
       name: "David Vilanova Buixó",
       birth: new Date(1973,9,5),
       msg:"",
