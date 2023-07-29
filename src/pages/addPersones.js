@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const DB = () => {
-  const API_URL = 'http://localhost:3001/api/persones';
+const AddPersones = () => {
+  const API_URL = 'http://localhost:3001/api';
   const [nom, setNom] = useState('');
   const [cognom1, setCognom1] = useState('');
   const [cognom2, setCognom2] = useState('');
@@ -11,11 +11,11 @@ const DB = () => {
   const [dataNaixement, setDataNaixement] = useState('');
   const [persones, setPersones] = useState([]);
   const [selectedPersona, setSelectedPersona] = useState(null);
-  const [editPersona, setEditPersona] = useState(null); 
+  const [editPersona, setEditPersona] = useState(null);
 
   const fetchPersones = async () => {
     try {
-      const response = await axios.get(API_URL);
+      const response = await axios.get(`${API_URL}/persones`);
       setPersones(response.data);
     } catch (error) {
       console.error('Error fetching persones:', error);
@@ -26,7 +26,7 @@ const DB = () => {
     fetchPersones();
   }, []);
 
-  const handleSubmit = async (e) => {
+  const handleSubmitPersona = async (e) => {
     e.preventDefault();
 
     const newPersona = {
@@ -39,7 +39,7 @@ const DB = () => {
     };
 
     try {
-      const response = await axios.post(API_URL, newPersona);
+      const response = await axios.post(`${API_URL}/persones`, newPersona);
       console.log('New persona added:', response.data);
       setNom('');
       setCognom1('');
@@ -53,9 +53,9 @@ const DB = () => {
     }
   };
 
-  const handleDelete = async (id) => {
+  const handleDeletePersona = async (id) => {
     try {
-      await axios.delete(`${API_URL}/${id}`);
+      await axios.delete(`${API_URL}/persones/${id}`);
       console.log('Persona deleted:', id);
       fetchPersones();
     } catch (error) {
@@ -63,19 +63,12 @@ const DB = () => {
     }
   };
 
-  const handleEdit = (persona) => {
+  const handleEditPersona = (persona) => {
     setSelectedPersona(persona);
-    setEditPersona({ 
-      nom: persona.nom,
-      cognom1: persona.cognom1,
-      cognom2: persona.cognom2 || '',
-      telf: persona.telf || '',
-      mail: persona.mail || '',
-      dataNaixement: persona.dataNaixement
-    });
+    setEditPersona({ ...persona });
   };
 
-  const handleUpdate = async (e, id) => {
+  const handleUpdatePersona = async (e, id) => {
     e.preventDefault();
 
     const updatedPersona = {
@@ -88,10 +81,10 @@ const DB = () => {
     };
 
     try {
-      const response = await axios.put(`${API_URL}/${id}`, updatedPersona);
+      const response = await axios.put(`${API_URL}/persones/${id}`, updatedPersona);
       console.log('Persona updated:', response.data);
       setSelectedPersona(null);
-      setEditPersona(null); // Reset the edit form state
+      setEditPersona(null);
       fetchPersones();
     } catch (error) {
       console.error('Error updating persona:', error);
@@ -101,7 +94,7 @@ const DB = () => {
   return (
     <div>
       <h1>Data Base</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmitPersona}>
         <div className="form-group">
           <label>Nom:</label>
           <input type="text" placeholder="Nom" value={nom} onChange={(e) => setNom(e.target.value)} required />
@@ -132,7 +125,7 @@ const DB = () => {
             {persones.map((persona) => (
               <div key={persona.personaId}>
                 {selectedPersona && selectedPersona.personaId === persona.personaId ? (
-                  <form onSubmit={(e) => handleUpdate(e, persona.personaId)}>
+                  <form onSubmit={(e) => handleUpdatePersona(e, persona.personaId)}>
                     <div className="form-group">
                       <label>Nom:</label>
                       <input type="text" placeholder="Nom" value={editPersona.nom} onChange={(e) => setEditPersona({ ...editPersona, nom: e.target.value })} required />
@@ -158,8 +151,8 @@ const DB = () => {
                     <div className="field">{persona.mail}</div>
                     <div className="field">{persona.telf}</div>
                     <div className="field">{new Date(persona.dataNaixement).toLocaleDateString()}</div>
-                    <button className='button' type='button' onClick={() => handleEdit(persona)}>Editar</button>
-                    <button className='button' onClick={() => handleDelete(persona.personaId)}>Eliminar</button>
+                    <button className='button' type='button' onClick={() => handleEditPersona(persona)}>Editar</button>
+                    <button className='button' onClick={() => handleDeletePersona(persona.personaId)}>Eliminar</button>
                   </div>
                 )}
               </div>
@@ -171,4 +164,4 @@ const DB = () => {
   );
 };
 
-export default DB;
+export default AddPersones;

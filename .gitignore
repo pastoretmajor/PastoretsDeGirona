@@ -2,7 +2,8 @@
 /node_modules
 /.pnp
 .pnp.js
-/pages/db.js
+/pages/addPersones.js
+/pages/addMembres.js
 # testing
 /coverage
 

@@ -259,7 +259,7 @@ const Actors = () => {
       msg: "Felicitats, et desitgem que tinguis un gran dia!"
     },
     {
-      name: "David Vilanova Buixó",
+      name: "David Vilanova Buxó",
       birth: new Date(1973,9,5),
       msg:"",
     },
