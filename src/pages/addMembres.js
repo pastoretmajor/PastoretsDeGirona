@@ -171,7 +171,7 @@ const AddMembers = () => {
             const person = people.find((person) => person.personaId === member.personaId);
             return (
               <li key={member.id}>
-                {person ? `${person.nom} ${person.cognom1} ${person.cognom2}` : 'Persona desconeguda'} - {member.funcio}
+                {person ? `${person.nom} ${person.cognom1} ${person.cognom2}` : 'Persona eliminada'} - {member.funcio}
                 <button onClick={() => handleDeleteMember(member._id)}>Eliminar</button>
               </li>
             );
