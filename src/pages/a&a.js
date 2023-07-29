@@ -51,7 +51,7 @@ const Actors = () => {
     {
       name: "Flora Bosch Capdeferro",
       birth: new Date(2004,6,30),
-      msg:"",
+      msg:"Per molts anys! Esperem que tinguis un dia tant brillant com tu!",
     },
     {
       name: "Aina Carreras Ribas",
