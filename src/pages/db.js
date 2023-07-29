@@ -11,7 +11,7 @@ const DB = () => {
   const [dataNaixement, setDataNaixement] = useState('');
   const [persones, setPersones] = useState([]);
   const [selectedPersona, setSelectedPersona] = useState(null);
-  const [editPersona, setEditPersona] = useState(null); // Separate state for edit form
+  const [editPersona, setEditPersona] = useState(null); 
 
   const fetchPersones = async () => {
     try {
@@ -65,7 +65,7 @@ const DB = () => {
 
   const handleEdit = (persona) => {
     setSelectedPersona(persona);
-    setEditPersona({ // Update the edit form state with the selected persona
+    setEditPersona({ 
       nom: persona.nom,
       cognom1: persona.cognom1,
       cognom2: persona.cognom2 || '',
