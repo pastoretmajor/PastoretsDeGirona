@@ -100,6 +100,8 @@ const Actors = () => {
     },
     {
       name: "Isidre Fàbrega",
+      birth: new Date(1983,4,16),
+      msg:"",
     },
     {
       name: "Rosa Fàbrega Salazarmauri",
