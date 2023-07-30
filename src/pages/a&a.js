@@ -6,7 +6,6 @@ import Burger from '../components/Burger/Burger'
 import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
-import BirthdayList from '../components/BirthdayList/BirthdayList'
 
 import EquipActors from '../images/banners/equiptecnic-actorsactrius-ajudantsproduccio.webP'
 import EquipActorsBlur from '../images/blured/equiptecnic-actorsactrius-ajudantsproduccio.webP'
@@ -275,7 +274,6 @@ const Actors = () => {
       <Navbar />
       <Burger />
       <ImageComponent src={EquipActors} blurSrc={EquipActorsBlur} alt="Actors i actrius" text="Actors i actrius" opacity={0.5} />
-      <BirthdayList teamMembers={teamMembers} />
       <div className="team-grid">
         <div className="team-grid__column">
           {firstColumn.map((teamMember, index) => (
