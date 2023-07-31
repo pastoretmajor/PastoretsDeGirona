@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logoEmpresa1 from '../../images/colaborators/logo_ajgirona_color.png';
+import fundacioEsplai from '../../images/colaborators/fundacioEsplai.png';
 import logoEmpresa2 from '../../images/colaborators/logotip-fedac.png';
 import logoEmpresa3 from '../../images/colaborators/logo_ajgirona_color.png';
 import logoEmpresa4 from '../../images/colaborators/logotip-fedac.png';
@@ -14,9 +14,9 @@ import './Colaborators.css';
 
 const colaborators = [
   {
-    logo: logoEmpresa1,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://web.girona.cat/',
+    logo: fundacioEsplai,
+    descripcio: "La Fundació Esplai Girona - Mare de Déu del Mont és una entitat educativa creada l'any 1999. Mentres l'Associació Pastorets de Girona es troba en constitució, la Fundació Esplai Girona acull l'rogranització dels Pastorets 2023.",
+    link: 'https://www.fundacioesplaigirona.cat',
   },
   {
     logo: logoEmpresa2,
