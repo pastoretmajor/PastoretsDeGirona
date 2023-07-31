@@ -76,6 +76,10 @@ https://github.com/llop10101
     text-overflow: ellipsis;
     overflow: hidden;
   }
+
+  p {
+    font-size: 14px;
+  }
   
   /* Responsive styles */
   @media screen and (max-width: 1110px) {
