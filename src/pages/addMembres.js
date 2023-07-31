@@ -13,12 +13,13 @@ const AddMembers = () => {
     actiu: true,
     dataEntrada: '',
   });
+  const [deleteKey, setDeleteKey] = useState('');
+  const [showModal, setShowModal] = useState(false);
+  const [deleteMemberId, setDeleteMemberId] = useState('');
 
-  // Opcions disponibles per a la funció
   const funcioOptions = ['Actor/Actriu', 'Llum i so', 'Maquillatge i vestuari', 'Patrocinadors', 'Web i XXSS', 'Col·laboradors Varis', 'Baixes i Standby'];
 
   useEffect(() => {
-    // Obté la llista de persones al carregar el component
     axios.get(`${API_URL}/persones`)
       .then((response) => {
         setPeople(response.data);
@@ -27,7 +28,6 @@ const AddMembers = () => {
         console.error('Error al obtenir les persones:', error);
       });
 
-    // Obté la llista de membres al carregar el component
     axios.get(`${API_URL}/membres`)
       .then((response) => {
         setMembers(response.data);
@@ -59,12 +59,9 @@ const AddMembers = () => {
         actiu: memberData.actiu,
         dataEntrada: new Date().toISOString(),
       };
-
-      // Afegeix un nou membre a través de la crida POST
       axios.post(`${API_URL}/membres`, newMember)
         .then((response) => {
           console.log('Nou membre afegit:', response.data);
-          // Refresca la llista de membres després d'afegir un membre amb èxit
           axios.get(`${API_URL}/membres`)
             .then((response) => {
               setMembers(response.data);
@@ -72,8 +69,6 @@ const AddMembers = () => {
             .catch((error) => {
               console.error('Error al obtenir els membres:', error);
             });
-
-          // Reseteja les dades del formulari a l'estat inicial
           setMemberData({
             funcio: '',
             firmadretsImatge: false,
@@ -91,31 +86,44 @@ const AddMembers = () => {
   };
 
   const handleDeleteMember = (memberId) => {
-    // Comprova si memberId és un valor vàlid abans de fer la crida
-    if (!memberId) {
-      console.error('ID de membre no vàlid');
-      return;
-    }
-
-    // Realitza una crida API per eliminar el membre
-    axios.delete(`${API_URL}/membres/${memberId}`)
-      .then((response) => {
-        console.log('Membre eliminat amb èxit:', response.data);
-        // Refresca la llista de membres després d'eliminar el membre
-        axios.get(`${API_URL}/membres`)
-          .then((response) => {
-            setMembers(response.data);
-          })
-          .catch((error) => {
-            console.error('Error al obtenir els membres:', error);
-          });
-      })
-      .catch((error) => {
-        console.error('Error en eliminar el membre:', error);
-      });
+    setShowModal(true);
+    setDeleteMemberId(memberId);
   };
 
-  // Funció per filtrar la llista de persones i excloure aquelles que ja són membres
+  const handleModalInputChange = (event) => {
+    setDeleteKey(event.target.value);
+  };
+
+  const handleConfirmDelete = () => {
+    if (deleteKey === deleteMemberId) {
+      axios.delete(`${API_URL}/membres/${deleteMemberId}`)
+        .then((response) => {
+          console.log('Membre eliminat amb èxit:', response.data);
+          axios.get(`${API_URL}/membres`)
+            .then((response) => {
+              setMembers(response.data);
+            })
+            .catch((error) => {
+              console.error('Error al obtenir els membres:', error);
+            });
+        })
+        .catch((error) => {
+          console.error('Error en eliminar el membre:', error);
+        });
+    } else {
+      console.error('Clau incorrecta, no es pot eliminar el membre.');
+    }
+    setShowModal(false);
+    setDeleteMemberId('');
+    setDeleteKey('');
+  };
+
+  const handleCancelDelete = () => {
+    setShowModal(false);
+    setDeleteMemberId('');
+    setDeleteKey('');
+  };
+
   const filteredPeople = people.filter((person) => !members.some((member) => member.personaId === person.personaId));
 
   return (
@@ -129,7 +137,6 @@ const AddMembers = () => {
           </option>
         ))}
       </select>
-
       {selectedPerson && (
         <div>
           <h2>Formulari d'afegir membre:</h2>
@@ -149,7 +156,6 @@ const AddMembers = () => {
                 ))}
               </select>
             </label>
-
             <label>
               Actiu:
               <input
@@ -163,7 +169,6 @@ const AddMembers = () => {
           </form>
         </div>
       )}
-
       <div>
         <h2>Llista de membres:</h2>
         <ul>
@@ -178,6 +183,20 @@ const AddMembers = () => {
           })}
         </ul>
       </div>
+      {showModal && (
+        <div>
+          <h2>Eliminar membre</h2>
+          <p>Per eliminar a aquest membre, has d'escriure la següent clau: {deleteMemberId}</p>
+          <input
+            type="text"
+            value={deleteKey}
+            onChange={handleModalInputChange}
+            placeholder="Introdueix la clau"
+          />
+          <button onClick={handleCancelDelete}>Cancel·lar</button>
+          <button onClick={handleConfirmDelete} disabled={deleteKey !== deleteMemberId}>Eliminar</button>
+        </div>
+      )}
     </div>
   );
 };

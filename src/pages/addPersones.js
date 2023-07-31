@@ -12,6 +12,9 @@ const AddPersones = () => {
   const [persones, setPersones] = useState([]);
   const [selectedPersona, setSelectedPersona] = useState(null);
   const [editPersona, setEditPersona] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+  const [deleteKey, setDeleteKey] = useState('');
+  const [deletePersonaId, setDeletePersonaId] = useState('');
 
   const fetchPersones = async () => {
     try {
@@ -28,7 +31,6 @@ const AddPersones = () => {
 
   const handleSubmitPersona = async (e) => {
     e.preventDefault();
-
     const newPersona = {
       nom,
       cognom1,
@@ -54,12 +56,30 @@ const AddPersones = () => {
   };
 
   const handleDeletePersona = async (id) => {
-    try {
-      await axios.delete(`${API_URL}/persones/${id}`);
-      console.log('Persona deleted:', id);
-      fetchPersones();
-    } catch (error) {
-      console.error('Error deleting persona:', error);
+    setDeletePersonaId(id);
+    setShowModal(true);
+  };
+
+  const handleCancelDelete = () => {
+    setShowModal(false);
+    setDeleteKey('');
+    setDeletePersonaId('');
+  };
+
+  const handleConfirmDelete = async () => {
+    if (deleteKey === deletePersonaId) {
+      try {
+        await axios.delete(`${API_URL}/persones/${deletePersonaId}`);
+        console.log('Persona deleted:', deletePersonaId);
+        setShowModal(false);
+        setDeleteKey('');
+        setDeletePersonaId('');
+        fetchPersones();
+      } catch (error) {
+        console.error('Error deleting persona:', error);
+      }
+    } else {
+      console.error('Clau incorrecta, no es pot eliminar la persona.');
     }
   };
 
@@ -70,7 +90,6 @@ const AddPersones = () => {
 
   const handleUpdatePersona = async (e, id) => {
     e.preventDefault();
-
     const updatedPersona = {
       nom: editPersona.nom,
       cognom1: editPersona.cognom1,
@@ -160,6 +179,22 @@ const AddPersones = () => {
           </div>
         </div>
       </div>
+      
+      {/* Modal */}
+      {showModal && (
+        <div>
+          <h2>Eliminar persona</h2>
+          <p>Per eliminar a aquesta persona, has d'escriure la següent clau: {deletePersonaId}</p>
+          <input
+            type="text"
+            value={deleteKey}
+            onChange={(e) => setDeleteKey(e.target.value)}
+            placeholder="Introdueix la clau"
+          />
+          <button onClick={handleCancelDelete}>Cancel·lar</button>
+          <button onClick={handleConfirmDelete} disabled={deleteKey !== deletePersonaId}>Eliminar</button>
+        </div>
+      )}
     </div>
   );
 };
