@@ -12,12 +12,16 @@ body {
   }
 
 h1 {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 48px;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 h6 {
@@ -26,8 +30,12 @@ h6 {
   border-left: 0px;
   margin-left: 0px;
   font-weight: normal;
+  text-transform: capitalize;
 }
 
 p{
   margin-left: 10px;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
 }
