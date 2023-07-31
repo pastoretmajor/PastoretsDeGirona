@@ -41,6 +41,7 @@ https://github.com/llop10101
   .member p {
     font-size: 16px;
     font-weight: normal;
+    font-family: 'Rubik', sans-serif;
   }
 
   @media (max-width: 1110px) {
