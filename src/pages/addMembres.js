@@ -3,6 +3,17 @@ import axios from 'axios';
 
 const API_URL = 'http://localhost:3001/api';
 
+const groupMembersByFunction = (members) => {
+  const groupedMembers = {};
+  members.forEach((member) => {
+    if (!groupedMembers[member.funcio]) {
+      groupedMembers[member.funcio] = [];
+    }
+    groupedMembers[member.funcio].push(member);
+  });
+  return groupedMembers;
+};
+
 const AddMembers = () => {
   const [selectedPerson, setSelectedPerson] = useState('');
   const [people, setPeople] = useState([]);
@@ -135,6 +146,8 @@ const AddMembers = () => {
 
   const selectedPersonData = filteredPeople.find((person) => person.personaId === selectedPerson);
 
+  const groupedMembers = groupMembersByFunction(members);
+
   return (
     <div>
       <h1>Selecciona una persona:</h1>
@@ -190,19 +203,24 @@ const AddMembers = () => {
         </div>
       )}
       <div>
-        <h2>Llista de membres:</h2>
-        <ul>
-          {members.map((member) => {
-            const person = people.find((person) => person.personaId === member.personaId);
-            return (
-              <li key={member.id}>
-                {person ? `${person.nom} ${person.cognom1} ${person.cognom2}` : 'Persona eliminada'} - {member.funcio}
-                <button onClick={() => handleDeleteMember(member._id)}>Eliminar</button>
-              </li>
-            );
-          })}
-        </ul>
+      <h2>Llista de membres:</h2>
+        {funcioOptions.map((funcio) => (
+          <div key={funcio}>
+            <h3>{funcio}</h3>
+            <ul>
+              {groupedMembers[funcio]?.map((member) => {
+                const person = people.find((person) => person.personaId === member.personaId);
+                return (
+                  <li key={member.id}>
+                    {person ? `${person.nom} ${person.cognom1} ${person.cognom2}` : 'Persona eliminada'} - {member.funcio}
+                    <button onClick={() => handleDeleteMember(member._id)}>Eliminar</button>
+                  </li>
+                );
+              })}
+            </ul>
       </div>
+        ))}
+        </div>
       {showModal && (
         <div>
           <h2>Eliminar membre</h2>
