@@ -16,6 +16,7 @@ import Valors from './pages/valors';
 import Soci from './pages/soci';
 import AddPersones from './pages/addPersones';
 import AddMembres from './pages/addMembres'
+import AssignMembers from './pages/assignMembers';
 const App = () => {
   return (
     <Router>
@@ -37,6 +38,8 @@ const App = () => {
           <Route path="/soci" element={<Soci />} />
           <Route path="/addPersones" element={<AddPersones />} />
           <Route path="/addMembres" element={<AddMembres />} />
+          <Route path="/assignMembres" element={<AssignMembers />} />
+
         </Routes>
     </Router>
   )

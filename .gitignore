@@ -4,6 +4,8 @@
 .pnp.js
 /pages/addPersones.js
 /pages/addMembres.js
+/pages/assignMembres.js
+
 # testing
 /coverage
 

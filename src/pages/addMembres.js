@@ -38,10 +38,6 @@ const AddMembers = () => {
       });
   }, []);
 
-  const handlePersonChange = (event) => {
-    setSelectedPerson(event.target.value);
-  };
-
   const handleInputChange = (event) => {
     const { name, value, type, checked } = event.target;
     setMemberData({
@@ -132,10 +128,12 @@ const AddMembers = () => {
   const filteredPeople = people.filter(
     (person) =>
       (person.nom.toLowerCase().includes(nameFilter) ||
-      person.cognom1.toLowerCase().includes(nameFilter) ||
-      person.cognom2.toLowerCase().includes(nameFilter) ||
-      `${person.nom} ${person.cognom1} ${person.cognom2}`.toLowerCase().includes(nameFilter))
+        person.cognom1.toLowerCase().includes(nameFilter) ||
+        person.cognom2.toLowerCase().includes(nameFilter) ||
+        `${person.nom} ${person.cognom1} ${person.cognom2}`.toLowerCase().includes(nameFilter))
   );
+
+  const selectedPersonData = filteredPeople.find((person) => person.personaId === selectedPerson);
 
   return (
     <div>
@@ -160,6 +158,8 @@ const AddMembers = () => {
       {selectedPerson && (
         <div>
           <h2>Formulari d'afegir membre:</h2>
+          {/* Display the name of the selected person */}
+          <p>Nom de la persona seleccionada: {selectedPersonData ? `${selectedPersonData.nom} ${selectedPersonData.cognom1} ${selectedPersonData.cognom2}` : ''}</p>
           <form onSubmit={handleAddMember}>
             <label>
               Funció:
