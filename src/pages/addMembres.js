@@ -16,8 +16,9 @@ const AddMembers = () => {
   const [deleteKey, setDeleteKey] = useState('');
   const [showModal, setShowModal] = useState(false);
   const [deleteMemberId, setDeleteMemberId] = useState('');
+  const [nameFilter, setNameFilter] = useState('');
 
-  const funcioOptions = ['Actor/Actriu', 'Llum i so', 'Maquillatge i vestuari', 'Patrocinadors', 'Web i XXSS', 'Col·laboradors Varis', 'Baixes i Standby'];
+  const funcioOptions = ['Actor/Actriu', 'Llum i so', 'Maquillatge i vestuari', 'Patrocinadors', 'Comunicació', 'Col·laboradors Varis', 'Baixes i Standby', 'Programació'];
 
   useEffect(() => {
     axios.get(`${API_URL}/persones`)
@@ -124,19 +125,38 @@ const AddMembers = () => {
     setDeleteKey('');
   };
 
-  const filteredPeople = people.filter((person) => !members.some((member) => member.personaId === person.personaId));
+  const handleNameFilterChange = (event) => {
+    setNameFilter(event.target.value.toLowerCase());
+  };
+
+  const filteredPeople = people.filter(
+    (person) =>
+      (person.nom.toLowerCase().includes(nameFilter) ||
+      person.cognom1.toLowerCase().includes(nameFilter) ||
+      person.cognom2.toLowerCase().includes(nameFilter) ||
+      `${person.nom} ${person.cognom1} ${person.cognom2}`.toLowerCase().includes(nameFilter))
+  );
 
   return (
     <div>
       <h1>Selecciona una persona:</h1>
-      <select value={selectedPerson} onChange={handlePersonChange}>
-        <option value="">Selecciona una persona</option>
+      <input
+        type="text"
+        value={nameFilter}
+        onChange={handleNameFilterChange}
+        placeholder="Filtrar per nom"
+      />
+      <ul>
         {filteredPeople.map((person) => (
-          <option key={person.personaId} value={person.personaId}>
+          <li
+            key={person.personaId}
+            onClick={() => setSelectedPerson(person.personaId)}
+            style={{ cursor: 'pointer' }}
+          >
             {person.nom} {person.cognom1} {person.cognom2}
-          </option>
+          </li>
         ))}
-      </select>
+      </ul>
       {selectedPerson && (
         <div>
           <h2>Formulari d'afegir membre:</h2>
