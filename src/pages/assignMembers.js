@@ -1,112 +1,294 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const API_URL = 'http://localhost:3001/api';
 
 const AssignMembers = () => {
-  const [members, setMembers] = useState([]);
-  const [selectedMember, setSelectedMember] = useState('');
-  const [selectedGroup, setSelectedGroup] = useState('');
-  const [papers, setPapers] = useState([]);
-  const [selectedPaper, setSelectedPaper] = useState('');
+  const [actorActressMembers, setActorActressMembers] = useState([]);
+  const [people, setPeople] = useState([]);
+  const [selectedPerson, setSelectedPerson] = useState('');
+  const [selectedRole, setSelectedRole] = useState('');
+  const [customName, setCustomName] = useState('');
+  const [nameFilter, setNameFilter] = useState('');
+  const [altres, setAltres] = useState([]);
+  const [angels, setAngels] = useState([]);
+  const [dimonis, setDimonis] = useState([]);
+  const [pastors, setPastors] = useState([]);
+  const [principals, setPrincipals] = useState([]);
 
+  // Fetch data for "actor/actress" members and "people"
   useEffect(() => {
-    // Fetch the list of members with the role 'Actor/Actriu' from the backend
-    fetchMembersWithRole();
+    axios.get(`${API_URL}/membres`)
+      .then((response) => {
+        setActorActressMembers(response.data.filter((member) => member.funcio === 'Actor/Actriu'));
+      })
+      .catch((error) => {
+        console.error('Error al obtenir els membres:', error);
+      });
+
+    axios.get(`${API_URL}/persones`)
+      .then((response) => {
+        setPeople(response.data);
+      })
+      .catch((error) => {
+        console.error('Error al obtenir les persones:', error);
+      });
+
+    // Fetch data for "altres" collection
+    axios.get(`${API_URL}/altres`)
+      .then((response) => {
+        setAltres(response.data);
+      })
+      .catch((error) => {
+        console.error('Error al obtenir els membres de la col·lecció "altres":', error);
+      });
+
+    // Fetch data for "angels" collection
+    axios.get(`${API_URL}/angels`)
+      .then((response) => {
+        setAngels(response.data);
+      })
+      .catch((error) => {
+        console.error('Error al obtenir els membres de la col·lecció "angels":', error);
+      });
+
+    // Fetch data for "dimonis" collection
+    axios.get(`${API_URL}/dimonis`)
+      .then((response) => {
+        setDimonis(response.data);
+      })
+      .catch((error) => {
+        console.error('Error al obtenir els membres de la col·lecció "dimonis":', error);
+      });
+
+    // Fetch data for "pastors" collection
+    axios.get(`${API_URL}/pastors`)
+      .then((response) => {
+        setPastors(response.data);
+      })
+      .catch((error) => {
+        console.error('Error al obtenir els membres de la col·lecció "pastors":', error);
+      });
+
+    // Fetch data for "principals" collection
+    axios.get(`${API_URL}/principals`)
+      .then((response) => {
+        setPrincipals(response.data);
+      })
+      .catch((error) => {
+        console.error('Error al obtenir els membres de la col·lecció "principals":', error);
+      });
   }, []);
 
-  const fetchMembersWithRole = async () => {
-    try {
-      const response = await axios.get(`${API_URL}/membres?funcio=Actor/Actriu`);
-      setMembers(response.data);
-    } catch (error) {
-      console.error(error);
+  const handleSaveMember = () => {
+    const newMember = {
+      membreId: selectedPerson,
+    };
+
+    // Check if the selected role is "Altres" or "Principal"
+    if (selectedRole === 'Altres' || selectedRole === 'Principal') {
+      newMember.paper = customName;
     }
+
+    let endpoint = '';
+    switch (selectedRole) {
+      case 'Principal':
+        endpoint = 'principals';
+        break;
+      case 'Pastor':
+        endpoint = 'pastors';
+        break;
+      case 'Dimoni':
+        endpoint = 'dimonis';
+        break;
+      case 'Àngel':
+        endpoint = 'angels';
+        break;
+      case 'Altres':
+        endpoint = 'altres';
+        break;
+      default:
+        endpoint = 'altres';
+        break;
+    }
+
+    // Send the POST request to the backend to add a new member
+    axios.post(`${API_URL}/${endpoint}`, newMember)
+      .then((response) => {
+        console.log('Nou membre afegit:', response.data);
+
+        // After adding a new member, update the corresponding collection state
+        switch (selectedRole) {
+          case 'Principal':
+            setPrincipals([...principals, response.data]);
+            break;
+          case 'Pastor':
+            setPastors([...pastors, response.data]);
+            break;
+          case 'Dimoni':
+            setDimonis([...dimonis, response.data]);
+            break;
+          case 'Àngel':
+            setAngels([...angels, response.data]);
+            break;
+          case 'Altres':
+            setAltres([...altres, response.data]);
+            break;
+          default:
+            break;
+        }
+
+        // Refresh the list of actor/actress members
+        axios.get(`${API_URL}/membres`)
+          .then((response) => {
+            setActorActressMembers(response.data.filter((member) => member.funcio === 'Actor/Actriu'));
+          })
+          .catch((error) => {
+            console.error('Error al obtenir els membres:', error);
+          });
+
+        // Reset the selectedPerson, selectedRole, and customName
+        setSelectedPerson('');
+        setSelectedRole('');
+        setCustomName('');
+      })
+      .catch((error) => {
+        console.error('Error en crear un nou membre:', error);
+      });
   };
 
-  // Define fetchPapers as a useCallback to prevent unnecessary re-renders
-  const fetchPapers = useCallback(async () => {
-    try {
-      if (selectedGroup === 'principals' || selectedGroup === 'altres') {
-        const response = await axios.get(`${API_URL}/${selectedGroup}`);
-        setPapers(response.data);
-      } else {
-        setPapers([]);
-      }
-    } catch (error) {
-      console.error(error);
-    }
-  }, [selectedGroup]);
-
-  useEffect(() => {
-    // Fetch the papers from the backend when the group selection changes
-    fetchPapers();
-  }, [fetchPapers]); // Include 'fetchPapers' as a dependency
-
-  const handleAssignMember = async () => {
-    try {
-      const data = { membreId: selectedMember };
-      if (selectedGroup === 'principals' || selectedGroup === 'altres') {
-        data.paper = selectedPaper;
-      }
-      await axios.post(`${API_URL}/${selectedGroup}`, data);
-      alert('Member assigned to the group successfully!');
-    } catch (error) {
-      console.error(error);
-      alert('Failed to assign member to the group.');
-    }
+  const handleNameFilterChange = (event) => {
+    setNameFilter(event.target.value.toLowerCase());
   };
+
+  const handlePersonClick = (personId) => {
+    setSelectedPerson(personId);
+    setSelectedRole('');
+    setCustomName('');
+  };
+
+  const handleRoleChange = (event) => {
+    setSelectedRole(event.target.value);
+  };
+
+  const handleCustomNameChange = (event) => {
+    setCustomName(event.target.value);
+  };
+
+  // Function to render members in a collection
+  const renderMembersInCollection = (collectionName, collectionData) => (
+    <div>
+      <h2>{collectionName}</h2>
+      <ul>
+        {collectionData.map((member) => {
+          const person = people.find((person) => person.personaId === member.membreId);
+          return (
+            <li key={member.id}>
+              {person
+                ? `${person.nom} ${person.cognom1} ${person.cognom2}`
+                : 'Persona eliminada'}
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+
+  const filteredActorActressMembers = actorActressMembers.filter((member) => {
+    const person = people.find((person) => person.personaId === member.personaId);
+    const isActorActress = member.funcio === 'Actor/Actriu';
+
+    const isInOtherCollection =
+      altres.some((item) => item.membreId === member.personaId) ||
+      angels.some((item) => item.membreId === member.personaId) ||
+      dimonis.some((item) => item.membreId === member.personaId) ||
+      pastors.some((item) => item.membreId === member.personaId) ||
+      principals.some((item) => item.membreId === member.personaId);
+
+    return person && isActorActress && !isInOtherCollection && `${person.nom} ${person.cognom1} ${person.cognom2}`.toLowerCase().includes(nameFilter);
+  });
 
   return (
     <div>
-      <h1>Assign Member to Group</h1>
-      <label htmlFor="member">Select a member:</label>
-      <select
-        id="member"
-        value={selectedMember}
-        onChange={(e) => setSelectedMember(e.target.value)}
-      >
-        <option value="">-- Select a member --</option>
-        {members.map((member) => (
-          <option key={member.personaId} value={member.personaId}>
-            {member.personaId.nom} {member.personaId.cognom1} {member.personaId.cognom2}
-          </option>
-        ))}
-      </select>
+      <h1>Llista d'Actors i Actrius:</h1>
+      <input
+        type="text"
+        value={nameFilter}
+        onChange={handleNameFilterChange}
+        placeholder="Filtrar per nom"
+      />
+      <ul>
+        {filteredActorActressMembers.map((member) => {
+          const person = people.find((person) => person.personaId === member.personaId);
+          const isActorActress = member.funcio === 'Actor/Actriu';
 
-      <label htmlFor="group">Select a group:</label>
-      <select
-        id="group"
-        value={selectedGroup}
-        onChange={(e) => setSelectedGroup(e.target.value)}
-      >
-        <option value="">-- Select a group --</option>
-        <option value="principals">Principals</option>
-        <option value="pastors">Pastors</option>
-        <option value="dimonis">Dimonis</option>
-        <option value="angels">Angels</option>
-        <option value="altres">Altres</option>
-      </select>
+          const isInOtherCollection =
+            altres.some((item) => item.membreId === member.personaId) ||
+            angels.some((item) => item.membreId === member.personaId) ||
+            dimonis.some((item) => item.membreId === member.personaId) ||
+            pastors.some((item) => item.membreId === member.personaId) ||
+            principals.some((item) => item.membreId === member.personaId);
 
-      {selectedGroup === 'principals' || selectedGroup === 'altres' ? (
+          if (person && isActorActress && !isInOtherCollection && `${person.nom} ${person.cognom1} ${person.cognom2}`.toLowerCase().includes(nameFilter)) {
+            return (
+              <li
+                key={member.id}
+                onClick={() => handlePersonClick(person.personaId)}
+                style={{ cursor: 'pointer' }}
+              >
+                {person ? `${person.nom} ${person.cognom1} ${person.cognom2}` : 'Persona eliminada'}
+              </li>
+            );
+          }
+          return null;
+        })}
+      </ul>
+
+      {selectedPerson && (
         <div>
-          <label htmlFor="paper">Select the paper:</label>
-          <select
-            id="paper"
-            value={selectedPaper}
-            onChange={(e) => setSelectedPaper(e.target.value)}
-          >
-            <option value="">-- Select a paper --</option>
-            {papers.map((paper) => (
-              <option key={paper._id} value={paper.paper}>
-                {paper.paper}
-              </option>
-            ))}
+          <h2>Persona seleccionada:</h2>
+          <p>
+            Nom de la persona seleccionada:{' '}
+            {selectedPerson ? people.find((person) => person.personaId === selectedPerson).nom : ''}{' '}
+            {selectedPerson ? people.find((person) => person.personaId === selectedPerson).cognom1 : ''}{' '}
+            {selectedPerson ? people.find((person) => person.personaId === selectedPerson).cognom2 : ''}
+          </p>
+          <select value={selectedRole} onChange={handleRoleChange}>
+            <option value="">Selecciona un rol</option>
+            <option value="Principal">Principal</option>
+            <option value="Pastor">Pastor</option>
+            <option value="Dimoni">Dimoni</option>
+            <option value="Àngel">Àngel</option>
+            <option value="Altres">Altres</option>
           </select>
+          {selectedRole === 'Principal' || selectedRole === 'Altres' ? (
+            <div>
+              <input
+                type="text"
+                value={customName}
+                onChange={handleCustomNameChange}
+                placeholder="Escriu el paper"
+              />
+            </div>
+          ) : null}
+          <button onClick={handleSaveMember}>Afegir Membre</button>
         </div>
-      ) : null}
+      )}
 
-      <button onClick={handleAssignMember}>Assign Member</button>
+      {/* Display members in the "altres" collection */}
+      {altres.length > 0 && renderMembersInCollection('Altres', altres)}
+
+      {/* Display members in the "angels" collection */}
+      {angels.length > 0 && renderMembersInCollection('Àngels', angels)}
+
+      {/* Display members in the "dimonis" collection */}
+      {dimonis.length > 0 && renderMembersInCollection('Dimonis', dimonis)}
+
+      {/* Display members in the "pastors" collection */}
+      {pastors.length > 0 && renderMembersInCollection('Pastors', pastors)}
+
+      {/* Display members in the "principals" collection */}
+      {principals.length > 0 && renderMembersInCollection('Principals', principals)}
     </div>
   );
 };
