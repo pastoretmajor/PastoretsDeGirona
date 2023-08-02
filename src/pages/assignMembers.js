@@ -15,12 +15,14 @@ const AssignMembers = () => {
   const [dimonis, setDimonis] = useState([]);
   const [pastors, setPastors] = useState([]);
   const [principals, setPrincipals] = useState([]);
+  const [filteredActorActressMembers, setFilteredActorActressMembers] = useState([]);
 
   // Fetch data for "actor/actress" members and "people"
   useEffect(() => {
     axios.get(`${API_URL}/membres`)
       .then((response) => {
         setActorActressMembers(response.data.filter((member) => member.funcio === 'Actor/Actriu'));
+        setFilteredActorActressMembers(response.data.filter((member) => member.funcio === 'Actor/Actriu'));
       })
       .catch((error) => {
         console.error('Error al obtenir els membres:', error);
@@ -142,6 +144,7 @@ const AssignMembers = () => {
         axios.get(`${API_URL}/membres`)
           .then((response) => {
             setActorActressMembers(response.data.filter((member) => member.funcio === 'Actor/Actriu'));
+            setFilteredActorActressMembers(response.data.filter((member) => member.funcio === 'Actor/Actriu'));
           })
           .catch((error) => {
             console.error('Error al obtenir els membres:', error);
@@ -157,8 +160,69 @@ const AssignMembers = () => {
       });
   };
 
+  const handleDeleteMember = (collectionName, memberId) => {
+    axios
+      .delete(`${API_URL}/${collectionName}/${memberId}`)
+      .then((response) => {
+        console.log('Membre eliminat:', response.data);
+  
+        // After deleting a member, fetch the updated data again
+        axios
+          .get(`${API_URL}/membres`)
+          .then((response) => {
+            setActorActressMembers(response.data.filter((member) => member.funcio === 'Actor/Actriu'));
+            setFilteredActorActressMembers(response.data.filter((member) => member.funcio === 'Actor/Actriu'));
+          })
+          .catch((error) => {
+            console.error('Error al obtenir els membres:', error);
+          });
+  
+        // Update the corresponding collection state after deletion
+        switch (collectionName) {
+          case 'principals':
+            setPrincipals(principals.filter((member) => member.id !== memberId));
+            break;
+          case 'pastors':
+            setPastors(pastors.filter((member) => member.id !== memberId));
+            break;
+          case 'dimonis':
+            setDimonis(dimonis.filter((member) => member.id !== memberId));
+            break;
+          case 'angels':
+            setAngels(angels.filter((member) => member.id !== memberId));
+            break;
+          case 'altres':
+            setAltres(altres.filter((member) => member.id !== memberId));
+            break;
+          default:
+            break;
+        }
+      })
+      .catch((error) => {
+        console.error('Error en eliminar el membre:', error);
+      });
+  };
+  
+
   const handleNameFilterChange = (event) => {
     setNameFilter(event.target.value.toLowerCase());
+
+    // Update the filteredActorActressMembers based on the name filter
+    setFilteredActorActressMembers(
+      actorActressMembers.filter((member) => {
+        const person = people.find((person) => person.personaId === member.personaId);
+        const isActorActress = member.funcio === 'Actor/Actriu';
+
+        const isInOtherCollection =
+          altres.some((item) => item.membreId === member.personaId) ||
+          angels.some((item) => item.membreId === member.personaId) ||
+          dimonis.some((item) => item.membreId === member.personaId) ||
+          pastors.some((item) => item.membreId === member.personaId) ||
+          principals.some((item) => item.membreId === member.personaId);
+
+        return person && isActorActress && !isInOtherCollection && `${person.nom} ${person.cognom1} ${person.cognom2}`.toLowerCase().includes(nameFilter);
+      })
+    );
   };
 
   const handlePersonClick = (personId) => {
@@ -175,8 +239,7 @@ const AssignMembers = () => {
     setCustomName(event.target.value);
   };
 
-  // Function to render members in a collection
-  const renderMembersInCollection = (collectionName, collectionData) => (
+    const renderMembersInCollection = (collectionName, collectionData) => (
     <div>
       <h2>{collectionName}</h2>
       <ul>
@@ -184,29 +247,19 @@ const AssignMembers = () => {
           const person = people.find((person) => person.personaId === member.membreId);
           return (
             <li key={member.id}>
-              {person
-                ? `${person.nom} ${person.cognom1} ${person.cognom2}`
-                : 'Persona eliminada'}
+              {person ? `${person.nom} ${person.cognom1} ${person.cognom2}` : 'Persona eliminada'}
+              {collectionName === 'Principals' || collectionName === 'Altres' ? (
+                <span> - Paper: {member.paper}</span>
+              ) : null}
+              <button onClick={() => handleDeleteMember(collectionName.toLowerCase(), member._id)}>
+                Eliminar
+              </button>
             </li>
           );
         })}
       </ul>
     </div>
   );
-
-  const filteredActorActressMembers = actorActressMembers.filter((member) => {
-    const person = people.find((person) => person.personaId === member.personaId);
-    const isActorActress = member.funcio === 'Actor/Actriu';
-
-    const isInOtherCollection =
-      altres.some((item) => item.membreId === member.personaId) ||
-      angels.some((item) => item.membreId === member.personaId) ||
-      dimonis.some((item) => item.membreId === member.personaId) ||
-      pastors.some((item) => item.membreId === member.personaId) ||
-      principals.some((item) => item.membreId === member.personaId);
-
-    return person && isActorActress && !isInOtherCollection && `${person.nom} ${person.cognom1} ${person.cognom2}`.toLowerCase().includes(nameFilter);
-  });
 
   return (
     <div>
@@ -275,20 +328,20 @@ const AssignMembers = () => {
         </div>
       )}
 
-      {/* Display members in the "altres" collection */}
-      {altres.length > 0 && renderMembersInCollection('Altres', altres)}
-
-      {/* Display members in the "angels" collection */}
-      {angels.length > 0 && renderMembersInCollection('Àngels', angels)}
-
-      {/* Display members in the "dimonis" collection */}
-      {dimonis.length > 0 && renderMembersInCollection('Dimonis', dimonis)}
+      {/* Display members in the "principals" collection */}
+      {principals.length > 0 && renderMembersInCollection('Principals', principals)}
 
       {/* Display members in the "pastors" collection */}
       {pastors.length > 0 && renderMembersInCollection('Pastors', pastors)}
 
-      {/* Display members in the "principals" collection */}
-      {principals.length > 0 && renderMembersInCollection('Principals', principals)}
+      {/* Display members in the "dimonis" collection */}
+      {dimonis.length > 0 && renderMembersInCollection('Dimonis', dimonis)}
+
+      {/* Display members in the "angels" collection */}
+      {angels.length > 0 && renderMembersInCollection('Àngels', angels)}
+
+      {/* Display members in the "altres" collection */}
+      {altres.length > 0 && renderMembersInCollection('Altres', altres)}
     </div>
   );
 };
