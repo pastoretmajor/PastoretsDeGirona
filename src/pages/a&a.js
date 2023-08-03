@@ -235,6 +235,16 @@ const Actors = () => {
       name: "Gerard Serrat Quidiello",
     },
     {
+      name: "Gisela Sidera Roca",
+      birth: new Date(1974,3,12),
+      msg: ""
+    },
+    {
+      name: "Elisabet Sierra Hereu",
+      birth: new Date(2009,4,15),
+      msg:"",
+    },
+    {
       name: "Joan Maria Soler Reguera",
       birth: new Date(1972,2,20),
       msg:"",
@@ -242,11 +252,6 @@ const Actors = () => {
     {
       name: "Francina Soler Donato",
       birth: new Date(2009,0,15),
-      msg:"",
-    },
-    {
-      name: "Elisabet Sierra Hereu",
-      birth: new Date(2009,4,15),
       msg:"",
     },
     {
