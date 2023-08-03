@@ -33,7 +33,7 @@ const Tecnics = () => {
       rol: "Gestió administrativa"
     },
     {
-      name: "Marta Nadal Jimenez",
+      name: "Marta Nadal Jiménez",
       rol: "Tècnic de llums i so"
     },
     {
