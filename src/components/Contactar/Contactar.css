@@ -1,0 +1,12 @@
+.container {
+    text-align: center; 
+    background-color: #D91E01;
+    color: #fff;
+    padding: 20px;
+    font-size: 3vw;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .container h2 {
+    font-size: 4vw;
+}
