@@ -1,0 +1,16 @@
+.container {
+    text-align: center; 
+    background-color: #D91E01;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .text i {
+    font-style: italic; 
+  }
+  
+  .text b {
+    font-weight: bold;
+  }
+  
