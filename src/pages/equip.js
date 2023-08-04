@@ -12,8 +12,9 @@ import EquipHuma from '../images/banners/equip-huma-pastorets-de-girona.webP'
 import EquipHumaBlur from '../images/blured/equip-huma-pastorets-de-girona.webP'
 
 
-import EquipTecnic from '../images/logos/bombeta.svg'
-import ActorsActrius from '../images/logos/mascares.svg'
+import EquipTecnic from '../images/logos/bombeta.webP'
+import ActorsActrius from '../images/logos/mascares.webP'
+import AjudantsProduccio from '../images/logos/llapis.webP'
 import Logo from '../images/logos/logoBarretinaSenseFons.png'
 
 const Equip = () => {
@@ -21,7 +22,7 @@ const Equip = () => {
   const boxes = [
     { textColor:'#F1F1F1', hasCircle:"true", link:"#/tecnics", backgroundColor: '#C41919', text: "Equip tècnic", src: EquipTecnic, alt: "Logo Equip Tècnic"},
     { textColor:'#F1F1F1', hasCircle:"true", link:"#/actors", backgroundColor: '#414141', text: "Actors i actrius", src: ActorsActrius, alt: "Logo Actors i actrius" },
-    { backgroundColor: '#D9D9D9', hasCircle:"true", link:"#/ajudants", text: "Ajudants de producció", src: ActorsActrius, alt: "Logo Ajudants de producció" },
+    { backgroundColor: '#D9D9D9', hasCircle:"true", link:"#/ajudants", text: "Ajudants de producció", src: AjudantsProduccio, alt: "Logo Ajudants de producció" },
   ];
 
   const backgroundColors = boxes.map((box) => box.backgroundColor);
