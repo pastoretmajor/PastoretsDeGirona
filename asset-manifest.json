@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PastoretsDeGirona/static/css/main.efe6d3f9.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.04f0a788.js",
+    "main.css": "/PastoretsDeGirona/static/css/main.50a3425c.css",
+    "main.js": "/PastoretsDeGirona/static/js/main.211f2ad6.js",
     "static/media/teatreMunicipalInterior.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/fons-index-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/calendariPastorets.webP": "/PastoretsDeGirona/static/media/calendariPastorets.e755922c751e99109238.webP",
@@ -24,14 +24,15 @@
     "static/media/calendariPastoretsBlur.webP": "/PastoretsDeGirona/static/media/calendariPastoretsBlur.29f364b3ef92726b215b.webP",
     "static/media/pas1.png": "/PastoretsDeGirona/static/media/pas1.10305ab33a8f0b151d09.png",
     "static/media/logoHoritzontal.webP": "/PastoretsDeGirona/static/media/logoHoritzontal.ac8585f8b7ab9fda7e3d.webP",
-    "static/media/mascares.svg": "/PastoretsDeGirona/static/media/mascares.c4ce0a5370e06ecf6a958432d72f3a9d.svg",
-    "static/media/bombeta.svg": "/PastoretsDeGirona/static/media/bombeta.e9f33a1ba0baf56d3b1348c7ab45e591.svg",
+    "static/media/llapis.webP": "/PastoretsDeGirona/static/media/llapis.9faee469b52d3276cdc7.webP",
+    "static/media/mascares.webP": "/PastoretsDeGirona/static/media/mascares.723a110c6589dec5c01d.webP",
+    "static/media/bombeta.webP": "/PastoretsDeGirona/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/PastoretsDeGirona/index.html",
-    "main.efe6d3f9.css.map": "/PastoretsDeGirona/static/css/main.efe6d3f9.css.map",
-    "main.04f0a788.js.map": "/PastoretsDeGirona/static/js/main.04f0a788.js.map"
+    "main.50a3425c.css.map": "/PastoretsDeGirona/static/css/main.50a3425c.css.map",
+    "main.211f2ad6.js.map": "/PastoretsDeGirona/static/js/main.211f2ad6.js.map"
   },
   "entrypoints": [
-    "static/css/main.efe6d3f9.css",
-    "static/js/main.04f0a788.js"
+    "static/css/main.50a3425c.css",
+    "static/js/main.211f2ad6.js"
   ]
 }
