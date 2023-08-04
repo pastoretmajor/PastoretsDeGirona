@@ -1,7 +1,7 @@
 import FastMarquee from 'react-fast-marquee'
 import './Marquee.css';
-import image1 from '../../images/logos/laManela.gif';
-import image2 from '../../images/logos/devil.webP';
+import image1 from '../../images/patrocinadors/logoLaTostadora.png';
+import image2 from '../../images/patrocinadors/logoLaTostadora.png';
 import image3 from '../../images/logos/castingIcon.webP';
 import image4 from '../../images/patrocinadors/logoLaTostadora.png';
 import image5 from '../../images/patrocinadors/logoLaTostadora.png';

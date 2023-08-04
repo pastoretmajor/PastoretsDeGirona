@@ -21,7 +21,7 @@ const Entrades = () => {
       <Navbar />
       <Burger />
       <ImageComponent src={EntradesImatge} blurSrc={EntradesImatgeBlur} alt="Compra entrades" text="Compra entrades" opacity={.5}/>
-      <ImageComponent src={FotoTeatre} blurSrc={BlurFotoTeatre} alt="FotoTeatre"/>
+      <ImageComponent src={FotoTeatre} blurSrc={BlurFotoTeatre} alt="FotoTeatre" text="Pròximament"/>
       <CountdownTimer targetDate={targetDate} />
       <PatrocinadorsPrincipals />
       <Footer />

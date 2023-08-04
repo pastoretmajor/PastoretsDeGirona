@@ -1,5 +1,5 @@
 import React from 'react';
-import './Donacio.css'; // Importa el archivo CSS para aplicar estilos
+import './Donacio.css'; 
 
 const Donacio = () => {
   return (

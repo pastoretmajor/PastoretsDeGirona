@@ -13,7 +13,7 @@ const Transparencia = () => {
       <Navbar />
       <Burger />
       <ImageComponent src={ImatgeTransparencia} blurSrc={ImatgeTransparenciaBlur} alt="Trasnparència" text="Transparència" opacity={.5}/>
-      <h2>PROPERAMENT</h2>
+      <h2>Pròximament</h2>
       <PatrocinadorsPrincipals />
       <Footer />
     </div>
