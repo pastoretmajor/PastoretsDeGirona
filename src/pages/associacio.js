@@ -11,6 +11,7 @@ import AssociacioImatgeBlur from '../images/blured/associacio-pastorets-de-giron
 
 
 import LogoValors from '../images/logos/logoBarretinaSenseFons.png';
+import FundacioEsplai from '../images/colaborators/fundacioEsplai.png'
 
 const Associacio = () => {
   return (
@@ -18,9 +19,9 @@ const Associacio = () => {
       <Navbar />
       <Burger />
       <ImageComponent src={AssociacioImatge} blurSrc={AssociacioImatgeBlur} alt="Associació" text="Associació" opacity={.5}/>
-      <CenteredColoredBox backgroundColor="#DADADA" src={LogoValors} alt="LogoValors"/>
-      <CenteredColoredBox backgroundColor="#D91E01" src={LogoValors} alt="LogoValors"/>
-      <CenteredColoredBox backgroundColor="#414141" src={LogoValors} alt="LogoValors"/>
+      <CenteredColoredBox backgroundColor="#FFF" src={FundacioEsplai} alt="LogoValors" hasCircle={true} text="Informa't" link="https://www.fundacioesplaigirona.cat/"/>
+      <CenteredColoredBox backgroundColor="#D91E01" src={LogoValors} alt="LogoValors"hasCircle={true} text="Valors" link="/#/valors" textColor="#fff"/>
+      <CenteredColoredBox backgroundColor="#414141" src={LogoValors} alt="LogoValors" hasCircle={true} text="Fes una donació" link="/#/soci" textColor="#fff"/>
       <PatrocinadorsPrincipals />
       <Footer />
     </div>
