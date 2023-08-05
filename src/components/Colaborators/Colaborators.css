@@ -10,7 +10,9 @@ https://github.com/llop10101
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-  }
+    padding-left: 150px;
+    padding-right: 150px;
+    }
   
   .patrocinadorC {
     position: relative;
@@ -18,6 +20,11 @@ https://github.com/llop10101
     flex-basis: 20%;
     box-sizing: border-box;
     padding: 10px;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
   
   .patrocinadorC img {
@@ -66,7 +73,7 @@ https://github.com/llop10101
     cursor: pointer;
     width: 100%;
     max-width: 200px;
-    font-size: 18px;
+    font-size: 1.5vw;
   }
   
   .patrocinadorC .infoC button:hover {
@@ -80,7 +87,7 @@ https://github.com/llop10101
   }
 
   p {
-    font-size: 14px;
+    font-size: 1vw;
   }
 
   /* Responsive styles */
