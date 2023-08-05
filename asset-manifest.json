@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PastoretsDeGirona/static/css/main.2df8c92d.css",
-    "main.js": "/PastoretsDeGirona/static/js/main.1d2190b2.js",
+    "main.js": "/PastoretsDeGirona/static/js/main.3bbbd1e7.js",
     "static/media/teatreMunicipalInterior.webP": "/PastoretsDeGirona/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/fons-index-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/calendariPastorets.webP": "/PastoretsDeGirona/static/media/calendariPastorets.e755922c751e99109238.webP",
@@ -22,6 +22,7 @@
     "static/media/valors-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/valors-pastorets-de-girona.db885abdc9392ca6e429.webP",
     "static/media/contactar-pastorets-de-girona.webP": "/PastoretsDeGirona/static/media/contactar-pastorets-de-girona.33e8fc0df95eac67db28.webP",
     "static/media/calendariPastoretsBlur.webP": "/PastoretsDeGirona/static/media/calendariPastoretsBlur.29f364b3ef92726b215b.webP",
+    "static/media/fundacioEsplai.png": "/PastoretsDeGirona/static/media/fundacioEsplai.445d572914bda6417d85.png",
     "static/media/pas1.png": "/PastoretsDeGirona/static/media/pas1.10305ab33a8f0b151d09.png",
     "static/media/logoHoritzontal.webP": "/PastoretsDeGirona/static/media/logoHoritzontal.ac8585f8b7ab9fda7e3d.webP",
     "static/media/llapis.webP": "/PastoretsDeGirona/static/media/llapis.9faee469b52d3276cdc7.webP",
@@ -29,10 +30,10 @@
     "static/media/bombeta.webP": "/PastoretsDeGirona/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/PastoretsDeGirona/index.html",
     "main.2df8c92d.css.map": "/PastoretsDeGirona/static/css/main.2df8c92d.css.map",
-    "main.1d2190b2.js.map": "/PastoretsDeGirona/static/js/main.1d2190b2.js.map"
+    "main.3bbbd1e7.js.map": "/PastoretsDeGirona/static/js/main.3bbbd1e7.js.map"
   },
   "entrypoints": [
     "static/css/main.2df8c92d.css",
-    "static/js/main.1d2190b2.js"
+    "static/js/main.3bbbd1e7.js"
   ]
 }
