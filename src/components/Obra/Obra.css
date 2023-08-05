@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+
+    background-color: white;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; 
+  }
+  
+  .logo {
+    width: 20%; 
+    height: auto; 
+  }
+  
+  .text-obra {
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  @media (max-width:1110px) {
+    .text-obra {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+  }

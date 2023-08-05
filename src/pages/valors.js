@@ -42,7 +42,7 @@ const Valors = () => {
     },
     {
       defaultText: 'Transparència',
-      hoverText: 'Creiem en la importància de la transparència i les bones pràctiques com a forma de mostrar la gestió de l’Associació Pastorets de Girona i de l’assoliment de la finalitat per la qual ha estat constituïda, com a mostra del compromís amb tots els socis, sòcies i membres de l’associació.',
+      hoverText: 'Valorem la transparència i les bones pràctiques per exhibir la gestió de l\'Associació Pastorets de Girona i l\'assoliment del nostre propòsit. Estem plenament compromesos amb els nostres socis i membres.',
       circleColor: "#DADADA"
     },
   ];

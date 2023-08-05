@@ -39,7 +39,7 @@ https://github.com/llop10101
 
 .circle-valors:hover .text {
   font-weight: normal; /* Text is regular when hovered */
-  font-size: 12px;
+  font-size: 1.25vw;
 }
 
 @media (max-width: 1110px) {

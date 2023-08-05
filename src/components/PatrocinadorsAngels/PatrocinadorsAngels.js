@@ -8,12 +8,12 @@ import logoEmpresa6 from '../../images/patrocinadors/logoLaTostadora.png';
 import logoEmpresa7 from '../../images/patrocinadors/logoLaTostadora.png';
 import logoEmpresa8 from '../../images/patrocinadors/logoLaTostadora.png';
 
-import './PatrocinadorsB.css';
+import './PatrocinadorsAngels.css';
 
 const patrocinadors = [
   {
     logo: logoEmpresa1,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
+    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus fini',
     link: 'https://www.latostadora.com/',
   },
   {
@@ -61,14 +61,14 @@ const Patrocinador = ({ logo, descripcio, link }) => {
     };
   
     return (
-      <div className="patrocinadorB" onMouseEnter={handleHover} onMouseLeave={handleHover}>
+      <div className="patrocinadorAG" onMouseEnter={handleHover} onMouseLeave={handleHover}>
         <img src={logo} alt="Logo del patrocinador" />
         {hover && (
-          <div className="infoB">
-            <div className="descriptionB">
+          <div className="infoAG">
+            <div className="descriptionAG">
               <p>{descripcio}</p>
             </div>
-            <div className="button-containerB">
+            <div className="button-containerAG">
               <button onClick={() => window.open(link, "_blank")}>Visita la web</button>
             </div>
           </div>
@@ -77,9 +77,9 @@ const Patrocinador = ({ logo, descripcio, link }) => {
     );
   };
   
-  const PatrocinadorsB = () => {
+  const PatrocinadorsAngels = () => {
     return (
-      <div className="patrocinadors-containerB">
+      <div className="patrocinadors-containerAG">
         {patrocinadors.map((patrocinador, index) => (
           <Patrocinador key={index} {...patrocinador} />
         ))}
@@ -87,4 +87,4 @@ const Patrocinador = ({ logo, descripcio, link }) => {
     );
   };
 
-export default PatrocinadorsB;
+export default PatrocinadorsAngels;

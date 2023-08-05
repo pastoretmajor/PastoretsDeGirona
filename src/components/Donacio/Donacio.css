@@ -1,9 +1,12 @@
 .container {
-    text-align: center; 
-    background-color: #D91E01;
-    color: #fff;
+    background-color: #FFF;
+    color: #000;
     padding: 20px;
     font-family: 'Rubik', sans-serif;
+    text-align: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
   }
 
   .text i {
@@ -13,4 +16,20 @@
   .text b {
     font-weight: bold;
   }
+
+  .text p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;    
+  }
   
+  h4 {
+    text-align: center;
+  }
+
+  .lletra-petita {
+    color: grey;
+  }
+
+  .lletra-petita p {
+    font-size: 12px;
+  }

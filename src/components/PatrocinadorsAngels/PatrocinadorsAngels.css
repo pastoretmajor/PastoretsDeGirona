@@ -1,69 +1,68 @@
 /*
 
 Joel Cano i Puigvert
-Last update: 05/08/2023
+Last update: 27/07/2023
 https://github.com/llop10101
 
 */
 
-.patrocinadors-containerA {
+.patrocinadors-containerAG {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding-left:150px;
-    padding-right:150px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
   
-  .patrocinadorA {
+  .patrocinadorAG {
     position: relative;
     cursor: pointer;
-    flex-basis: 32%;
+    flex-basis: 18%;
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 38vw;
+    padding: 10px;
     border: 1px solid #f1f1f1;
     margin: 5px;
   }
   
-  .patrocinadorA img {
+  .patrocinadorAG img {
     width: 100%;
     height: auto;
     display: block;
   }
   
-  .patrocinadorA .infoA {
+  .patrocinadorAG .infoAG {
     position: absolute;
-    bottom: -100%; /* Move the container below the patrocinadorA */
+    bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(29, 29, 29, 0.8);
     color: white;
     padding: 8px;
-    transition: bottom 0.3s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
     width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    justify-content: space-between; /* Align items vertically with space between them */
+    height: 100%; /* Fill the available height within the .patrocinador container */
     font-size: 14px;
   }
   
-  .patrocinadorA:hover .infoA {
-    bottom: 0; /* Move the container back up to its original position */
-    cursor: default;
+  .patrocinadorAG:hover .infoAG {
+    height: 100%;
+    opacity: 1;
+    cursor:default;
   }
   
-  .patrocinadorA .infoA .button-containerA {
+  .patrocinadorAG .infoAG .button-containerAG {
     margin-top: 8px;
     display: flex;
     justify-content: center;
   }
   
-  .patrocinadorA .infoA button {
-    background-color: #d91e01;
+  .patrocinadorAG .infoAG button {
+    background-color: #D91E01;
     color: white;
     border: none;
     border-radius: 20px;
@@ -74,11 +73,11 @@ https://github.com/llop10101
     font-size: 1.3vw;
   }
   
-  .patrocinadorA .infoA button:hover {
+  .patrocinadorAG .infoAG button:hover {
     background-color: #941400;
   }
   
-  .patrocinadorA .infoA .descriptionA {
+  .patrocinadorAG .infoAG .descriptionAG {
     max-height: 90%;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -87,17 +86,19 @@ https://github.com/llop10101
   p {
     font-size: 1vw;
   }
-  
+
   /* Responsive styles */
-  @media screen and (max-width: 1110px) {
-    .patrocinadorA {
-      flex-basis: 100%;
-      margin: 0px;
+@media screen and (max-width: 1110px) {
+    .patrocinadorAG {
+      flex-basis: 33%;
       border: none;
+      margin: 0px;
     }
-    .patrocinadors-containerA {
-      padding-left:0px;
-      padding-right:0px;
+    .patrocinadorAG .infoAG {
+        font-size: 16px;
     }
-  }
-  
+    .patrocinadors-containerAG {
+        padding-left:0px;
+        padding-right:0px;
+      }
+}

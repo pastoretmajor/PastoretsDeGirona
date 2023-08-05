@@ -2,6 +2,7 @@ import Navbar from '../components/NavigationBar/Navbar'
 import Burger from '../components/Burger/Burger'
 import PatrocinadorsA from '../components/PatrocinadorsA/PatrocinadorsA'
 import PatrocinadorsB from '../components/PatrocinadorsB/PatrocinadorsB'
+import PatrocinadorsAngels from '../components/PatrocinadorsAngels/PatrocinadorsAngels'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
 import Marquee from '../components/Marquee/Marquee'
@@ -19,6 +20,7 @@ const Patrocinadors = () => {
         <h2>Aquest podria ser el teu espai</h2>
       <PatrocinadorsA />
       <PatrocinadorsB />
+      <PatrocinadorsAngels />
       <Marquee />
       <Footer />
     </div>

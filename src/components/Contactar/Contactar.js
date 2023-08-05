@@ -6,9 +6,9 @@ const Contacte = () => {
     <div>
         <div className='container'>
             <div className='text'>
-            Per posar-te en contacte amb nosaltres
+            Si necessites contactar amb nosalres, si us plau,
             <br></br>
-            envia un correu a:
+            envia'ns un correu electrònic a:
             </div>
             <h2>pastoret.major@pastoretsdegirona.cat</h2>
         </div> 
