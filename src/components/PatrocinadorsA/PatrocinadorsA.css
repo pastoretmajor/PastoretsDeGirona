@@ -22,8 +22,8 @@ https://github.com/llop10101
   padding: 10px;
   border: 1px solid #f1f1f1;
   margin: 5px;
-  height: 38vw;
-}
+  height: 100%
+;}
 
 .patrocinadorA img {
   width: 100%;
@@ -51,7 +51,6 @@ https://github.com/llop10101
 }
 
 .patrocinadorA:hover .infoA {
-  height: 100%;
   opacity: 1;
   cursor:default;
 }
@@ -95,11 +94,15 @@ p {
     border: none;
     margin: 0px;
   }
-  .patrocinadorA .infoA {
-      font-size: 16px;
-  }
   .patrocinadors-containerA {
     padding-left:0px;
     padding-right:0px;
+  }
+  p {
+    font-size: 3vw !important;
+  }
+
+  .patrocinadorA:hover .infoA {
+    font-size: 1vw;
   }
 }
