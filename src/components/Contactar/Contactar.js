@@ -6,7 +6,7 @@ const Contacte = () => {
     <div>
         <div className='container'>
             <div className='text'>
-            Si necessites contactar amb nosalres, si us plau,
+            Si vols contactar amb nosaltres, si us plau,
             <br></br>
             envia'ns un correu electrònic a:
             </div>
