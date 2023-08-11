@@ -30,7 +30,7 @@ class Popup extends Component {
           <h2>Seguiu-nos</h2>
           <hr className='separador'/>
           <div className="icon-row">
-            <a href="https://www.instagram.com/elspastoretsdegirona/" rel="noopener noreferrer" target="_blank" className="icon-instagram">
+            <a href="https://www.instagram.com/elspastoretsdegirona/" rel="noopener noreferrer" target="_blank" className="icona-instagram">
               <FaInstagram />
             </a>
             <a href="https://www.facebook.com/people/Els-Pastorets-De-Girona/100094741527277/" rel="noopener noreferrer" target="_blank" className="icon-facebook">
