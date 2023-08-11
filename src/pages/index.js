@@ -1,5 +1,6 @@
 import Navbar from '../components/NavigationBar/Navbar'
 import Burger from '../components/Burger/Burger'
+import Popup from '../components/Popup/Popup'
 
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Stamp from '../components/Stamp/Stamp'
@@ -15,10 +16,12 @@ import TeatreMunicipalInterior from '../images/banners/teatreMunicipalInterior.w
 import BlurTeatreMunicipalInterior from '../images/blured/teatreMunicipalInteriorBlur.webP'
 
 const Inici = () => {
+
     return (
     <div>
       <Navbar />
-      <Burger />      
+      <Burger />
+      <Popup />      
       <ImageComponent src={AraSi} blurSrc={AraSiBlur} alt="Pastorets de Girona ara sí" text="Pastorets de Girona" opacity={.5}/>
       <Stamp />
       <ImageComponent src={ImatgeCalendari} blurSrc={BlurImatgeCalendari} alt="ImatgeCalendari" text="" />
