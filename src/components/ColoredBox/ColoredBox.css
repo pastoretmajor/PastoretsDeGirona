@@ -67,7 +67,6 @@ https://github.com/llop10101
   max-width: 500px;
   word-wrap: break-word;
   font-family: 'Rubik', sans-serif;
-
 }
 
 .circle-content {
@@ -104,5 +103,9 @@ https://github.com/llop10101
   }
   .colored-box p{
     font-size: 16px;
+  }
+
+  .centered-colored-box p {
+    font-size: 5vw !important;
   }
 }
