@@ -28,6 +28,7 @@ class Popup extends Component {
             X
           </button>
           <h2>Seguiu-nos</h2>
+          <hr className='separador'/>
           <div className="icon-row">
             <a href="https://www.instagram.com/elspastoretsdegirona/" rel="noopener noreferrer" target="_blank" className="icon-instagram">
               <FaInstagram />
