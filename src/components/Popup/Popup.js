@@ -24,9 +24,7 @@ class Popup extends Component {
     return (
       <div className="popup">
         <div className="popup-content">
-          <button className="close-button" onClick={this.handleClose}>
-            X
-          </button>
+          <button className="close-button" onClick={this.handleClose}>X</button>
           <h2>Seguiu-nos</h2>
           <hr className='separador'/>
           <div className="icon-row">
