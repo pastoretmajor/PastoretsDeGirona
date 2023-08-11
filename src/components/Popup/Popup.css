@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
@@ -22,7 +22,6 @@
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     max-width: 100%;
     max-height: 100%;
-    overflow: auto;
     position: relative; /* Afegit per alineació de close-button */
   }
   
@@ -90,5 +89,10 @@
 }
 
 .separador {
-    color: #D91E01;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D91E01;
+    padding: 0;
+    margin: 1em 0;
 }
