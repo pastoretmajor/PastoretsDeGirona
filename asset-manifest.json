@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c510c602.css",
-    "main.js": "/static/js/main.f20b28bb.js",
-    "static/media/alaAngelCalendari.png": "/static/media/alaAngelCalendari.75a9bbf62cfb5274b975.png",
+    "main.js": "/static/js/main.b40232d0.js",
+    "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
     "static/media/teatreMunicipalInterior.webP": "/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/castingIcon.webP": "/static/media/castingIcon.f08b068ff719e0a920d4.webP",
-    "static/media/desembre.png": "/static/media/desembre.6484be5b43e96aa5e282.png",
     "static/media/AraSi_inclinat.png": "/static/media/AraSi_inclinat.aea38de2fb046c3017fa.png",
     "static/media/lamanela-pastorets-de-girona.webP": "/static/media/lamanela-pastorets-de-girona.c2505560136b49b51474.webP",
     "static/media/logoLaTostadora.png": "/static/media/logoLaTostadora.b5dfad02381f6a3970fc.png",
@@ -15,6 +14,7 @@
     "static/media/feste-soci-pastorets-de-girona.webP": "/static/media/feste-soci-pastorets-de-girona.8ac623081b89da332c30.webP",
     "static/media/lobra-pastorets-de-girona.webP": "/static/media/lobra-pastorets-de-girona.767d47f184e0bcfd46ae.webP",
     "static/media/equiptecnic-actorsactrius-ajudantsproduccio.webP": "/static/media/equiptecnic-actorsactrius-ajudantsproduccio.0f52a1e4dc6a4b8e6dcb.webP",
+    "static/media/desembre.webP": "/static/media/desembre.799e45d79b02d087880f.webP",
     "static/media/teatreMunicipalInteriorBlur.webP": "/static/media/teatreMunicipalInteriorBlur.9cb1857ffeb3772464a9.webP",
     "static/media/logo_ajgirona_color.png": "/static/media/logo_ajgirona_color.229afa1800c1c0dfe64d.png",
     "static/media/transparencia-pastorets-de-girona.webP": "/static/media/transparencia-pastorets-de-girona.5175a28e8a21ab1da8fc.webP",
@@ -30,10 +30,10 @@
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
     "main.c510c602.css.map": "/static/css/main.c510c602.css.map",
-    "main.f20b28bb.js.map": "/static/js/main.f20b28bb.js.map"
+    "main.b40232d0.js.map": "/static/js/main.b40232d0.js.map"
   },
   "entrypoints": [
     "static/css/main.c510c602.css",
-    "static/js/main.f20b28bb.js"
+    "static/js/main.b40232d0.js"
   ]
 }
