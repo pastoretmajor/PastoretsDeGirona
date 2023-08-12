@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e28f133f.css",
+    "main.css": "/static/css/main.c510c602.css",
     "main.js": "/static/js/main.f20b28bb.js",
     "static/media/alaAngelCalendari.png": "/static/media/alaAngelCalendari.75a9bbf62cfb5274b975.png",
     "static/media/teatreMunicipalInterior.webP": "/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
@@ -29,11 +29,11 @@
     "static/media/mascares.webP": "/static/media/mascares.723a110c6589dec5c01d.webP",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.e28f133f.css.map": "/static/css/main.e28f133f.css.map",
+    "main.c510c602.css.map": "/static/css/main.c510c602.css.map",
     "main.f20b28bb.js.map": "/static/js/main.f20b28bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e28f133f.css",
+    "static/css/main.c510c602.css",
     "static/js/main.f20b28bb.js"
   ]
 }
