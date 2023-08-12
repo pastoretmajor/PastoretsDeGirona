@@ -29,6 +29,7 @@
   @media (max-width: 1110px) {
     .overlay-image {
         left: -95%;
+        top: 3%;
         width: 200%;
         height: auto;
     }
