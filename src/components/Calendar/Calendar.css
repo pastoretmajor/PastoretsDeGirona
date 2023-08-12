@@ -26,7 +26,7 @@
     opacity: 1;
   }
   
-  @media (max-width: 1110px) {
+  @media (max-width: 768px) {
     .overlay-image {
         left: -95%;
         top: 3%;
