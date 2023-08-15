@@ -144,7 +144,7 @@ const Actors = () => {
       msg:"",
     },
     {
-      name: "Max Massò Boadas",
+      name: "Max Masó Boada",
       birth: new Date(2011,5,2),
       msg:"",
     },
