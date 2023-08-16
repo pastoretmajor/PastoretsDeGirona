@@ -81,11 +81,19 @@
 }
 
 .icon-twitter:hover {
-    color: #00acee;
+    color: black;
 }
 
 .icon-tiktok:hover {
     color: black;
+}
+
+.colored-svg {
+  fill: #ccc;
+}
+
+.colored-svg:hover {
+  fill: black;
 }
 
 .separador {
