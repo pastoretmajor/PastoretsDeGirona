@@ -1,18 +1,44 @@
-/*
-
-Joel Cano i Puigvert
-Last update: 27/07/2023
-https://github.com/llop10101
-
-*/
-
-.gif-component {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.gif-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 40vh; 
 }
 
 .gif {
-  max-width: 100%;
-  height: auto;
+  position: absolute;
+  bottom: 0;
+  animation: moveAndPause 10.01s ease infinite;
+}
+
+@keyframes moveAndPause {
+  0%{
+  } 
+  50% {
+    transform: translateX(20vw);
+  }
+  50%, 60% {
+    transform: translateX(20vw);
+  }
+  65% {
+    transform: translateX(40vw);
+  }
+  65%, 70%{
+    transform: translateX(40vw);
+  }
+  75%{
+    transform: translateX(60vw);
+  }
+  75%, 80% {
+    transform: translateX(60vw)
+  }
+  85%{
+    transform: translateX(80vw);
+  }
+  85%, 93%{
+    transform: translate(80vw);
+  }
+  100%{
+    transform: translateX(100vw);
+  }
 }

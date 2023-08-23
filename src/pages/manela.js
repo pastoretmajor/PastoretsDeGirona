@@ -6,7 +6,7 @@ import Footer from '../components/Footer/Footer'
 import GifComponent from '../components/GifAnimation/GifComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import gifUrl from '../images/logos/pas1.png'
+import gifUrl from '../images/logos/manela_adria_cano_puigvert.gif'
 import LaManela from '../images/banners/lamanela-pastorets-de-girona.webP'
 import LaManelaBlur from '../images/blured/lamanela-pastorets-de-girona.webP'
 
