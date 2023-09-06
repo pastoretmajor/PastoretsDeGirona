@@ -29,7 +29,7 @@ const AddMembers = () => {
   const [deleteMemberId, setDeleteMemberId] = useState('');
   const [nameFilter, setNameFilter] = useState('');
 
-  const funcioOptions = ['Actor/Actriu', 'Llum i so', 'Maquillatge i vestuari', 'Patrocinadors', 'Comunicació', 'Col·laboradors Varis', 'Baixes i Standby', 'Programació'];
+  const funcioOptions = ['Actor/Actriu', 'Llum i so', 'Maquillatge i vestuari', 'Patrocinadors', 'Comunicació', 'Col·laboradors Varis', 'Baixes i Standby', 'Equip Tècnic'];
 
   useEffect(() => {
     axios.get(`${API_URL}/persones`)
