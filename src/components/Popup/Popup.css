@@ -23,6 +23,9 @@
     max-width: 100%;
     max-height: 100%;
     position: relative; /* Afegit per alineació de close-button */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .close-button {
@@ -44,6 +47,12 @@
     color: #1D1D1B;
   }
   
+  .link-row {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .icon-row {
     display: flex;
     justify-content: space-between;
@@ -55,7 +64,8 @@
   .icona-instagram,
   .icon-facebook,
   .icon-twitter,
-  .icon-tiktok {
+  .icon-tiktok,
+  .icon-link {
     color: #ccc; /* Color grisos inicial */
     font-size: 50px;
     width: 50px;
@@ -88,6 +98,10 @@
     color: black;
 }
 
+.icon-link:hover{
+  color: gray;
+}
+
 .colored-svg {
   fill: #ccc;
 }
@@ -98,6 +112,7 @@
 
 .separador {
     display: block;
+    width: 95%;
     height: 1px;
     border: 0;
     border-top: 1px solid #D91E01;

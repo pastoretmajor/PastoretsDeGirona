@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaInstagram, FaFacebook, FaTiktok } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTiktok, FaLink } from 'react-icons/fa';
 import './Popup.css';
 
 class Popup extends Component {
@@ -27,6 +27,13 @@ class Popup extends Component {
           <button className="close-button" onClick={this.handleClose}>
             X
           </button>
+          <h2>Vols fer d'angelet?</h2>
+          <hr className='separador' />
+          <div className="link-row" />
+            <a href='https://docs.google.com/forms/d/1pp1dgWNS0yqAVWnBr6OsrCP1UHBKjJLHmE0bfJOIAn0/edit?usp=drivesdk' rel="noopener noreferrer" target="_blank" className="icon-link">
+              <FaLink />
+            </a>
+          <hr className='separador' />
           <h2>Seguiu-nos</h2>
           <hr className='separador'/>
           <div className="icon-row">

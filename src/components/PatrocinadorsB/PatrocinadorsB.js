@@ -1,56 +1,20 @@
 import React, { useState } from 'react';
-import logoEmpresa1 from '../../images/patrocinadors/logoLaTostadora.png';
-import logoEmpresa2 from '../../images/patrocinadors/logoLaTostadora.png';
-import logoEmpresa3 from '../../images/patrocinadors/logoLaTostadora.png';
-import logoEmpresa4 from '../../images/patrocinadors/logoLaTostadora.png';
-import logoEmpresa5 from '../../images/patrocinadors/logoLaTostadora.png';
-import logoEmpresa6 from '../../images/patrocinadors/logoLaTostadora.png';
-import logoEmpresa7 from '../../images/patrocinadors/logoLaTostadora.png';
+import logoMarlex from '../../images/patrocinadors/logoMarlex.png';
 import logoEmpresa8 from '../../images/patrocinadors/logoLaTostadora.png';
 
 import './PatrocinadorsB.css';
 
 const patrocinadors = [
   {
-    logo: logoEmpresa1,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://www.latostadora.com/',
+    logo: logoMarlex,
+    descripcio: "Marlex és una firma líder de serveis professionals que ofereix solucions de Recursos Humans a lnterim, Recruiting i Executive. Comptem amb més de 25 anys d'experiència al sector i una xarxa de més de 70 oficines, posicionant-nos com una de les 5 firmes líders a nivell peninsular i una de les de més alt creixement en els darrers anys. Compartim viatge amb més de 5.000 empreses que confien en els nostres serveis i equips especialitzats. Per filosofia d'empresa dediquem, des del 1996, un 5% de tots els nostres beneficis a accions de compromís social.",
+    link: '',
   },
   {
-    logo: logoEmpresa2,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://www.latostadora.com/',
+    logo:logoEmpresa8
   },
-  {
-    logo: logoEmpresa3,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://www.latostadora.com/',
-  },
-  {
-    logo: logoEmpresa4,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://www.latostadora.com/',
-  },
-  {
-    logo: logoEmpresa5,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://www.latostadora.com/',
-  },
-  {
-    logo: logoEmpresa6,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://www.latostadora.com/',
-  },
-  {
-    logo: logoEmpresa7,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://www.latostadora.com/',
-  },
-  {
-    logo: logoEmpresa8,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://www.latostadora.com/',
-  },
+  
+  
 ];
 
 const Patrocinador = ({ logo, descripcio, link }) => {

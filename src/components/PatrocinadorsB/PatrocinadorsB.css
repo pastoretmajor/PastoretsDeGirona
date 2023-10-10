@@ -15,6 +15,8 @@ https://github.com/llop10101
   }
   
   .patrocinadorB {
+    display: flex;
+    align-items: center;
     position: relative;
     cursor: pointer;
     flex-basis: 23%;
@@ -27,7 +29,6 @@ https://github.com/llop10101
   .patrocinadorB img {
     width: 100%;
     height: auto;
-    display: block;
   }
   
   .patrocinadorB .infoB {
