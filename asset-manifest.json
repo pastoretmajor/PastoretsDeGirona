@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15461e49.css",
-    "main.js": "/static/js/main.d5fcdf41.js",
+    "main.js": "/static/js/main.2ddbe503.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
     "static/media/teatreMunicipalInterior.webP": "/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
@@ -24,6 +24,7 @@
     "static/media/equip-huma-pastorets-de-girona.webP": "/static/media/equip-huma-pastorets-de-girona.3fe5320a6ce25d36b7ae.webP",
     "static/media/valors-pastorets-de-girona.webP": "/static/media/valors-pastorets-de-girona.db885abdc9392ca6e429.webP",
     "static/media/contactar-pastorets-de-girona.webP": "/static/media/contactar-pastorets-de-girona.33e8fc0df95eac67db28.webP",
+    "static/media/gironaDansa.png": "/static/media/gironaDansa.8699a1b201f0a30f66e3.png",
     "static/media/fundacioEsplai.png": "/static/media/fundacioEsplai.445d572914bda6417d85.png",
     "static/media/logoHoritzontal.webP": "/static/media/logoHoritzontal.ac8585f8b7ab9fda7e3d.webP",
     "static/media/llapis.webP": "/static/media/llapis.9faee469b52d3276cdc7.webP",
@@ -31,10 +32,10 @@
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
     "main.15461e49.css.map": "/static/css/main.15461e49.css.map",
-    "main.d5fcdf41.js.map": "/static/js/main.d5fcdf41.js.map"
+    "main.2ddbe503.js.map": "/static/js/main.2ddbe503.js.map"
   },
   "entrypoints": [
     "static/css/main.15461e49.css",
-    "static/js/main.d5fcdf41.js"
+    "static/js/main.2ddbe503.js"
   ]
 }
