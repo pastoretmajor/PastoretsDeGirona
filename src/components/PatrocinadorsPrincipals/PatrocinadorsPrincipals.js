@@ -4,10 +4,11 @@ import laTostadora from '../../images/patrocinadors/logoLaTostadora.png';
 import ajGirona from '../../images/colaborators/logo_ajgirona_color.png';
 import fedac from '../../images/colaborators/logotip-fedac.png';
 import fundacioEsplai from '../../images/colaborators/fundacioEsplai.png'
+import dansaGirona from '../../images/colaborators/gironaDansa.png'
 
 
 const PatrocinadorsPrincipals = () => {
-  const images = [laTostadora, ajGirona, fedac, fundacioEsplai,laTostadora, ajGirona, fedac, fundacioEsplai,laTostadora, ajGirona, fedac, fundacioEsplai,laTostadora, ajGirona, fedac, fundacioEsplai,laTostadora, ajGirona, fedac, fundacioEsplai, laTostadora, ajGirona, fedac, fundacioEsplai,laTostadora, ajGirona, fedac, fundacioEsplai,];
+  const images = [laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona];
 
 
   return (

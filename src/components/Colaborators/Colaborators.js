@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
 import fundacioEsplai from '../../images/colaborators/fundacioEsplai.png';
-import logoEmpresa2 from '../../images/colaborators/logotip-fedac.png';
-import logoEmpresa3 from '../../images/colaborators/logo_ajgirona_color.png';
-import logoEmpresa4 from '../../images/colaborators/logotip-fedac.png';
-import logoEmpresa5 from '../../images/colaborators/logo_ajgirona_color.png';
-import logoEmpresa6 from '../../images/colaborators/logotip-fedac.png';
-import logoEmpresa7 from '../../images/colaborators/logo_ajgirona_color.png';
-import logoEmpresa8 from '../../images/colaborators/logotip-fedac.png';
-import logoEmpresa9 from '../../images/colaborators/logo_ajgirona_color.png';
-import logoEmpresa10 from '../../images/colaborators/logotip-fedac.png';
+import escolaDansa from '../../images/colaborators/gironaDansa.png';
+import ajGirona from '../../images/colaborators/logo_ajgirona_color.png';
+import escolaFedac from '../../images/colaborators/logotip-fedac.png';
+
 
 import './Colaborators.css';
 
@@ -19,50 +14,20 @@ const colaborators = [
     link: 'https://www.fundacioesplaigirona.cat',
   },
   {
-    logo: logoEmpresa2,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://escoles.fedac.cat/',
+    logo: escolaDansa,
+    descripcio: '',
+    link: '',
   },
   {
-    logo: logoEmpresa3,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
+    logo: ajGirona,
+    descripcio: '',
     link: 'https://web.girona.cat/',
   },
   {
-    logo: logoEmpresa4,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
+    logo: escolaFedac,
+    descripcio: '',
     link: 'https://escoles.fedac.cat/',
-  },
-  {
-    logo: logoEmpresa5,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://web.girona.cat/',
-  },
-  {
-    logo: logoEmpresa6,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://escoles.fedac.cat/',
-  },
-  {
-    logo: logoEmpresa7,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://web.girona.cat/',
-  },
-  {
-    logo: logoEmpresa8,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://escoles.fedac.cat/',
-  },
-  {
-    logo: logoEmpresa9,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://web.girona.cat/',
-  },
-  {
-    logo: logoEmpresa10,
-    descripcio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac metus ut diam tincidunt auctor. Vivamus finibus consequat nibh, eget vehicula velit viverra quis. Fusce ornare, metus at rhoncus faucibus, purus eros fringilla ligula, congue consectetur nisi purus ut arcu.',
-    link: 'https://escoles.fedac.cat/',
-  },
+  }
 ];
 
 const Colaborator = ({ logo, descripcio, link }) => {
