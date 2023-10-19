@@ -1,11 +1,11 @@
 .card {
     position: relative;
     margin: auto auto;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     overflow: hidden;
     border-radius: 20px;
-    opacity: 50%;
+    opacity: 70%;
     margin-bottom: 10px;
   }
   
@@ -30,7 +30,7 @@
     bottom: 0;
     width: 100%;
     padding: 20px;
-    background: #f2f2f2;
+    background: white;
     border-top-left-radius: 20px;
     transform: translateY(150px);
     transition: transform .25s;
@@ -45,7 +45,7 @@
     height: 100px;
     transform: rotate(-175deg);
     border-radius: 50%;
-    box-shadow: inset 48px 48px #f2f2f2;
+    box-shadow: inset 48px 48px white;
   }
   
   .card_title {

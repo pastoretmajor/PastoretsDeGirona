@@ -1,7 +1,7 @@
 import React from 'react';
 import './Ticket.css';
 
-import ticketImage from '../../images/logos/pas1.png';
+import ticketImage from '../../images/banners/capCabro.jpg';
 
 const Ticket = () => {
   return (
@@ -11,8 +11,8 @@ const Ticket = () => {
       </div>
       <div className="card_content">
         <span className="card_title">ADQUIRIR ENTRADES</span>
-        <span className="card_subtitle">Funcions: 25, 26, 28, 29 de Desembre</span>
-        <p className="card_description">Ubicació: Teatre municipal de Girona</p>
+        <span className="card_subtitle">Funcions: 25, 26, 29, 30 de Desembre</span>
+        <p className="card_description">Ubicació: Teatre Municipal de Girona</p>
         <p className="card_description">Hora d'inici: 17:30h</p>
         <p className="card_description">Duració aproximada 1:30h</p>
         <a href="https://gironacultura.koobin.com/elspastoretsdegirona2023" target="_blank" rel="noopener noreferrer">
