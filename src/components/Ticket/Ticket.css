@@ -18,6 +18,7 @@
     display: block;
     width: 100%;
     height: auto;
+    overflow: hidden;
     }
   
   .card_title {
@@ -118,4 +119,12 @@
   .ticket-button:hover .hover-text {
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
+  @media (max-width: 1110px) {
+    .ticket-img img {
+      display: block;
+      width: 75%;
+      height: auto;
+      }
   }
