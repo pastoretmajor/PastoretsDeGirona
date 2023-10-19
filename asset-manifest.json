@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab4a1eeb.css",
-    "main.js": "/static/js/main.13831183.js",
+    "main.css": "/static/css/main.b17148b5.css",
+    "main.js": "/static/js/main.d578197d.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
-    "static/media/teatreMunicipalInterior.webP": "/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/castingIcon.webP": "/static/media/castingIcon.f08b068ff719e0a920d4.webP",
+    "static/media/capCabro.jpg": "/static/media/capCabro.e2542305accda59486e3.jpg",
     "static/media/AraSi_inclinat.png": "/static/media/AraSi_inclinat.aea38de2fb046c3017fa.png",
     "static/media/cor_xantica.png": "/static/media/cor_xantica.131fc37e875fe636fb58.png",
     "static/media/lamanela-pastorets-de-girona.webP": "/static/media/lamanela-pastorets-de-girona.c2505560136b49b51474.webP",
@@ -18,7 +18,6 @@
     "static/media/logoMarlex.png": "/static/media/logoMarlex.0937dae51838348ac8af.png",
     "static/media/equiptecnic-actorsactrius-ajudantsproduccio.webP": "/static/media/equiptecnic-actorsactrius-ajudantsproduccio.0f52a1e4dc6a4b8e6dcb.webP",
     "static/media/desembre.webP": "/static/media/desembre.799e45d79b02d087880f.webP",
-    "static/media/teatreMunicipalInteriorBlur.webP": "/static/media/teatreMunicipalInteriorBlur.9cb1857ffeb3772464a9.webP",
     "static/media/logo_ajgirona_color.png": "/static/media/logo_ajgirona_color.229afa1800c1c0dfe64d.png",
     "static/media/transparencia-pastorets-de-girona.webP": "/static/media/transparencia-pastorets-de-girona.5175a28e8a21ab1da8fc.webP",
     "static/media/entrades-pastorets-de-girona.webP": "/static/media/entrades-pastorets-de-girona.6cbb32569cb722df6b64.webP",
@@ -32,11 +31,11 @@
     "static/media/mascares.webP": "/static/media/mascares.723a110c6589dec5c01d.webP",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.ab4a1eeb.css.map": "/static/css/main.ab4a1eeb.css.map",
-    "main.13831183.js.map": "/static/js/main.13831183.js.map"
+    "main.b17148b5.css.map": "/static/css/main.b17148b5.css.map",
+    "main.d578197d.js.map": "/static/js/main.d578197d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab4a1eeb.css",
-    "static/js/main.13831183.js"
+    "static/css/main.b17148b5.css",
+    "static/js/main.d578197d.js"
   ]
 }
