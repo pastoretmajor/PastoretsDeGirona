@@ -5,10 +5,11 @@ import ajGirona from '../../images/colaborators/logo_ajgirona_color.png';
 import fedac from '../../images/colaborators/logotip-fedac.png';
 import fundacioEsplai from '../../images/colaborators/fundacioEsplai.png'
 import dansaGirona from '../../images/colaborators/gironaDansa.png'
+import corXantica from '../../images/colaborators/cor_xantica.png'
 
 
 const PatrocinadorsPrincipals = () => {
-  const images = [laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona];
+  const images = [laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, corXantica, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, corXantica, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, corXantica, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, corXantica, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, corXantica, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, corXantica, laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, corXantica,];
 
 
   return (

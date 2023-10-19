@@ -3,6 +3,7 @@ import fundacioEsplai from '../../images/colaborators/fundacioEsplai.png';
 import escolaDansa from '../../images/colaborators/gironaDansa.png';
 import ajGirona from '../../images/colaborators/logo_ajgirona_color.png';
 import escolaFedac from '../../images/colaborators/logotip-fedac.png';
+import corXantica from '../../images/colaborators/cor_xantica.png'
 
 
 import './Colaborators.css';
@@ -27,6 +28,11 @@ const colaborators = [
     logo: escolaFedac,
     descripcio: '',
     link: 'https://escoles.fedac.cat/',
+  },
+  {
+    logo: corXantica,
+    descripcio: '',
+    link: '',
   }
 ];
 
