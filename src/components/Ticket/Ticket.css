@@ -23,6 +23,7 @@
   
   .card_title {
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;;
   }
   
   .card_content {
@@ -35,6 +36,7 @@
     border-top-left-radius: 20px;
     transform: translateY(150px);
     transition: transform .25s;
+    font-family: 'Rubik', sans-serif;
   }
   
   .card_content::before {
@@ -59,6 +61,7 @@
     font-size: 12px;
     margin-bottom: 10px;
     text-wrap: wrap;
+    font-family: 'Rubik', sans-serif;
   }
   
 
@@ -122,9 +125,8 @@
   }
 
   @media (max-width: 1110px) {
-    .ticket-img img {
-      display: block;
-      width: 75%;
-      height: auto;
-      }
+    .card {
+      width: 75vw;
+      height: 75vw;
+    }
   }
