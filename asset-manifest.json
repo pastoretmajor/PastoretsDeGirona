@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.ab4a1eeb.css",
-    "main.js": "/static/js/main.dd76e47d.js",
+    "main.js": "/static/js/main.13831183.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
     "static/media/teatreMunicipalInterior.webP": "/static/media/teatreMunicipalInterior.3419a4416925d17d2f50.webP",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/castingIcon.webP": "/static/media/castingIcon.f08b068ff719e0a920d4.webP",
     "static/media/AraSi_inclinat.png": "/static/media/AraSi_inclinat.aea38de2fb046c3017fa.png",
+    "static/media/cor_xantica.png": "/static/media/cor_xantica.131fc37e875fe636fb58.png",
     "static/media/lamanela-pastorets-de-girona.webP": "/static/media/lamanela-pastorets-de-girona.c2505560136b49b51474.webP",
     "static/media/logoLaTostadora.png": "/static/media/logoLaTostadora.b5dfad02381f6a3970fc.png",
     "static/media/associacio-pastorets-de-girona.webP": "/static/media/associacio-pastorets-de-girona.5b0e09ddf5069c48ae4d.webP",
@@ -32,10 +33,10 @@
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
     "main.ab4a1eeb.css.map": "/static/css/main.ab4a1eeb.css.map",
-    "main.dd76e47d.js.map": "/static/js/main.dd76e47d.js.map"
+    "main.13831183.js.map": "/static/js/main.13831183.js.map"
   },
   "entrypoints": [
     "static/css/main.ab4a1eeb.css",
-    "static/js/main.dd76e47d.js"
+    "static/js/main.13831183.js"
   ]
 }
