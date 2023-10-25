@@ -14,5 +14,10 @@ export const MenuItems = [
       title: 'Patrocinadors',
       path: '/patrocinadors',
       cName: 'dropdown-link'
+    },
+    {
+      title: 'Premsa',
+      path: '/premsa',
+      cName: 'dropdown-link'
     }
   ];
