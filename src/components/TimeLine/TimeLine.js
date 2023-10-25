@@ -24,12 +24,6 @@ const TimeLine = () => {
                 <p>
                 La presentació del cartell es farà a la Plaça dels Apòstols a les 11:30.
                 </p>
-                <Link to="https://www.pastoretsdegirona.cat" className="custom-link-button">
-                    <div className="circle">
-                    <div className="icon arrow"></div>
-                    </div>
-                    <div className="button-text">Llegir més</div>
-                </Link>   
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 date="20/10/2023"
