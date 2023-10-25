@@ -1,27 +1,28 @@
 import { Link } from 'react-router-dom';
 
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import 'react-vertical-timeline-component/style.min.css'; // Asegúrate de importar el archivo CSS de la biblioteca.
+import 'react-vertical-timeline-component/style.min.css';
 import './TimeLine.css'
-const WorkIcon = () => <></>
-const SchoolIcon = () => <></>
-const StarIcon = () => <></>
+
+const PressIcon = () => <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path fill="#fff" d="M552 64H112c-20.858 0-38.643 13.377-45.248 32H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h496c13.255 0 24-10.745 24-24V88c0-13.255-10.745-24-24-24zM48 392V144h16v248c0 4.411-3.589 8-8 8s-8-3.589-8-8zm480 8H111.422c.374-2.614.578-5.283.578-8V112h416v288zM172 280h136c6.627 0 12-5.373 12-12v-96c0-6.627-5.373-12-12-12H172c-6.627 0-12 5.373-12 12v96c0 6.627 5.373 12 12 12zm28-80h80v40h-80v-40zm-40 140v-24c0-6.627 5.373-12 12-12h136c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H172c-6.627 0-12-5.373-12-12zm192 0v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12zm0-144v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12zm0 72v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12z"/></svg>
+const TicketIcon = () => <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path fill="#fff" d="M128 160h320v192H128V160zm400 96c0 26.51 21.49 48 48 48v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c26.51 0 48-21.49 48-48s-21.49-48-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v96c-26.51 0-48 21.49-48 48zm-48-104c0-13.255-10.745-24-24-24H120c-13.255 0-24 10.745-24 24v208c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V152z"/></svg>
+const PresentationIcon = () => <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><path fill="#000" d="M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8 384V352h16V480c0 17.7 14.3 32 32 32s32-14.3 32-32V192h56 64 16c17.7 0 32-14.3 32-32s-14.3-32-32-32H384V64H576V256H384V224H320v48c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H368c-26.5 0-48 21.5-48 48v80H243.1 177.1c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9V480c0 17.7 14.3 32 32 32s32-14.3 32-32z"/></svg>
+const StartIcon = () => <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path fill="#fff" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
 const TimeLine = () => {
     return (
         <VerticalTimeline>
             <VerticalTimelineElement
-                className="vertical-timeline-element--work"
                 contentStyle={{ background: '#DADADA', color: '#000' }}
                 contentArrowStyle={{ borderRight: '7px solid  #DADADA' }}
                 date="11/11/2023"
                 iconStyle={{ background: '#DADADA', color: '#fff' }}
-                icon={<WorkIcon />}
+                icon={<PresentationIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Notícia</h3>
                 <h4 className="vertical-timeline-element-subtitle">Presentació del cartell</h4>
                 <p>
-                La presentació del cartell es farà a la plaça de davant de la Catedral a no sé quina hora, en lloc de a les escales com estava previst.
+                La presentació del cartell es farà a la Plaça dels Apòstols a les 11:30.
                 </p>
                 <Link to="https://www.pastoretsdegirona.cat" className="custom-link-button">
                     <div className="circle">
@@ -31,17 +32,33 @@ const TimeLine = () => {
                 </Link>   
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="25/10/2023"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                icon={<WorkIcon />}
+                date="20/10/2023"
+                iconStyle={{ background: '#1D1D1D', color: '#fff' }}
+                icon={<TicketIcon />}
             >
-                <h3 className="vertical-timeline-element-title">És avui</h3>
-                <h4 className="vertical-timeline-element-subtitle">No sé que posar-hi</h4>
+                <h3 className="vertical-timeline-element-title">Entrades</h3>
+                <h4 className="vertical-timeline-element-subtitle">Inici de la venda</h4>
                 <p>
-                Tot és una prova per tal de mostrar com es veuría a la pàgina web, no cal fer molt de cas a el text que hi ha actualment.
+                Disponibles tant a la taquilla del Teatre Municipal de Girona com a la nostra pàgina web.
                 </p>
-                <Link to="https://www.pastoretsdegirona.cat" className="custom-link-button">
+                <Link to="https://www.pastoretsdegirona.cat/#/entrades" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">COMPRAR</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="16/10/2023"
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle">El diari El Gerió Digital publica</h4>
+                <p>
+                    Les entrades pels Pastorets de Girona es posen a la venda divendres.
+                </p>
+                <Link to="https://www.gerio.cat/noticia/1636391/les-entrades-pels-pastorets-de-girona-es-posen-a-la-venda-divendres" className="custom-link-button">
                     <div className="circle">
                     <div className="icon arrow"></div>
                     </div>
@@ -49,68 +66,77 @@ const TimeLine = () => {
                 </Link>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2008 - 2010"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                icon={<WorkIcon />}
+                date="18/09/2023"
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+                <h3 className="vertical-timeline-element-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle">Sentim a parlar dels Pastorets de Girona a CatRàdio</h4>
                 <p>
-                User Experience, Visual Design
+                A partir del minut 47:13 fins al 49:07, fan un resum on s'explica que recuperarem els Pastorets de Girona.
                 </p>
+                <Link to="https://www.ccma.cat/catradio/alacarta/catalunya-al-dia/catalunya-al-dia-de-13-a-14-h-18092023/audio/1182543/?ext=SMA_WP_F4_CE24_" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">Escoltar</div>
+                </Link>
+
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2006 - 2008"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                icon={<WorkIcon />}
+                date="18/09/2023"
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                <h3 className="vertical-timeline-element-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle">El Diari de Girona publica</h4>
                 <p>
-                User Experience, Visual Design
+                Uns Pastorets "renovats" tornen a Girona aquest Nadal
                 </p>
+                <Link to="https://www.diaridegirona.cat/girona/2023/09/18/uns-pastorets-renovats-tornen-girona-92232146.html" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">Llegir més</div>
+                </Link>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="April 2013"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                icon={<SchoolIcon />}
+                date="18/09/2023"
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+                <h3 className="vertical-timeline-element-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle">El diari El Punt Avui publica</h4>
                 <p>
-                Strategy, Social Media
+                Un tiktoker a Els Pastorets de Girona
                 </p>
+                <Link to="https://www.elpuntavui.cat/societat/article/5-societat/2334718-un-tiktoker-a-els-pastorets-de-girona.html?utm_source=whatsapp&utm_medium=botons&utm_campaign=com_epanoticies" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">Llegir més</div>
+                </Link>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="November 2012"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                icon={<SchoolIcon />}
+                date="18/09/2023"
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+                <h3 className="vertical-timeline-element-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle">L'Ajuntament de Girona publica</h4>
                 <p>
-                Creative Direction, User Experience, Visual Design
+                La ciutat de Girona recupera aquest Nadal "Els Pastorets"
                 </p>
+                <Link to="https://web.girona.cat/noticies?id=11677384&fbclid=PAAaZmaZ8WbQCy_SEWVtYWREw_h2d5oK_nyfS3ZEYHsEISwkTFPt_dn63x2m0_aem_ARaUrmRPW2Ensm01g-_wkNpXqRI8xKaMA0IfKNITI01jeuT3GHlXTVMpKIxwGRDLnQk" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">Llegir més</div>
+                </Link>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2002 - 2006"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                icon={<SchoolIcon />}
-            >
-                <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-                <p>
-                Creative Direction, Visual Design
-                </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                icon={<StarIcon />}
+                iconStyle={{ background: '#006400', color: '#fff' }}
+                icon={<StartIcon />}
             />
         </VerticalTimeline>
     )
