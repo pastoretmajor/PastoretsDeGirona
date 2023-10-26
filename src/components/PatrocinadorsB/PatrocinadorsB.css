@@ -1,105 +1,115 @@
-/*
+/* Estils CSS per al component de patrocinadors */
+/* Llop10101 - Actualitzat el 27/07/2023 */
 
-Joel Cano i Puigvert
-Last update: 27/07/2023
-https://github.com/llop10101
-
-*/
-
+/* Contenidor de patrocinadors */
 .patrocinadors-containerB {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  
-  .patrocinadorB {
-    display: flex;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-    flex-basis: 23%;
-    box-sizing: border-box;
-    padding: 10px;
-    border: 1px solid #f1f1f1;
-    margin: 5px;
-  }
-  
-  .patrocinadorB img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .patrocinadorB .infoB {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(29, 29, 29, 0.8);
-    color: white;
-    padding: 8px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Align items vertically with space between them */
-    height: 100%; /* Fill the available height within the .patrocinador container */
-    font-size: 14px;
-  }
-  
-  .patrocinadorB:hover .infoB {
-    height: 100%;
-    opacity: 1;
-    cursor:default;
-  }
-  
-  .patrocinadorB .infoB .button-containerB {
-    margin-top: 8px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .patrocinadorB .infoB button {
-    background-color: #D91E01;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 12px;
-    cursor: pointer;
-    width: 100%;
-    max-width: 200px;
-    font-size: 1.5vw;
-  }
-  
-  .patrocinadorB .infoB button:hover {
-    background-color: #941400;
-  }
-  
-  .patrocinadorB .infoB .descriptionB {
-    max-height: 90%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 150px;
+  padding-right: 150px;
+}
 
-  p {
-    font-size: 1vw;
-  }
+/* Estils per a cada patrocinador individual */
+.patrocinadorB {
+  position: relative;
+  cursor: pointer;
+  flex-basis: 23%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+  margin: 5px;
+  height: 15vw;
+  /* Centra la imatge verticalment al mig del patrocinador */
+  display: flex;
+  align-items: center;
+}
 
-  /* Responsive styles */
+/* Estils per a la imatge del patrocinador */
+.patrocinadorB img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Alinea la imatge al centre en quant a l'alçada */
+  margin: auto;
+}
+
+/* Estils per a la informació del patrocinador */
+.patrocinadorB .infoB {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(29, 29, 29, 0.8);
+  color: white;
+  padding: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Alinya els elements verticalment amb espai entre ells */
+  height: 100%; /* Omple l'alçada disponible dins del contenidor .patrocinador */
+  font-size: 14px;
+}
+
+/* Mostra la informació del patrocinador al fer hover */
+.patrocinadorB:hover .infoB {
+  height: 100%;
+  opacity: 1;
+  cursor: default;
+}
+
+/* Estils per al contenidor de botons */
+.patrocinadorB .infoB .button-containerB {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estils per als botons */
+.patrocinadorB .infoB button {
+  background-color: #D91E01;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 12px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  font-size: 1.5vw;
+}
+
+/* Efecte al fer hover sobre els botons */
+.patrocinadorB .infoB button:hover {
+  background-color: #941400;
+}
+
+/* Estils per a la descripció del patrocinador */
+.patrocinadorB .infoB .descriptionB {
+  max-height: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Estils per als paràgrafs de text */
+p {
+  font-size: 1vw;
+}
+
+/* Estils responsius */
 @media screen and (max-width: 1110px) {
-    .patrocinadorB {
-      flex-basis: 50%;
-      border: none;
-      margin: 0px;
-    }
-    .patrocinadorB .infoB {
-        font-size: 16px;
-    }
-    .patrocinadors-containerB {
-      padding-left:0px;
-      padding-right:0px;
-    }
+  .patrocinadorB {
+    flex-basis: 50%;
+    border: none;
+    margin: 0px;
+  }
+  .patrocinadorB .infoB {
+    font-size: 16px;
+  }
+  .patrocinadors-containerB {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
