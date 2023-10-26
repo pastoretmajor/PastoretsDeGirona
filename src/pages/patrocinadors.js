@@ -17,7 +17,7 @@ const Patrocinadors = () => {
       <Navbar />
       <Burger />
       <ImageComponent src={ImatgePatrocinadors} blurSrc={ImatgePatrocinadorsBlur} alt="Patrocinadors" text="Patrocinadors" opacity={.5}/>
-        <h2>Aquest podria ser el teu espai</h2>
+      <h4>Els Pastorets de Girona són possibles gràcies a el patrocini de</h4>
       <PatrocinadorsA />
       <PatrocinadorsB />
       <PatrocinadorsAngels />

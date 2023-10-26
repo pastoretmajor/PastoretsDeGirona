@@ -14,7 +14,7 @@ const Col·laboradors = () => {
       <Navbar />
       <Burger />
       <ImageComponent src={ImatgeCollaboradors} blurSrc={ImatgeCollaboradorsBlur} alt="Col·laboradors" text="Col·laboradors" opacity={.5}/>
-      <h2>Aquest podria ser el teu espai</h2>
+      <h4>Els Pastorets de Girona són possibles gràcies a la col·laboració de</h4>
       <Colaborators />
       <Footer />
     </div>
