@@ -43,9 +43,6 @@ const Ajudants = () => {
       name: "Josep M. Martí Aliu",
     },
     {
-      name: "Iris Martí Pujolràs",
-    },
-    {
       name: "Cora Mir Sánchez",
     },
     {
