@@ -62,6 +62,7 @@
   }
   
   .custom-link-button .button-text {
+    font-family: 'Roboto', sans-serif;
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -90,3 +91,16 @@
     color: #fff;
   }
   
+.rubik-text {
+  font-family: 'Rubik', sans-serif;
+}
+
+.roboto-title {
+  font-family: 'Roboto', sans-serif;
+}
+
+.rubik-date {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}

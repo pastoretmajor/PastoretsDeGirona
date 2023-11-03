@@ -21,7 +21,7 @@ const Tecnics = () => {
       rol: "Ajudant de direcció"
     },
     {
-      name: "Alba Saló Rocas \nPaula Saló rocas",
+      name: "Alba Saló Rocas \nPaula Saló Rocas",
       rol: "Gestió de comunicació i màrqueting"
     },
     {

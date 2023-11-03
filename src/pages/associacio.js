@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer'
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 import ColumnLayout from '../components/ColumnLayout/ColumnLayout'
+import TimeLine from '../components/TimeLine/TimeLine'
 
 import AssociacioImatge from '../images/banners/associacio-pastorets-de-girona.webP'
 import AssociacioImatgeBlur from '../images/blured/associacio-pastorets-de-girona.webP'
@@ -31,6 +32,7 @@ const Associacio = () => {
       <Burger />
       <ImageComponent src={AssociacioImatge} blurSrc={AssociacioImatgeBlur} alt="Associació" text="Associació" opacity={.5}/>
       <ColumnLayout boxes={boxes} centered={true} backgroundColors={backgroundColors} />
+      <TimeLine />
       <PatrocinadorsPrincipals />
       <Footer />
     </div>

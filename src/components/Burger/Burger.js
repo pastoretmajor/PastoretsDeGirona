@@ -41,7 +41,6 @@ const Burger = () => {
             <li>
               <a href="#/transparencia">TRANSPARÈNCIA</a>
               <ul>
-                <li><a href="#/premsa">· Premsa</a></li>
                 <li><a href="#/collaboradors">· Col·laboradors</a></li>
                 <li><a href="#/patrocinadors">· Patrocinadors</a></li>
               </ul>
