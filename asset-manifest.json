@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4614ccda.css",
-    "main.js": "/static/js/main.e9e83d62.js",
+    "main.css": "/static/css/main.09b11b11.css",
+    "main.js": "/static/js/main.4126ca49.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
@@ -30,11 +30,11 @@
     "static/media/mascares.webP": "/static/media/mascares.723a110c6589dec5c01d.webP",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.4614ccda.css.map": "/static/css/main.4614ccda.css.map",
-    "main.e9e83d62.js.map": "/static/js/main.e9e83d62.js.map"
+    "main.09b11b11.css.map": "/static/css/main.09b11b11.css.map",
+    "main.4126ca49.js.map": "/static/js/main.4126ca49.js.map"
   },
   "entrypoints": [
-    "static/css/main.4614ccda.css",
-    "static/js/main.e9e83d62.js"
+    "static/css/main.09b11b11.css",
+    "static/js/main.4126ca49.js"
   ]
 }
