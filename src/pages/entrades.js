@@ -13,7 +13,7 @@ import EntradesImatgeBlur from '../images/blured/entrades-pastorets-de-girona.we
 
 const Entrades = () => {
 
-  const targetDate = new Date(2023,12,25,17,30,0).getTime();
+  const targetDate = new Date(2023,11,25,17,30,0).getTime();
 
   return (
     <div>
