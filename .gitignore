@@ -2,9 +2,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/pages/addPersones.js
-/pages/addMembres.js
-/pages/assignMembres.js
+
 
 # testing
 /coverage
@@ -22,3 +20,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/src/videos/videoPosterPastorets.mp4
+/src/images/logos/Poster.jpg

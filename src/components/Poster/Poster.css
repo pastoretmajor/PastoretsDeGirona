@@ -1,0 +1,29 @@
+.poster {
+    max-width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .poster img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .poster video {
+    max-width: 31.5%;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .descripcio {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 18px;
+    line-height: 1.4em;
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+  }
