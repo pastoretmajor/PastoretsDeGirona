@@ -14,7 +14,7 @@ const Ticket = () => {
         <span className="card_subtitle">Funcions: 25, 26, 29, 30 de Desembre</span>
         <p className="card_description">Ubicació: Teatre Municipal de Girona</p>
         <p className="card_description">Hora d'inici: 17:30h</p>
-        <p className="card_description">Duració aproximada 1:30h</p>
+        <p className="card_description">Duració aproximada: 1:30h</p>
         <a href="https://gironacultura.koobin.com/elspastoretsdegirona2023" target="_blank" rel="noopener noreferrer">
           <button className="ticket-button">
             <span className="actual-text">&nbsp;COMPRAR&nbsp;</span>
