@@ -13,9 +13,7 @@ import EquipActorsBlur from '../images/blured/equiptecnic-actorsactrius-ajudants
 const Actors = () => {
   const teamMembers = [
     {
-      name: "Clara Arxer Vargas",  
-      birth: new Date(2010,0,13),
-      msg:"",
+      name: "Ada Trinidad Aranda Jáimez",  
     },
     {
       name: "Anna Batlle Martínez",
@@ -38,34 +36,16 @@ const Actors = () => {
       msg:"",
     },
     {
-      name: "Maria Benitez Diaz",
-      birth: new Date(2001,4,2),
-      msg:"",
+      name: "Xavier Batlle Martínez",
     },
     {
-      name: "Estrella Bosch Capdeferro",
-      birth: new Date(2008,2,30),
-      msg:"",
+      name: "Mariona Borgoglio Vidal",
     },
     {
-      name: "Flora Bosch Capdeferro",
-      birth: new Date(2004,6,30),
-      msg:"Per molts anys! Esperem que tinguis un dia tant brillant com tu!",
+      name: "Marc Camacho Cateura",
     },
     {
-      name: "Aina Carreras Ribas",
-      birth: new Date(2009,3,8),
-      msg:"",
-    },
-    {
-      name: "David Camacho Cateura",
-      birth: new Date(1997,5,19),
-      msg:"",
-    },
-    {
-      name: "Adrià Cano Puigvert",
-      birth: new Date(2001,3,10),
-      msg:"",
+      name: "Joan Cano Dorca",
     },
     {
       name: "Joel Cano Puigvert",
@@ -78,23 +58,8 @@ const Actors = () => {
       msg:"",
     },
     {
-      name: "Aina Castillo Tremols",
-      birth: new Date(2001,10,22),
-      msg:"",
-    },
-    {
-      name: "Cristina Cortés Bayod",
-      birth: new Date(1973,3,5),
-      msg:"",
-    },
-    {
       name: "Rita Dengra Reyner",
       birth: new Date(2010,2,7),
-      msg:"",
-    },
-    {
-      name: "Vicky Expósito",
-      birth: new Date(1969,7,2),
       msg:"",
     },
     {
@@ -108,35 +73,43 @@ const Actors = () => {
       msg:"",
     },
     {
+      name: "Isabel Fita Blanes",
+    },
+    {
       name: "Teresa Felipe Palahí",
       birth: new Date(2007,6,29),
       msg: "Per molts anys a la nova membre, esperem que en siguin molts més!",
     },
     {
-      name: "David Gonzàlez",
-      birth: new Date(1997,8,9),
-      msg:"",
+      name: "Rita Bancells Ferrer"
     },
     {
-      name: "Irene Gonzàlez Comalda",
-      birth: new Date(2006,9,6),
-      msg:"",
+      name: "Abril Garcia Martí"
     },
     {
-      name: "Robert Gonzàlez Díez",
-      birth: new Date(1970,10,3),
-      msg:"",
+      name: "Roger Garcia Martí"
     },
     {
       name: "Irene Hereu Roca",
       birth: new Date(2007,4,7),
       msg:"",
     },
-    
+    {
+      name: "Tomas Hereu",
+    },
+    {
+      name: "Josep Maria Iglesias González",
+    },
+    {
+      name: "Jana Lazaro Salvador",
+    },
     {
       name: "Oriol Marsal Piferrer",
       birth: new Date(2011,6,9),
       msg:"",
+    },
+    {
+      name: "Sílvia Martí Buxadera"
     },
     {
       name: "Eduard Martí Pujolràs",
@@ -144,14 +117,7 @@ const Actors = () => {
       msg:"",
     },
     {
-      name: "Max Masó Boada",
-      birth: new Date(2011,5,2),
-      msg:"",
-    },
-    {
-      name: "Olga Miralles Burgués",
-      birth: new Date(2002,2,5),
-      msg:"",
+      name: "Blanca Martínez Mundet"
     },
     {
       name: "Marta Mitjà Cortés",
@@ -159,7 +125,16 @@ const Actors = () => {
       msg:"",
     },
     {
-      name: "Ariadna Morales Donato",
+      name: "Isabel Mitjà Pau",
+    },
+    {
+      name: "Cesc Molina Garcés",
+    },
+    {
+      name: "Xavier Morales Albert",
+    },
+    {
+      name: "Alba Morales Donato",
     },
     {
       name: "Arcadi Morales Donato",
@@ -167,9 +142,21 @@ const Actors = () => {
       msg:"",
     },
     {
+      name: "Ariadna Morales Donato",
+    },
+    {
       name: "Arnau Morales Donato",
       birth: new Date(2003,0,4),
       msg:"",
+    },
+    {
+      name: "Maria Morales Sánchez",
+    },
+    {
+      name: "Chiloé Moratinos Busquets"
+    },
+    {
+      name: "Maitén Moratinos Busquets",
     },
     {
       name: "Mariona Moreta Mitjà",
@@ -177,14 +164,18 @@ const Actors = () => {
       msg:"",
     },
     {
-      name: "Marcel Moreta Mitjà",
-      birth: new Date(2009,7,21),
-      msg:"",
+      name: "Pau Pacheco Domingo",
+    },
+    {
+      name: "Valentina Parremont Celoya"
     },
     {
       name: "Daniel Peracaula",
       birth: new Date(2006,6,23),
       msg:"",
+    },
+    {
+      name: "Maria Pla Voz",
     },
     {
       name: "Laura Prats Tremoleda",
@@ -201,7 +192,9 @@ const Actors = () => {
       birth: new Date(2002,3,22),
       msg:"",
     },
-    
+    {
+      name: "Judith Rico Fàbregas",
+    },
     {
       name: "Joaquín de Rioja Bosch",
     },
@@ -215,16 +208,16 @@ const Actors = () => {
       birth: new Date(2010,3,6),
       msg:"",
     },
-
-    {
-      name: "Aleix Sagrera Casals",
-      birth: new Date(2009,10,12),
-      msg:"",
-    },
     {
       name: "Xavier Sagrera Auñón",
       birth: new Date(1972,4,20),
       msg:"",
+    },
+    {
+      name: "Jana Sagrera Casals",
+    },
+    {
+      name: "Coralí Saló Esteve",
     },
     {
       name: "Paula Sanz Nadal",
@@ -240,8 +233,11 @@ const Actors = () => {
       msg: ""
     },
     {
-      name: "Elisabet Sierra Hereu",
-      birth: new Date(2009,4,15),
+      name: "Marc Solé Martí",
+    },
+    {
+      name: "Francina Soler Donato",
+      birth: new Date(2009,0,15),
       msg:"",
     },
     {
@@ -250,9 +246,7 @@ const Actors = () => {
       msg:"",
     },
     {
-      name: "Francina Soler Donato",
-      birth: new Date(2009,0,15),
-      msg:"",
+      name: "Jana Torrellas Casadevall",
     },
     {
       name: "Josep Lluis Traiter Bota",
@@ -260,12 +254,21 @@ const Actors = () => {
     {
       name: "Imma Tremoleda",
       birth: new Date(1976,6,29),
-      msg: "Felicitats, et desitgem que tinguis un gran dia!"
+      msg: ""
+    },
+    {
+      name: "Oriol Tugas Prats",
+    },
+    {
+      name: "Irina Vidal Aranda",
     },
     {
       name: "David Vilanova Buxó",
       birth: new Date(1973,9,5),
       msg:"",
+    },
+    {
+      name: "Natana Vilanova Romo",
     },
   ];
 
