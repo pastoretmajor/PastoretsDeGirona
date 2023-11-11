@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.09b11b11.css",
-    "main.js": "/static/js/main.818a6f4c.js",
+    "main.css": "/static/css/main.e17419e0.css",
+    "main.js": "/static/js/main.b61c266c.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
+    "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
+    "static/media/Poster.jpg": "/static/media/Poster.317d8db29273edc595c6.jpg",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/capCabro.jpg": "/static/media/capCabro.e2542305accda59486e3.jpg",
     "static/media/AraSi_inclinat.png": "/static/media/AraSi_inclinat.aea38de2fb046c3017fa.png",
@@ -30,11 +32,11 @@
     "static/media/mascares.webP": "/static/media/mascares.723a110c6589dec5c01d.webP",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.09b11b11.css.map": "/static/css/main.09b11b11.css.map",
-    "main.818a6f4c.js.map": "/static/js/main.818a6f4c.js.map"
+    "main.e17419e0.css.map": "/static/css/main.e17419e0.css.map",
+    "main.b61c266c.js.map": "/static/js/main.b61c266c.js.map"
   },
   "entrypoints": [
-    "static/css/main.09b11b11.css",
-    "static/js/main.818a6f4c.js"
+    "static/css/main.e17419e0.css",
+    "static/js/main.b61c266c.js"
   ]
 }
