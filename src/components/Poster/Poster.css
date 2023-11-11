@@ -27,3 +27,27 @@
     font-family: 'Rubik', sans-serif;
     text-align: justify;
   }
+
+  @media (max-width: 1110px) {
+
+    .poster {
+      max-width: 100%;
+      margin-top: 50px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .poster img {
+      margin-left: 12.5%;
+      max-width: 70%;
+      height: auto;
+    }
+    
+    .poster video {
+      max-width: 70%;
+      height: auto;
+    }
+  }
