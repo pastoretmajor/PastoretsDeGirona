@@ -13,8 +13,43 @@ const TimeLine = () => {
     return (
         <VerticalTimeline>
             <VerticalTimelineElement
-                contentStyle={{ background: '#DADADA', color: '#000' }}
-                contentArrowStyle={{ borderRight: '7px solid  #DADADA' }}
+                contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">11/11/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari El Punt Avui publica</h4>
+                <p className="rubik-text">
+                Els Pastorets canvien d'imatge
+                </p>
+                <Link to="https://www.elpuntavui.cat/cultura/article/19-cultura/2354385-els-pastorets-canvien-d-imatge.html?utm_source=whatsapp&utm_medium=botons&utm_campaign=com_epanoticies" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">LLEGIR MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">11/11/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El Diari de Girona publica</h4>
+                <p className="rubik-text">
+                Aquest és el cartell dels nous Pastorets de Girona.
+                </p>
+                <Link to="https://www.diaridegirona.cat/girona/2023/11/11/aquest-cartell-dels-nous-pastorets-94494917.html" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">LLEGIR MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#FFFFFF', color: '#000' }}
                 date={<span className="rubik-date">11/11/2023</span>}
                 iconStyle={{ background: '#DADADA', color: '#fff' }}
                 icon={<PresentationIcon />}
@@ -22,8 +57,14 @@ const TimeLine = () => {
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
                 <h4 className="vertical-timeline-element-subtitle rubik-title">Presentació del cartell</h4>
                 <p className="rubik-text">
-                La presentació del cartell tindrà lloc a la Plaça dels Apòstols a les 11:30h.
+                La presentació del cartell va tenir lloc a la Plaça dels Apòstols a les 11:30h.
                 </p>
+                <Link to="https://www.pastoretsdegirona.cat/" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">EL CARTELL</div>
+                </Link>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 date={<span className="rubik-date">20/10/2023</span>}
