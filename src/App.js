@@ -15,6 +15,7 @@ import Associacio from './pages/associacio';
 import Valors from './pages/valors';
 import Soci from './pages/soci';
 import Fotos from './pages/fotos';
+import Director from './pages/director'
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/valors" element={<Valors />} />
           <Route path="/soci" element={<Soci />} />
           <Route path="/fotos" element={<Fotos />} />
+          <Route path="/director" element={<Director />} />
         </Routes>
     </Router>
   )
