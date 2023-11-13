@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pastoretsdegirona.cat</loc>
-    <lastmod>2023-10-25</lastmod>
+    <lastmod>2023-11-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
@@ -20,19 +20,19 @@
   </url>
   <url>
     <loc>https://pastoretsdegirona.cat/#/tecnics</loc>
-    <lastmod>2023-10-25</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pastoretsdegirona.cat/#/actors</loc>
-    <lastmod>2023-10-25</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pastoretsdegirona.cat/#/ajudants</loc>
-    <lastmod>2023-10-25</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://pastoretsdegirona.cat/#/associacio</loc>
-    <lastmod>2023-10-25</lastmod>
+    <lastmod>2023-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -74,19 +74,25 @@
   </url>
   <url>
     <loc>https://pastoretsdegirona.cat/#/collaboradors</loc>
-    <lastmod>2023-10-25</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pastoretsdegirona.cat/#/patrocinadors</loc>
-    <lastmod>2023-10-25</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pastoretsdegirona.cat/#/contacte</loc>
     <lastmod>2023-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+    <url>
+    <loc>https://pastoretsdegirona.cat/#/director</loc>
+    <lastmod>2023-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
