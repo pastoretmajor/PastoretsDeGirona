@@ -14,6 +14,24 @@ const TimeLine = () => {
         <VerticalTimeline>
             <VerticalTimelineElement
                 contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">12/11/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El nou pòster dels Pastorets de Girona surt a TV Girona</h4>
+                <p className="rubik-text">
+                A partir del minut 14:30 fins al 16:40, fan un resum on es mostra la presentació del cartell conjuntament amb una entrevista al director de l'obra i a l'artista Pau Morales.
+                </p>
+                <Link to="https://www.elpuntavui.cat/cultura/article/19-cultura/2354385-els-pastorets-canvien-d-imatge.html?utm_source=whatsapp&utm_medium=botons&utm_campaign=com_epanoticies" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">VEURE MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
                 date={<span className="rubik-date">11/11/2023</span>}
                 iconStyle={{ background: '#D91E01', color: '#fff' }}
                 icon={<PressIcon />}
