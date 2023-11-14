@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d3d16d67.css",
-    "main.js": "/static/js/main.5f2c3126.js",
+    "main.js": "/static/js/main.084aaabb.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
@@ -34,10 +34,10 @@
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
     "main.d3d16d67.css.map": "/static/css/main.d3d16d67.css.map",
-    "main.5f2c3126.js.map": "/static/js/main.5f2c3126.js.map"
+    "main.084aaabb.js.map": "/static/js/main.084aaabb.js.map"
   },
   "entrypoints": [
     "static/css/main.d3d16d67.css",
-    "static/js/main.5f2c3126.js"
+    "static/js/main.084aaabb.js"
   ]
 }
