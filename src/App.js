@@ -9,7 +9,6 @@ import Contacte from './pages/contacte';
 import Tecnics from './pages/tecnics';
 import Actors from './pages/a&a';
 import Ajudants from './pages/ajudants';
-import Entrades from './pages/entrades';
 import Manela from './pages/manela';
 import Associacio from './pages/associacio';
 import Valors from './pages/valors';
@@ -31,7 +30,6 @@ const App = () => {
           <Route path="/tecnics" element={<Tecnics />} />
           <Route path="/actors" element={<Actors />} />
           <Route path="/ajudants" element={<Ajudants />} />
-          <Route path="/entrades" element={<Entrades />} />
           <Route path="/manela" element={<Manela />} />
           <Route path="/associacio" element={<Associacio />} />
           <Route path="/valors" element={<Valors />} />

@@ -29,7 +29,7 @@ const Burger = () => {
               </ul>
             </li>
             <li><a href="#/manela">LA MANELA</a></li>
-            <li><a href="#/entrades">ENTRADES</a></li>
+            <li><a href="https://gironacultura.koobin.com/elspastoretsdegirona2023">ENTRADES</a></li>
             <li>
               <a href="#/associacio">ASSOCIACIÓ</a>
               <ul>

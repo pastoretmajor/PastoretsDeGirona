@@ -94,7 +94,7 @@ const TimeLine = () => {
                 <p className="rubik-text">
                 Ja pots adquirir les entrades, tant a la taquilla del Teatre Municiapl de Girona com a través de la nostra pàgina web.
                 </p>
-                <Link to="https://www.pastoretsdegirona.cat/#/entrades" className="custom-link-button">
+                <Link to="https://www.pastoretsdegirona.cat/" className="custom-link-button">
                     <div className="circle">
                     <div className="icon arrow"></div>
                     </div>
