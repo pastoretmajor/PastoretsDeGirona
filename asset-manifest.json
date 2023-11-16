@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2aab501f.css",
-    "main.js": "/static/js/main.68307663.js",
+    "main.css": "/static/css/main.5b991a84.css",
+    "main.js": "/static/js/main.73eed617.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
@@ -21,7 +21,6 @@
     "static/media/desembre.webP": "/static/media/desembre.799e45d79b02d087880f.webP",
     "static/media/logo_ajgirona_color.png": "/static/media/logo_ajgirona_color.229afa1800c1c0dfe64d.png",
     "static/media/transparencia-pastorets-de-girona.webP": "/static/media/transparencia-pastorets-de-girona.5175a28e8a21ab1da8fc.webP",
-    "static/media/entrades-pastorets-de-girona.webP": "/static/media/entrades-pastorets-de-girona.6cbb32569cb722df6b64.webP",
     "static/media/equip-huma-pastorets-de-girona.webP": "/static/media/equip-huma-pastorets-de-girona.3fe5320a6ce25d36b7ae.webP",
     "static/media/valors-pastorets-de-girona.webP": "/static/media/valors-pastorets-de-girona.db885abdc9392ca6e429.webP",
     "static/media/contactar-pastorets-de-girona.webP": "/static/media/contactar-pastorets-de-girona.33e8fc0df95eac67db28.webP",
@@ -33,11 +32,11 @@
     "static/media/mascares.webP": "/static/media/mascares.723a110c6589dec5c01d.webP",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.2aab501f.css.map": "/static/css/main.2aab501f.css.map",
-    "main.68307663.js.map": "/static/js/main.68307663.js.map"
+    "main.5b991a84.css.map": "/static/css/main.5b991a84.css.map",
+    "main.73eed617.js.map": "/static/js/main.73eed617.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aab501f.css",
-    "static/js/main.68307663.js"
+    "static/css/main.5b991a84.css",
+    "static/js/main.73eed617.js"
   ]
 }
