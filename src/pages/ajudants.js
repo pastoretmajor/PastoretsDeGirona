@@ -25,9 +25,6 @@ const Ajudants = () => {
       name: "Adrià Cano Puigvert",
     },
     {
-      name: "Pol Campos Berenguer",
-    },
-    {
       name: "Cristina Esteve i Bosch",
     },
     {
