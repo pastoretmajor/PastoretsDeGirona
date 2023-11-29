@@ -29,6 +29,7 @@ https://github.com/llop10101
 
 .patrocinadorA img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -92,13 +93,22 @@ p {
 /* Responsive styles */
 @media screen and (max-width: 1110px) {
   .patrocinadorA {
-    flex-basis: 100%;
+    flex-basis: 75%;
     border: none;
-    margin: 0px;
+    margin: 0;
+    justify-content: center;
   }
   .patrocinadors-containerA {
-    padding-left:0px;
-    padding-right:0px;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .patrocinadorA img {
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
   }
   p {
     font-size: 3vw !important;
