@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logoMarlex from '../../images/patrocinadors/logoMarlex.png';
+import logoValvi from '../../images/patrocinadors/logoValvi.png';
 
 import './PatrocinadorsB.css';
 
@@ -8,6 +9,11 @@ const patrocinadors = [
     logo: logoMarlex,
     descripcio: "Marlex és una firma líder de serveis professionals que ofereix solucions de Recursos Humans a lnterim, Recruiting i Executive. Comptem amb més de 25 anys d'experiència al sector i una xarxa de més de 70 oficines, posicionant-nos com una de les 5 firmes líders a nivell peninsular i una de les de més alt creixement en els darrers anys. Compartim viatge amb més de 5.000 empreses que confien en els nostres serveis i equips especialitzats. Per filosofia d'empresa dediquem, des del 1996, un 5% de tots els nostres beneficis a accions de compromís social.",
     link: 'https://www.marlex.net/ca',
+  },
+  {
+    logo: logoValvi,
+    descripcio: "",
+    link: '',
   },  
 ];
 

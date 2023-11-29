@@ -4,7 +4,13 @@ import escolaDansa from '../../images/colaborators/gironaDansa.png';
 import ajGirona from '../../images/colaborators/logo_ajgirona_color.png';
 import escolaFedac from '../../images/colaborators/logotip-fedac.png';
 import corXantica from '../../images/colaborators/cor_xantica.png'
-
+import yasminaTeixits from '../../images/colaborators/Yasmina.jpg'
+import qstura from '../../images/colaborators/qstura-nova-imatge-sol-05.png'
+import diputacioGirona from '../../images/colaborators/diputacio-de-girona-Pastorets-de-Girona.png'
+import centreRecerca from '../../images/colaborators/CentreRecercaEco.jpg'
+import barStNarcis from '../../images/colaborators/BarCentreSantNarcis.jpg'
+import impserDigital from '../../images/colaborators/impserDigital.jpg'
+import departamentCultura from '../../images/colaborators/GENERALITATdeCATALUNYA-cultura_PastoretsDeGirona.png'
 
 import './Colaborators.css';
 
@@ -33,7 +39,43 @@ const colaborators = [
     logo: corXantica,
     descripcio: '',
     link: '',
-  }
+  },
+  {
+    logo: yasminaTeixits,
+    descripcio: '',
+    link: '',
+  },
+
+  {
+    logo: qstura,
+    descripcio: '',
+    link: '',
+  },
+  {
+    logo: diputacioGirona,
+    descripcio: '',
+    link: '',
+  },
+  {
+    logo: centreRecerca,
+    descripcio: '',
+    link: '',
+  },
+  {
+    logo: barStNarcis,
+    descripcio: '',
+    link: '',
+  },
+  {
+    logo: impserDigital,
+    descripcio: '',
+    link: '',
+  },
+  {
+    logo: departamentCultura,
+    descripcio: '',
+    link: '',
+  },
 ];
 
 const Colaborator = ({ logo, descripcio, link }) => {

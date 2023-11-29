@@ -22,8 +22,10 @@ https://github.com/llop10101
   padding: 10px;
   border: 1px solid #f1f1f1;
   margin: 5px;
-  height: 100%
-;}
+  height: 25vw;
+  display: flex;
+  align-items: center;
+}
 
 .patrocinadorA img {
   width: 100%;

@@ -1,7 +1,7 @@
 /*
 
 Joel Cano i Puigvert
-Last update: 27/07/2023
+Last update: 29/11/2023
 https://github.com/llop10101
 
 */
@@ -10,11 +10,16 @@ https://github.com/llop10101
   display: flex;
   overflow: hidden;
   width: 100%;
+  height: auto;
   justify-content: center;
+  align-items: center;
 }
 
 .marquee-container img {
   max-width: 100px;
+  max-height: 100px;
+  display: block;
+  margin: 5px;
 }
 
 p {
