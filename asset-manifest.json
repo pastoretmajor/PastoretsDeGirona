@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf93642c.css",
-    "main.js": "/static/js/main.d2b3501a.js",
+    "main.js": "/static/js/main.28e38269.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
@@ -16,6 +16,7 @@
     "static/media/logoLaTostadora.png": "/static/media/logoLaTostadora.b5dfad02381f6a3970fc.png",
     "static/media/associacio-pastorets-de-girona.webP": "/static/media/associacio-pastorets-de-girona.5b0e09ddf5069c48ae4d.webP",
     "static/media/logoBarretinaSenseFons.png": "/static/media/logoBarretinaSenseFons.55a48edd51f252391e60.png",
+    "static/media/dracs.png": "/static/media/dracs.b7a6d6dee11c9727bf82.png",
     "static/media/feste-soci-pastorets-de-girona.webP": "/static/media/feste-soci-pastorets-de-girona.8ac623081b89da332c30.webP",
     "static/media/lobra-pastorets-de-girona.webP": "/static/media/lobra-pastorets-de-girona.767d47f184e0bcfd46ae.webP",
     "static/media/logoMarlex.png": "/static/media/logoMarlex.0937dae51838348ac8af.png",
@@ -32,6 +33,7 @@
     "static/media/gironaDansa.png": "/static/media/gironaDansa.8699a1b201f0a30f66e3.png",
     "static/media/logoTeaming.png": "/static/media/logoTeaming.f9b95fddf27b5bd59a7a.png",
     "static/media/GENERALITATdeCATALUNYA-cultura_PastoretsDeGirona.png": "/static/media/GENERALITATdeCATALUNYA-cultura_PastoretsDeGirona.fc9ae1d51f20cb236a32.png",
+    "static/media/lesVoltes.png": "/static/media/lesVoltes.fd26cd99b12047934393.png",
     "static/media/logoMemora.png": "/static/media/logoMemora.184604b671c9ce24b249.png",
     "static/media/diputacio-de-girona-Pastorets-de-Girona.png": "/static/media/diputacio-de-girona-Pastorets-de-Girona.6c8cbf6cbf52146441e4.png",
     "static/media/CentreRecercaEco.jpg": "/static/media/CentreRecercaEco.b1be4d971c6e0e1ca51f.jpg",
@@ -44,10 +46,10 @@
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
     "main.cf93642c.css.map": "/static/css/main.cf93642c.css.map",
-    "main.d2b3501a.js.map": "/static/js/main.d2b3501a.js.map"
+    "main.28e38269.js.map": "/static/js/main.28e38269.js.map"
   },
   "entrypoints": [
     "static/css/main.cf93642c.css",
-    "static/js/main.d2b3501a.js"
+    "static/js/main.28e38269.js"
   ]
 }
