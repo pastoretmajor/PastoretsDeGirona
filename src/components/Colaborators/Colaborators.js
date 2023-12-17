@@ -11,6 +11,8 @@ import centreRecerca from '../../images/colaborators/CentreRecercaEco.jpg'
 import barStNarcis from '../../images/colaborators/BarCentreSantNarcis.jpg'
 import impserDigital from '../../images/colaborators/impserDigital.jpg'
 import departamentCultura from '../../images/colaborators/GENERALITATdeCATALUNYA-cultura_PastoretsDeGirona.png'
+import lesVoltes from '../../images/colaborators/lesVoltes.png'
+import dracs from '../../images/colaborators/dracs.png'
 
 import './Colaborators.css';
 
@@ -73,6 +75,16 @@ const colaborators = [
   },
   {
     logo: departamentCultura,
+    descripcio: '',
+    link: '',
+  },
+  {
+    logo: lesVoltes,
+    descripcio: '',
+    link: '',
+  },
+  {
+    logo: dracs,
     descripcio: '',
     link: '',
   },

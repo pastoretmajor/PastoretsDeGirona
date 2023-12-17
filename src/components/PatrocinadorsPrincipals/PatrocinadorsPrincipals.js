@@ -18,12 +18,13 @@ import yasmina from '../../images/colaborators/Yasmina.jpg';
 import cultura from '../../images/colaborators/GENERALITATdeCATALUNYA-cultura_PastoretsDeGirona.png';
 import diputacio from '../../images/colaborators/diputacio-de-girona-Pastorets-de-Girona.png';
 import qstura from '../../images/colaborators/qstura-nova-imatge-sol-05.png';
-
+import lesVoltes from '../../images/colaborators/lesVoltes.png';
+import dracs from '../../images/colaborators/dracs.png';
 
 const PatrocinadorsPrincipals = () => {
   const images = [
     laTostadora, ajGirona, fedac, fundacioEsplai, dansaGirona, corXantica, logoValvi, logoCaixaBank, impserDigital, memora, marlex, teaming,
-    barStNarcis, recercaEco, yasmina, cultura, diputacio, qstura,
+    barStNarcis, recercaEco, yasmina, cultura, diputacio, qstura, lesVoltes, dracs
   ];
 
 
