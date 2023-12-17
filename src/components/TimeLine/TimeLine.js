@@ -19,6 +19,7 @@ const TimeLine = () => {
                 icon={<TicketIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">L'obra</h3>
+                <br />
                 <h4 className="vertical-timeline-element-subtitle rubik-title">Comença el trasllat cap al Teatre Municipal de Girona</h4>
                 <p className="rubik-text">
                 Ja encarem la recta final, arribem al teatre municipal on fem els darrers assaigs amb tot el material que necessitem.

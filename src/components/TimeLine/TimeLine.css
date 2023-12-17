@@ -1,7 +1,5 @@
 .vertical-timeline::before {
-    /* this is the vertical line */
-  
-    background: black !important;
+      background: black !important;
   }
 
   .custom-link-button {
@@ -91,8 +89,13 @@
     color: #fff;
   }
   
+.rubik-title {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+}
 .rubik-text {
   font-family: 'Rubik', sans-serif;
+  text-align: center;
 }
 
 .roboto-title {
