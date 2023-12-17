@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf93642c.css",
-    "main.js": "/static/js/main.28e38269.js",
+    "main.css": "/static/css/main.1a89399c.css",
+    "main.js": "/static/js/main.ae4f8fe2.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
@@ -38,18 +38,17 @@
     "static/media/diputacio-de-girona-Pastorets-de-Girona.png": "/static/media/diputacio-de-girona-Pastorets-de-Girona.6c8cbf6cbf52146441e4.png",
     "static/media/CentreRecercaEco.jpg": "/static/media/CentreRecercaEco.b1be4d971c6e0e1ca51f.jpg",
     "static/media/fundacioEsplai.png": "/static/media/fundacioEsplai.445d572914bda6417d85.png",
-    "static/media/pattern.avif": "/static/media/pattern.603fd278d2c3bf9e85bd.avif",
     "static/media/logoHoritzontal.webP": "/static/media/logoHoritzontal.ac8585f8b7ab9fda7e3d.webP",
     "static/media/llapis.webP": "/static/media/llapis.9faee469b52d3276cdc7.webP",
     "static/media/mascares.webP": "/static/media/mascares.723a110c6589dec5c01d.webP",
     "static/media/logoValvi.png": "/static/media/logoValvi.5b52fe3beb858d90910d.png",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.cf93642c.css.map": "/static/css/main.cf93642c.css.map",
-    "main.28e38269.js.map": "/static/js/main.28e38269.js.map"
+    "main.1a89399c.css.map": "/static/css/main.1a89399c.css.map",
+    "main.ae4f8fe2.js.map": "/static/js/main.ae4f8fe2.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf93642c.css",
-    "static/js/main.28e38269.js"
+    "static/css/main.1a89399c.css",
+    "static/js/main.ae4f8fe2.js"
   ]
 }
