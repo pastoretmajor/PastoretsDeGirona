@@ -14,6 +14,127 @@ const TimeLine = () => {
         <VerticalTimeline>
             <VerticalTimelineElement
                 contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">13/12/2023</span>}
+                iconStyle={{ background: '#1D1D1D', color: '#fff' }}
+                icon={<TicketIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">L'obra</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">Comença el trasllat cap al Teatre Municipal de Girona</h4>
+                <p className="rubik-text">
+                Ja encarem la recta final, arribem al teatre municipal on fem els darrers assaigs amb tot el material que necessitem.
+
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">05/12/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">A TV Girona fan una entrevista al director</h4>
+                <p className="rubik-text">
+                Aquí podem veure durant els primers minuts de programa que cada cop queda menys, però que ho estem enfrontant amb molta il·lusió.
+                </p>
+                <Link to="https://www.diaridegirona.cat/opinio/2023/12/03/benvinguda-als-pastorets-95395053.html" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">VEURE MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">03/12/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El Diari de Girona publica</h4>
+                <p className="rubik-text">
+                Benvinguda als Pastorets
+                </p>
+                <Link to="https://www.diaridegirona.cat/opinio/2023/12/03/benvinguda-als-pastorets-95395053.html" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">VEURE MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">03/12/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari Ara publica</h4>
+                <p className="rubik-text">
+                Les tradicions de sempre també es renoven.
+                </p>
+                <Link to="https://www.ara.cat/especials/nadal/tradicions-sempre-tambe-renoven_1_4868886.html" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">VEURE MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">02/12/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari VilaWeb publica</h4>
+                <p className="rubik-text">
+                Els Pastorets: una tradició arrelada al país i al jovent. Pastorets de Girona surt com una de les novetats destacades de l'any.
+                </p>
+                <Link to="https://www.vilaweb.cat/noticies/pastorets-tradicio-principat/" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">VEURE MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">01/12/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari La República publica</h4>
+                <p className="rubik-text">
+                La temporada de Pastorets comptarà amb més de 250 representacions.
+                </p>
+                <Link to="https://www.larepublica.cat/minut-a-minut/la-temporada-de-pastorets-comptara-amb-mes-de-250-representacions/" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">VEURE MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">01/12/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El nou pòster dels Pastorets de Girona surt a el búnquer</h4>
+                <p className="rubik-text">
+                Des de l'instagram de @elbunquercatradio, publiquen una imatge amb una totebag amb el nou pòster dels Pastorets de Girona i una carta també escrita pels Pastorets de Girona.
+                </p>
+                <Link to="https://www.instagram.com/p/C0Uo8mwtydB/" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">VEURE MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
                 date={<span className="rubik-date">13/11/2023</span>}
                 iconStyle={{ background: '#D91E01', color: '#fff' }}
                 icon={<PressIcon />}
@@ -92,7 +213,7 @@ const TimeLine = () => {
                 <h3 className="vertical-timeline-element-title robototitle">Entrades</h3>
                 <h4 className="vertical-timeline-element-subtitle roboto-title">Inici de la venda</h4>
                 <p className="rubik-text">
-                Ja pots adquirir les entrades, tant a la taquilla del Teatre Municiapl de Girona com a través de la nostra pàgina web.
+                Ja pots adquirir les entrades, tant a la taquilla del Teatre Municipal de Girona com a través de la nostra pàgina web.
                 </p>
                 <Link to="https://www.pastoretsdegirona.cat/" className="custom-link-button">
                     <div className="circle">
