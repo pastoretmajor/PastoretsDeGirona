@@ -39,9 +39,10 @@
   }
 
   .director-logo {
-    position: relative;
-    width: 60px;
+    display: flex;
+    width: 6rem;
     height: auto;
+    margin: auto auto;
   }
 
   .director-enquesta {
@@ -49,7 +50,8 @@
     display: block;
     outline: none;
     border: 0;
-    margin: 0 auto;    text-decoration: none;
+    margin: 0 auto;
+    text-decoration: none;
     background: transparent;
     padding: 0;
     font-size: inherit;
@@ -58,4 +60,52 @@
     height: auto;
     text-align: center;
     align-items: center;
+  }
+
+  .director-tooltip {
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    background-color: #1D1D1D;
+    color: #fff;
+    width: fit-content;
+    margin: 100px auto;
+    padding: 1em 3em;
+    border-radius: 1em;
+    text-decoration: none;
+  }
+
+  .director-tooltip .director-tooltiptext {
+    font-family: 'Rubik',sans-serif;
+    display:none;
+    width: 200px;
+    background-color: #1D1D1D17;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .director-tooltip:hover .director-tooltiptext {
+    display: block;
+    opacity: 1;
+  }
+  
+  .director-tooltip .director-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #28282817 transparent transparent transparent;
+    transform: translateX(-50%);
   }

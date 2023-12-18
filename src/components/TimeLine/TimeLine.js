@@ -19,8 +19,7 @@ const TimeLine = () => {
                 icon={<TicketIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">L'obra</h3>
-                <br />
-                <h4 className="vertical-timeline-element-subtitle rubik-title">Comença el trasllat cap al Teatre Municipal de Girona</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Comença el trasllat cap al Teatre Municipal de Girona</h4>
                 <p className="rubik-text">
                 Ja encarem la recta final, arribem al teatre municipal on fem els darrers assaigs amb tot el material que necessitem.
 
@@ -33,7 +32,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">A TV Girona fan una entrevista al director</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">A TV Girona fan una entrevista al director</h4>
                 <p className="rubik-text">
                 Aquí podem veure durant els primers minuts de programa que cada cop queda menys, però que ho estem enfrontant amb molta il·lusió.
                 </p>
@@ -51,7 +50,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">El Diari de Girona publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El Diari de Girona publica</h4>
                 <p className="rubik-text">
                 Benvinguda als Pastorets
                 </p>
@@ -69,7 +68,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari Ara publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El diari Ara publica</h4>
                 <p className="rubik-text">
                 Les tradicions de sempre també es renoven.
                 </p>
@@ -87,7 +86,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari VilaWeb publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El diari VilaWeb publica</h4>
                 <p className="rubik-text">
                 Els Pastorets: una tradició arrelada al país i al jovent. Pastorets de Girona surt com una de les novetats destacades de l'any.
                 </p>
@@ -105,7 +104,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari La República publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El diari La República publica</h4>
                 <p className="rubik-text">
                 La temporada de Pastorets comptarà amb més de 250 representacions.
                 </p>
@@ -123,7 +122,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">El nou pòster dels Pastorets de Girona surt a el búnquer</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El nou pòster dels Pastorets de Girona surt a el búnquer</h4>
                 <p className="rubik-text">
                 Des de l'instagram de @elbunquercatradio, publiquen una imatge amb una totebag amb el nou pòster dels Pastorets de Girona i una carta també escrita pels Pastorets de Girona.
                 </p>
@@ -141,7 +140,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">El nou pòster dels Pastorets de Girona surt a TV Girona</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El nou pòster dels Pastorets de Girona surt a TV Girona</h4>
                 <p className="rubik-text">
                 A partir del minut 14:30 fins al 16:40, fan un resum on es mostra la presentació del cartell conjuntament amb una entrevista al director de l'obra i a l'artista Pau Morales.
                 </p>
@@ -159,7 +158,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari El Punt Avui publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El diari El Punt Avui publica</h4>
                 <p className="rubik-text">
                 Els Pastorets canvien d'imatge
                 </p>
@@ -177,7 +176,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">El Diari de Girona publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El Diari de Girona publica</h4>
                 <p className="rubik-text">
                 Aquest és el cartell dels nous Pastorets de Girona.
                 </p>
@@ -195,7 +194,7 @@ const TimeLine = () => {
                 icon={<PresentationIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-title">Presentació del cartell</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Presentació del cartell</h4>
                 <p className="rubik-text">
                 La presentació del cartell va tenir lloc a la Plaça dels Apòstols a les 11:30h.
                 </p>
@@ -211,8 +210,8 @@ const TimeLine = () => {
                 iconStyle={{ background: '#1D1D1D', color: '#fff' }}
                 icon={<TicketIcon />}
             >
-                <h3 className="vertical-timeline-element-title robototitle">Entrades</h3>
-                <h4 className="vertical-timeline-element-subtitle roboto-title">Inici de la venda</h4>
+                <h3 className="vertical-timeline-element-title rubik-title">Entrades</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Inici de la venda</h4>
                 <p className="rubik-text">
                 Ja pots adquirir les entrades, tant a la taquilla del Teatre Municipal de Girona com a través de la nostra pàgina web.
                 </p>
@@ -228,8 +227,8 @@ const TimeLine = () => {
                 iconStyle={{ background: '#D91E01', color: '#fff' }}
                 icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title roboto-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle roboto-title">El diari El Gerió Digital publica</h4>
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari El Gerió Digital publica</h4>
                 <p className="rubik-text">
                     Les entrades pels Pastorets de Girona es posen a la venda divendres.
                 </p>
@@ -245,8 +244,8 @@ const TimeLine = () => {
                 iconStyle={{ background: '#D91E01', color: '#fff' }}
                 icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title roboto-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle roboto-title">Sentim a parlar dels Pastorets de Girona a CatRàdio</h4>
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">Sentim a parlar dels Pastorets de Girona a CatRàdio</h4>
                 <p className="rubik-text">
                 A partir del minut 47:13 fins al 49:07, fan un resum on s'explica que recuperarem els Pastorets de Girona.
                 </p>
@@ -263,8 +262,8 @@ const TimeLine = () => {
                 iconStyle={{ background: '#D91E01', color: '#fff' }}
                 icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title roboto-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle roboto-title">El Diari de Girona publica</h4>
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El Diari de Girona publica</h4>
                 <p className="rubik-text">
                 Uns Pastorets "renovats" tornen a Girona aquest Nadal
                 </p>
@@ -280,8 +279,8 @@ const TimeLine = () => {
                 iconStyle={{ background: '#D91E01', color: '#fff' }}
                 icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title roboto-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle roboto-title">El diari El Punt Avui publica</h4>
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">El diari El Punt Avui publica</h4>
                 <p className="rubik-text">
                 Un tiktoker a Els Pastorets de Girona
                 </p>
@@ -297,8 +296,8 @@ const TimeLine = () => {
                 iconStyle={{ background: '#D91E01', color: '#fff' }}
                 icon={<PressIcon />}
             >
-                <h3 className="vertical-timeline-element-title roboto-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle roboto-title">L'Ajuntament de Girona publica</h4>
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-title">L'Ajuntament de Girona publica</h4>
                 <p className="rubik-text">
                 La ciutat de Girona recupera aquest Nadal "Els Pastorets"
                 </p>

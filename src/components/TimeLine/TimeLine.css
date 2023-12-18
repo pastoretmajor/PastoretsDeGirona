@@ -92,7 +92,13 @@
 .rubik-title {
   font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
+
+.rubik-subtitle {
+  font-family: 'Rubik', sans-serif;
+}
+
 .rubik-text {
   font-family: 'Rubik', sans-serif;
   text-align: center;

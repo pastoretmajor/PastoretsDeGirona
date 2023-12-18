@@ -33,7 +33,10 @@ const Carta = () => {
           <p className="director-signature">Atentament,<br />Els directors dels Pastorets de Girona</p>
         </div>
       </div>
-        <div className="director-enquesta">T'han agradat els nous pastorets? Respon la següent enquesta</div>
+        <div className="director-enquesta">T'ha agradat la funció? Si us plau, respon la següent enquesta i coneixerem la teva opinió.</div>
+        <a className="director-tooltip" href='https://forms.gle/YJbzxmVtAz8vyCud7' rel="noopener noreferrer" target="_blank">Enquesta 
+          <div className="director-tooltiptext">La teva resposta ens ajuda molt!</div>
+        </a>
     </div>
   );
 }
