@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a89399c.css",
+    "main.css": "/static/css/main.65b2ad43.css",
     "main.js": "/static/js/main.ae4f8fe2.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
@@ -44,11 +44,11 @@
     "static/media/logoValvi.png": "/static/media/logoValvi.5b52fe3beb858d90910d.png",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.1a89399c.css.map": "/static/css/main.1a89399c.css.map",
+    "main.65b2ad43.css.map": "/static/css/main.65b2ad43.css.map",
     "main.ae4f8fe2.js.map": "/static/js/main.ae4f8fe2.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a89399c.css",
+    "static/css/main.65b2ad43.css",
     "static/js/main.ae4f8fe2.js"
   ]
 }
