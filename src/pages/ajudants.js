@@ -73,6 +73,9 @@ const Ajudants = () => {
       name: "Sara Pujolràs Naspreda",
     },
     {
+      name: "Axel Repullo"
+    },
+    {
       name: "Carme Rocas Alsina",
     },
     {

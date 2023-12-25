@@ -37,8 +37,8 @@ const Tecnics = () => {
       rol: "Tècnic de llums i so"
     },
     {
-      name: "Daniel Moreta",
-      rol: "Director musical"
+      name: "Natàlia Donato \n Arnau Morales\n Daniel Moreta \n Sara Pujolràs",
+      rol: "Equip musical"
     },
     {
       name: "Isaac d'Aiguaviva",
