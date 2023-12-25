@@ -14,15 +14,32 @@ const TimeLine = () => {
         <VerticalTimeline>
             <VerticalTimelineElement
                 contentStyle={{ background: '#fff', color: '#000' }}
+                date={<span className="rubik-date">22/12/2023</span>}
+                iconStyle={{ background: '#D91E01', color: '#fff' }}
+                icon={<PressIcon />}
+            >
+                <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">A ràdio Girona, emeten una entrevista realitzada a 3 dels memebres dels Pastorets de Girona </h4>
+                <p className="rubik-text">
+                    Aquí podem escoltar a la Marta Nadal, tècnic de llums i so, Joan Cano, encarregat de la gestió de personal i David Vilanova, tresorer, respondre una entrevista al programa els 4 rius.
+                </p>
+                <Link to="https://www.ivoox.com/els-4-rius-girona-recupera-els-pastorets-audios-mp3_rf_121490526_1.html" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                    <div className="circle">
+                    <div className="icon arrow"></div>
+                    </div>
+                    <div className="button-text">VEURE MÉS</div>
+                </Link>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                contentStyle={{ background: '#fff', color: '#000' }}
                 date={<span className="rubik-date">13/12/2023</span>}
                 iconStyle={{ background: '#1D1D1D', color: '#fff' }}
                 icon={<TicketIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">L'obra</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Comença el trasllat cap al Teatre Municipal de Girona</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Comença el trasllat cap al Teatre Municipal de Girona!</h4>
                 <p className="rubik-text">
-                Ja encarem la recta final, arribem al teatre municipal on fem els darrers assaigs amb tot el material que necessitem.
-
+                Ja encarem la recta final, arribem al Teatre Municipal de Girona on fem els darrers assajos amb tot el material que necessitem.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -36,7 +53,7 @@ const TimeLine = () => {
                 <p className="rubik-text">
                 Aquí podem veure durant els primers minuts de programa que cada cop queda menys, però que ho estem enfrontant amb molta il·lusió.
                 </p>
-                <Link to="https://www.diaridegirona.cat/opinio/2023/12/03/benvinguda-als-pastorets-95395053.html" target="_blank" rel="noopener noreferrer" className="custom-link-button">
+                <Link to="https://tvgirona.com/capitol/tv_girona_video/899/" target="_blank" rel="noopener noreferrer" className="custom-link-button">
                     <div className="circle">
                     <div className="icon arrow"></div>
                     </div>
@@ -50,9 +67,9 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El Diari de Girona publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Benvinguda als Pastorets</h4>
                 <p className="rubik-text">
-                Benvinguda als Pastorets
+                El periodista Jordi Roura publica al Diari de Girona un article que donen la benvinguda als Pastorets de Girona a la nostre ciutat.
                 </p>
                 <Link to="https://www.diaridegirona.cat/opinio/2023/12/03/benvinguda-als-pastorets-95395053.html" target="_blank" rel="noopener noreferrer" className="custom-link-button">
                     <div className="circle">
@@ -68,9 +85,9 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El diari Ara publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Les tradicions de sempre també es renoven</h4>
                 <p className="rubik-text">
-                Les tradicions de sempre també es renoven.
+                La periodista Olga Vallejo publica al Diari Ara com la tradició s'adapta als canvis de la societat. Explica el retorn dels Pastorets de Girona i la creació de l'Associació Pastorets de Girona.
                 </p>
                 <Link to="https://www.ara.cat/especials/nadal/tradicions-sempre-tambe-renoven_1_4868886.html" target="_blank" rel="noopener noreferrer" className="custom-link-button">
                     <div className="circle">
@@ -86,10 +103,11 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El diari VilaWeb publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Els Pastorets: una tradició arrelada al país i al jovent</h4>
                 <p className="rubik-text">
-                Els Pastorets: una tradició arrelada al país i al jovent. Pastorets de Girona surt com una de les novetats destacades de l'any.
+                    Vilaweb informa que la Coordinadora de Pastorets de Catalunya ha presentat la nova temporada dels Pastorets, que compta amb més de 250 funcions a arreu de Catalunya.
                 </p>
+                <p className="rubik-text">Destaca que una de les novetat és la reincorporació dels Pastorets de Girona.</p>
                 <Link to="https://www.vilaweb.cat/noticies/pastorets-tradicio-principat/" target="_blank" rel="noopener noreferrer" className="custom-link-button">
                     <div className="circle">
                     <div className="icon arrow"></div>
@@ -104,9 +122,12 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El diari La República publica</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">La temporada de Pastorets comptarà amb més de 250 representacions</h4>
                 <p className="rubik-text">
-                La temporada de Pastorets comptarà amb més de 250 representacions.
+                La República informa que Coordinadora de Pastorets de Catalunya ha presentat la nova temporada dels Pastorets 2023-2024.  Comptarà amb més de 250 funcions i destaca l'assistència arreu del territori català, on es calcula entre 60.000 i 65.000 espectadors.
+                </p>
+                <p className="rubik-text">
+                Destaca que la Coordinadora celebra la reincorporació dels Pastorets de Girona, que, després d’un any sense representacions a la capital gironina, tornen amb una proposta renovada i emocionant.
                 </p>
                 <Link to="https://www.larepublica.cat/minut-a-minut/la-temporada-de-pastorets-comptara-amb-mes-de-250-representacions/" target="_blank" rel="noopener noreferrer" className="custom-link-button">
                     <div className="circle">
@@ -122,9 +143,12 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El nou pòster dels Pastorets de Girona surt a el búnquer</h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">Els Pastorets de Girona al Búnquer Confidencial de Catalunya Ràdio</h4>
                 <p className="rubik-text">
-                Des de l'instagram de @elbunquercatradio, publiquen una imatge amb una totebag amb el nou pòster dels Pastorets de Girona i una carta també escrita pels Pastorets de Girona.
+                Tres membres de l'Associació Pastorets de Girona van assistir a El Búnquer Confidencial a l'Auditori de Girona. A l'acabar l'esdeveniment, van fer entrega de la totebag dels Pastorets de Girona, als tres protagonistes, Peyu, Jair i Neus.
+                </p>
+                <p className="rubik-text">
+                El mateix dia, van compartir una publicació a l'Instagram @elbunquercatradio, on es mostra la tote bag juntament amb una carta d'agraïment i suport que van rebre amb gran afecte.
                 </p>
                 <Link to="https://www.instagram.com/p/C0Uo8mwtydB/" target="_blank" rel="noopener noreferrer" className="custom-link-button">
                     <div className="circle">
@@ -142,7 +166,7 @@ const TimeLine = () => {
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
                 <h4 className="vertical-timeline-element-subtitle rubik-subtitle">El nou pòster dels Pastorets de Girona surt a TV Girona</h4>
                 <p className="rubik-text">
-                A partir del minut 14:30 fins al 16:40, fan un resum on es mostra la presentació del cartell conjuntament amb una entrevista al director de l'obra i a l'artista Pau Morales.
+                A partir del minut 14:30 fins al 16:40, es realitza un resum que destaca la presentació del cartell a la Plaça dels Apòstols de la ciutat. També s'entrevista el director de l'obra, Salvi de Castro, i l'artista del pòster, Pau Morales.
                 </p>
                 <Link to="https://tvgirona.com/capitol/tv_girona_video/815/" target="_blank" rel="noopener noreferrer" className="custom-link-button">
                     <div className="circle">
