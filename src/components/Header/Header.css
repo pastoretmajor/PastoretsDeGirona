@@ -1,0 +1,33 @@
+.content-wrapper-header {
+    position: static;
+}
+
+.banner-layer {
+    width: inherit;
+    height: inherit;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-header {
+    width: 100vw;
+    height: auto;
+    opacity: .5;
+}
+
+.banner-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    margin: auto auto;
+    z-index: 1;
+}
+
+.banner-text h1{
+    font-size: 10rem;
+}

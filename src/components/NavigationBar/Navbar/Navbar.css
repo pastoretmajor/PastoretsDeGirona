@@ -13,9 +13,10 @@ https://github.com/llop10101
     justify-content: center; /* Justificació del contingut */
     align-items: center; /* Justificació dels items de la navigation bar */
     font-size: 20px; /* Tamany del text de la navigation bar */
-    margin : 0 auto; /* Elimina el default margin */
+    margin : 0; /* Elimina el default margin */
     max-width: 1440px; /* Estableix el màxim d'amplada */
-    position: relative;
+    width: 100%;
+    position:relative;
     z-index: 2;
     
   }
