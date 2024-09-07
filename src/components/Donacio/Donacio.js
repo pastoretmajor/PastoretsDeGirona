@@ -10,7 +10,7 @@ const Donacio = () => {
             <p>Per a establir una connexió especial i fer-te amic o amiga amb els Pastorets de Girona, et convidem a fer una donació de l'import que vulguis al compte de CaixaBank que es detalla a continuació:</p>
             </div>
             <h2>ES98 2100 8133 1102 0052 5669</h2>
-            <h4>Beneficiari: Fundació Esplai Girona</h4>
+            <h4>Beneficiari:  Associació Pastorets de Girona</h4>
             <div className='text'>
             <p>A través d'aquesta donació, contribuiràs al suport de les activitats i producció dels Pastorets de Girona i ajudar a enriquir aquesta tradició cultural tan estimada per a la nostra ciutat de Girona.</p>
             <p>Agraïm de tot cor la teva generositat i el teu suport incondicional als Pastorets de Girona. Cada donació és una contribució significativa per al manteniment del nostre patrimoni teatral i cultural. </p>
