@@ -1,0 +1,109 @@
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sociHeader {
+    text-align: center;
+    color: #ff735c;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+input[type="checkbox"] {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-left: 10px;
+}
+
+button[type="submit"] {
+    background-color: #ff745c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button.active {
+    cursor: pointer;
+}
+
+button.active:hover {
+    background-color: #d44d39;
+}
+
+button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* CSS to align the checkbox to the right */
+.terms-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms-container input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.half-width {
+    width: 48%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+input::placeholder {
+    color: #555;
+}
+
+.terms-and-conditions {
+    color: #888;
+    font-size: 12px;
+}
