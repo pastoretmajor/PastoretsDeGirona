@@ -62,18 +62,18 @@ const handleSubmitPersona = async (e) => {
                 
                 <div className="form-row">
                     <div className="form-field half-width">
-                        <label>Nom:</label>
+                        <label>Nom:<span className="obligatory-mark">*</span></label>
                         <input type="text" placeholder="Nom" value={nom} onChange={(e) => setNom(e.target.value)} required />
                     </div>
                     <div className="form-field half-width">
-                        <label>Data de naixement:</label>
+                        <label>Data de naixement:<span className="obligatory-mark">*</span></label>
                         <input type="date" value={dataNaixement} onChange={(e) => setDataNaixement(e.target.value)} required />
                     </div>
                 </div>
 
                 <div className="form-row">
                     <div className="form-field half-width">
-                        <label>Cognom 1:</label>
+                        <label>Cognom 1:<span className="obligatory-mark">*</span></label>
                         <input type="text" placeholder="Cognom 1" value={cognom1} onChange={(e) => setCognom1(e.target.value)} required />
                     </div>
                     <div className="form-field half-width">
@@ -95,21 +95,21 @@ const handleSubmitPersona = async (e) => {
                         <input type="text" placeholder="+34000000000" value={telf} onChange={(e) => setTelf(e.target.value)} />
                     </div>
                     <div className="form-field half-width">
-                        <label>Iban:</label>
+                        <label>Iban:<span className="obligatory-mark">*</span></label>
                         <input type="text" placeholder="ES7921000813610123456789" value={iban} onChange={(e) => setIban(e.target.value)} />
                     </div>
                 </div>
 
                 <div className="form-row">
                     <div className="form-field full-width">
-                        <label>Termes i condicions:</label>
+                        <label>Termes i condicions:<span className="obligatory-mark">*</span></label>
                         <input type="checkbox" checked={termsAndConditions} onChange={(e) => setTermsAndConditions(e.target.checked)} />
                     </div>
                 </div>
                 
-                <div className="terms-and-conditions">
-                    El sotasignat declara que la informació continguda en el present formulari és vertadera i correcte en tots els seus aspectes. Així mateix dona el seu consentiment perquè totes les seves dades de caràcter personal que es recullen en el present formulari només siguin emmagatzemades i utilitzades per l'Associació Els Pastorets de Girona per a fins administratius. 
-                    Entenc i accepto que se'm domiciliarà la quota de soci anual al compte bancari indicat (actualment 20€).
+                <div>
+                    <p className="terms-and-conditions">El sotasignat declara que la informació continguda en el present formulari és vertadera i correcte en tots els seus aspectes. Així mateix dona el seu consentiment perquè totes les seves dades de caràcter personal que es recullen en el present formulari només siguin emmagatzemades i utilitzades per l'Associació Els Pastorets de Girona per a fins administratius.</p> 
+                    <p className="terms-and-conditions">Entenc i accepto que se'm domiciliarà la quota de soci anual al compte bancari indicat (actualment 20€).</p>
                 </div>
                 
                 <button type="submit" disabled={!termsAndConditions} className={`submit-btn ${termsAndConditions ? 'active': ''}`}>Registrar-se</button>
