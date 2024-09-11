@@ -21,9 +21,18 @@ const encryptIban = (iban) => {
     return CryptoJS.AES.encrypt(iban, passphrase).toString();
 }
 
+const validateForm = () => {
+    return nom && cognom1 && dataNaixement && iban && termsAndConditions;
+}
 
 const handleSubmitPersona = async (e) => {
     e.preventDefault();
+
+    if (!validateForm()) {
+        alert("Tots els camps obligatoris han de ser plens");
+        return;
+    }
+
 
     const encryptedIban = encryptIban(iban);
 
