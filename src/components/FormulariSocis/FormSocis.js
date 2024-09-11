@@ -14,6 +14,7 @@ const AddPersones = () => {
     const [telf, setTelf] = useState('');
     const [mail, setMail] = useState('');
     const [dataNaixement, setDataNaixement] = useState('');
+    const [adress, setAdress] = useState('');
     const [iban, setIban] = useState('');
     const [termsAndConditions, setTermsAndConditions] = useState('');
 
@@ -22,7 +23,7 @@ const encryptIban = (iban) => {
 }
 
 const validateForm = () => {
-    return nom && cognom1 && dataNaixement && iban && termsAndConditions;
+    return nom && cognom1 && dataNaixement && iban && termsAndConditions && adress;
 }
 
 const handleSubmitPersona = async (e) => {
@@ -43,6 +44,7 @@ const handleSubmitPersona = async (e) => {
         telf,
         mail,
         dataNaixement,
+        adress,
         iban: encryptedIban,
         termsAndConditions,
     };
@@ -56,6 +58,7 @@ const handleSubmitPersona = async (e) => {
         setTelf('');
         setMail('');
         setDataNaixement('');
+        setAdress('');
         setIban('');
         setTermsAndConditions('');
     } catch (error) {
@@ -75,19 +78,19 @@ const handleSubmitPersona = async (e) => {
                         <input type="text" placeholder="Nom" value={nom} onChange={(e) => setNom(e.target.value)} required />
                     </div>
                     <div className="form-field half-width">
-                        <label>Data de naixement:<span className="obligatory-mark">*</span></label>
-                        <input type="date" value={dataNaixement} onChange={(e) => setDataNaixement(e.target.value)} required />
+                        <label>Primer Cognom:<span className="obligatory-mark">*</span></label>
+                        <input type="text" placeholder="Primer Cognom" value={cognom1} onChange={(e) => setCognom1(e.target.value)} required />
                     </div>
                 </div>
 
                 <div className="form-row">
                     <div className="form-field half-width">
-                        <label>Cognom 1:<span className="obligatory-mark">*</span></label>
-                        <input type="text" placeholder="Cognom 1" value={cognom1} onChange={(e) => setCognom1(e.target.value)} required />
+                        <label>Segon Cognom:</label>
+                        <input type="text" placeholder="Cognom 2" value={cognom2} onChange={(e) => setCognom2(e.target.value)} />
                     </div>
                     <div className="form-field half-width">
-                        <label>Cognom 2:</label>
-                        <input type="text" placeholder="Cognom 2" value={cognom2} onChange={(e) => setCognom2(e.target.value)} />
+                        <label>Data de naixement:<span className="obligatory-mark">*</span></label>
+                        <input type="date" value={dataNaixement} onChange={(e) => setDataNaixement(e.target.value)} required />
                     </div>
                 </div>
 
@@ -105,7 +108,14 @@ const handleSubmitPersona = async (e) => {
                     </div>
                     <div className="form-field half-width">
                         <label>IBAN:<span className="obligatory-mark">*</span></label>
-                        <input type="text" placeholder="ES7921000813610123456789" value={iban} onChange={(e) => setIban(e.target.value)} />
+                        <input type="text" placeholder="ES7921000813610123456789" value={iban} onChange={(e) => setIban(e.target.value)} required />
+                    </div>
+                </div>
+
+                <div className="form-row">
+                    <div className="form-field full-width">
+                        <label>Adreça postal:<span className="obligatory-mark">*</span></label>
+                        <input type="text" placeholder="C/ Plaça del vi, 1 - Girona" value={adress} onChange={(e) => setAdress(e.target.value)} required />
                     </div>
                 </div>
 
@@ -119,6 +129,7 @@ const handleSubmitPersona = async (e) => {
                 <div>
                     <p className="terms-and-conditions">El sotasignat declara que la informació continguda en el present formulari és vertadera i correcte en tots els seus aspectes. Així mateix dona el seu consentiment perquè totes les seves dades de caràcter personal que es recullen en el present formulari només siguin emmagatzemades i utilitzades per l'Associació Els Pastorets de Girona per a fins administratius.</p> 
                     <p className="terms-and-conditions">Entenc i accepto que se'm domiciliarà la quota de soci anual al compte bancari indicat (actualment 20€).</p>
+                    <p className="terms-and-conditions">Per realitzar qualsevol modificació de les dades, s'ha d'enviar un correu electrònic a el correu pastoret.major@pastoretsdegirona.cat</p>
                 </div>
                 
                 <button type="submit" disabled={!termsAndConditions} className={`submit-btn ${termsAndConditions ? 'active': ''}`}>Registrar-se</button>
