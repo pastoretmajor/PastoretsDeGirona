@@ -104,7 +104,7 @@ const handleSubmitPersona = async (e) => {
                         <input type="text" placeholder="+34000000000" value={telf} onChange={(e) => setTelf(e.target.value)} />
                     </div>
                     <div className="form-field half-width">
-                        <label>Iban:<span className="obligatory-mark">*</span></label>
+                        <label>IBAN:<span className="obligatory-mark">*</span></label>
                         <input type="text" placeholder="ES7921000813610123456789" value={iban} onChange={(e) => setIban(e.target.value)} />
                     </div>
                 </div>
