@@ -17,6 +17,9 @@ const AddPersones = () => {
     const [adress, setAdress] = useState('');
     const [iban, setIban] = useState('');
     const [termsAndConditions, setTermsAndConditions] = useState('');
+    const [succesMessage, setSuccesMessage] = useState(' ');
+    const [errorMessage, setErrorMessage] = useState('');
+    const [showAlert, setShowAlert] = useState(false);
 
 const encryptIban = (iban) => {
     return CryptoJS.AES.encrypt(iban, passphrase).toString();
@@ -61,8 +64,14 @@ const handleSubmitPersona = async (e) => {
         setAdress('');
         setIban('');
         setTermsAndConditions('');
+        setSuccesMessage("El registre s'ha completat amb èxit.")
+        setErrorMessage('');
+        setShowAlert(true);
     } catch (error) {
         console.error('Error adding Persona:', error);
+        setSuccesMessage('');
+        setErrorMessage("Hi ha hagut un error en l'enviament del registre. Si el problema persisteix, poseu-vos en contacte mitjançant el correu");
+        setShowAlert(true);
     }
 };
 
@@ -127,44 +136,25 @@ const handleSubmitPersona = async (e) => {
                 </div>
                 
                 <div>
-                    <p class="terms-and-conditions">La inscripció a aquest formulari implica el consentiment per a tractar les vostres dades personals per a la gestió de dades de l’Associació Pastorets de Girona.</p>
-                    <p class="terms-and-conditions">Les vostres dades no s’utilitzaran per a finalitats diferents ni es cediran a tercers sense el vostre consentiment excepte que una norma legal ho autoritzi.</p>
-                    <p class="terms-and-conditions">L’Associació Pastorets de Girona, com a Responsable del Tractament, només les conservarà el temps indispensable per a la correcta gestió d’aquesta activitat i/o mentre la vostra inscripció sigui activa.</p>
-                    <p class="terms-and-conditions">Entenc i accepto que se'm domiciliarà la quota de soci anual al compte bancari indicat (actualment 20€).</p>
-                    <p class="terms-and-conditions">Per a exercir el dret de cancel·lació d’aquesta inscripció, ens heu d’escriure un correu electrònic a pastoret.major@pastoretsdegirona.cat</p>
-                    <p class="terms-and-conditions">En qualsevol cas, els menors de X anys no poden fer ús d'aquest servei sense autorització del pare/mare o tutor legal.</p>
-                    <p class="terms-and-conditions">Encarregats del tractament de les dades: ASSOCIACIÓ PASTORETS DE GIRONA</p>
+                    <p className="terms-and-conditions">La inscripció a aquest formulari implica el consentiment per a tractar les vostres dades personals per a la gestió de dades de l’Associació Pastorets de Girona.</p>
+                    <p className="terms-and-conditions">Les vostres dades no s’utilitzaran per a finalitats diferents ni es cediran a tercers sense el vostre consentiment excepte que una norma legal ho autoritzi.</p>
+                    <p className="terms-and-conditions">L’Associació Pastorets de Girona, com a Responsable del Tractament, només les conservarà el temps indispensable per a la correcta gestió d’aquesta activitat i/o mentre la vostra inscripció sigui activa.</p>
+                    <p className="terms-and-conditions">Entenc i accepto que se'm domiciliarà la quota de soci anual al compte bancari indicat (actualment 20€).</p>
+                    <p className="terms-and-conditions">Per a exercir el dret de cancel·lació d’aquesta inscripció, ens heu d’escriure un correu electrònic a pastoret.major@pastoretsdegirona.cat</p>
+                    <p className="terms-and-conditions">En qualsevol cas, els menors de X anys no poden fer ús d'aquest servei sense autorització del pare/mare o tutor legal.</p>
+                    <p className="terms-and-conditions">Encarregats del tractament de les dades: ASSOCIACIÓ PASTORETS DE GIRONA</p>
                 </div>
-                
+                {showAlert && (
+                    <div className="alert-container">    
+                        {succesMessage && <div className="alert success">{succesMessage}</div>}
+                        {errorMessage && <div className="alert error">{errorMessage}</div>}
+                    </div>
+                )}
                 <button type="submit" disabled={!termsAndConditions} className={`submit-btn ${termsAndConditions ? 'active': ''}`}>Registrar-se</button>
             </div>
         </form>
-    </div>
+   </div>
     );
 
 }
 export default AddPersones
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
