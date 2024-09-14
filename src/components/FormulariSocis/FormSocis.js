@@ -127,9 +127,13 @@ const handleSubmitPersona = async (e) => {
                 </div>
                 
                 <div>
-                    <p className="terms-and-conditions">El sotasignat declara que la informació continguda en el present formulari és vertadera i correcte en tots els seus aspectes. Així mateix dona el seu consentiment perquè totes les seves dades de caràcter personal que es recullen en el present formulari només siguin emmagatzemades i utilitzades per l'Associació Els Pastorets de Girona per a fins administratius.</p> 
-                    <p className="terms-and-conditions">Entenc i accepto que se'm domiciliarà la quota de soci anual al compte bancari indicat (actualment 20€).</p>
-                    <p className="terms-and-conditions">Per realitzar qualsevol modificació de les dades, s'ha d'enviar un correu electrònic a el correu pastoret.major@pastoretsdegirona.cat</p>
+                    <p>La inscripció a aquest formulari implica el consentiment per a tractar les vostres dades personals per a la gestió de dades de l’Associació Pastorets de Girona.</p>
+                    <p>Les vostres dades no s’utilitzaran per a finalitats diferents ni es cediran a tercers sense el vostre consentiment excepte que una norma legal ho autoritzi.</p>
+                    <p>L’Associació Pastorets de Girona, com a Responsable del Tractament, només les conservarà el temps indispensable per a la correcta gestió d’aquesta activitat i/o mentre la vostra inscripció sigui activa.</p>
+                    <p>Entenc i accepto que se'm domiciliarà la quota de soci anual al compte bancari indicat (actualment 20€).</p>
+                    <p>Per a exercir el dret de cancel·lació d’aquesta inscripció, ens heu d’escriure un correu electrònic a pastoret.major@pastoretsdegirona.cat</p>
+                    <p>En qualsevol cas, els menors de X anys no poden fer ús d'aquest servei sense autorització del pare/mare o tutor legal.</p>
+                    <p>Encarregats del tractament de les dades: ASSOCIACIÓ PASTORETS DE GIRONA</p>
                 </div>
                 
                 <button type="submit" disabled={!termsAndConditions} className={`submit-btn ${termsAndConditions ? 'active': ''}`}>Registrar-se</button>
