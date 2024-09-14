@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8850470.css",
-    "main.js": "/static/js/main.79ec0665.js",
+    "main.css": "/static/css/main.85f9bf71.css",
+    "main.js": "/static/js/main.dcfd9f29.js",
     "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
     "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
     "static/media/alaAngelCalendari.webP": "/static/media/alaAngelCalendari.30f62a0be479a3310972.webP",
@@ -44,11 +44,11 @@
     "static/media/logoValvi.png": "/static/media/logoValvi.5b52fe3beb858d90910d.png",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.d8850470.css.map": "/static/css/main.d8850470.css.map",
-    "main.79ec0665.js.map": "/static/js/main.79ec0665.js.map"
+    "main.85f9bf71.css.map": "/static/css/main.85f9bf71.css.map",
+    "main.dcfd9f29.js.map": "/static/js/main.dcfd9f29.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8850470.css",
-    "static/js/main.79ec0665.js"
+    "static/css/main.85f9bf71.css",
+    "static/js/main.dcfd9f29.js"
   ]
 }
