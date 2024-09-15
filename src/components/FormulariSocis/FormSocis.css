@@ -119,7 +119,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     width: 100%;
-    animation: fadeOut 3s forwards;
+    animation: fadeOut 5s forwards;
 }
 
 .alert {
