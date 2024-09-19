@@ -138,10 +138,10 @@ const handleSubmitPersona = async (e) => {
                 <div>
                     <p className="terms-and-conditions">La inscripció a aquest formulari implica el consentiment per a tractar les vostres dades personals per a la gestió de dades de l’Associació Pastorets de Girona.</p>
                     <p className="terms-and-conditions">Les vostres dades no s’utilitzaran per a finalitats diferents ni es cediran a tercers sense el vostre consentiment excepte que una norma legal ho autoritzi.</p>
-                    <p className="terms-and-conditions">L’Associació Pastorets de Girona, com a Responsable del Tractament, només les conservarà el temps indispensable per a la correcta gestió d’aquesta activitat i/o mentre la vostra inscripció sigui activa.</p>
+                    <p className="terms-and-conditions">L’Associació Pastorets de Girona, com a Responsable del tractament, només les conservarà el temps indispensable per a la correcta gestió d’aquesta activitat i/o mentre la vostra inscripció sigui activa.</p>
                     <p className="terms-and-conditions">Entenc i accepto que se'm domiciliarà la quota de soci anual al compte bancari indicat (actualment 20€).</p>
                     <p className="terms-and-conditions">Per a exercir el dret de cancel·lació d’aquesta inscripció, ens heu d’escriure un correu electrònic a pastoret.major@pastoretsdegirona.cat</p>
-                    <p className="terms-and-conditions">En qualsevol cas, els menors de X anys no poden fer ús d'aquest servei sense autorització del pare/mare o tutor legal.</p>
+                    <p className="terms-and-conditions">En qualsevol cas, els menors de 18 anys no poden fer ús d'aquest servei sense autorització del pare/mare o tutor legal.</p>
                     <p className="terms-and-conditions">Encarregats del tractament de les dades: ASSOCIACIÓ PASTORETS DE GIRONA</p>
                 </div>
                 {showAlert && (
