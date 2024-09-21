@@ -102,7 +102,7 @@ const handleSubmitPersona = async (e) => {
                 <div className="form-row">
                     <div className="form-field half-width">
                         <label>Segon Cognom:</label>
-                        <input type="text" placeholder="Cognom 2" value={cognom2} onChange={(e) => setCognom2(e.target.value)} />
+                        <input type="text" placeholder="Segon Cognom" value={cognom2} onChange={(e) => setCognom2(e.target.value)} />
                     </div>
                     <div className="form-field half-width">
                         <label>Data de naixement:<span className="obligatory-mark">*</span></label>
