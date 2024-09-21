@@ -20,7 +20,7 @@ const AddPersones = () => {
     const [succesMessage, setSuccesMessage] = useState(' ');
     const [errorMessage, setErrorMessage] = useState('');
     const [showAlert, setShowAlert] = useState(false);
-
+    const [isSubmitting, setIsSubmitting] = useState(false);
 const encryptIban = (iban) => {
     return CryptoJS.AES.encrypt(iban, passphrase).toString();
 }
@@ -36,7 +36,11 @@ const handleSubmitPersona = async (e) => {
         alert("Tots els camps obligatoris han de ser plens");
         return;
     }
-
+	
+    setIsSubmitting(true);
+	setSuccesMessage('');
+	setErrorMessage('');
+	setShowAlert(false);
 
     const encryptedIban = encryptIban(iban);
 
@@ -73,6 +77,9 @@ const handleSubmitPersona = async (e) => {
         setErrorMessage("Hi ha hagut un error en l'enviament del registre. Si el problema persisteix, poseu-vos en contacte mitjançant el correu");
         setShowAlert(true);
     }
+    setTimeout(() => {
+        setIsSubmitting(false);
+        }, 3000);
 };
 
     return (
@@ -150,7 +157,7 @@ const handleSubmitPersona = async (e) => {
                         {errorMessage && <div className="alert error">{errorMessage}</div>}
                     </div>
                 )}
-                <button type="submit" disabled={!termsAndConditions} className={`submit-btn ${termsAndConditions ? 'active': ''}`}>Registrar-se</button>
+                <button type="submit" disabled={!termsAndConditions || isSubmitting} className={`submit-btn ${termsAndConditions ? 'active': ''}`}>Registrar-se</button>
             </div>
         </form>
    </div>
