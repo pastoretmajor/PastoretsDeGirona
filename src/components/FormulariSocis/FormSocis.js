@@ -86,8 +86,8 @@ const handleSubmitPersona = async (e) => {
     <div>
         <h2 className="sociHeader">Fes-te Soci</h2>
         <form onSubmit={handleSubmitPersona}>
+            <p className="terms-and-conditions">Totes les dades que es requereixen al formulari queden encriptades de forma segura.</p>               
             <div className="form-group">
-                
                 <div className="form-row">
                     <div className="form-field half-width">
                         <label>Nom:<span className="obligatory-mark">*</span></label>
