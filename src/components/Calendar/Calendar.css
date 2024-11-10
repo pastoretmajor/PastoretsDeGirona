@@ -5,14 +5,15 @@
     height: 70vh;
     overflow: hidden;
     border-bottom: 20px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .background-image,
   .overlay-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    
+    width: 500px;
     height: 100%;
     object-fit: cover;
   }

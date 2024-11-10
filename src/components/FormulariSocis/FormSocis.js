@@ -152,7 +152,7 @@ const handleSubmitPersona = async (e) => {
                     <p className="terms-and-conditions">Encarregats del tractament de les dades: ASSOCIACIÓ PASTORETS DE GIRONA</p>
                 </div>
                 {showAlert && (
-                    <div className="alert-container">    
+                        <div className="alert-container">    
                         {succesMessage && <div className="alert success">{succesMessage}</div>}
                         {errorMessage && <div className="alert error">{errorMessage}</div>}
                     </div>
