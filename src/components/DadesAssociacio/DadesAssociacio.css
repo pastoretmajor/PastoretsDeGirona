@@ -1,0 +1,12 @@
+.linksEstatuts {
+  color: #000000;
+  display:flex;
+}
+
+.wrapper-estatuts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}

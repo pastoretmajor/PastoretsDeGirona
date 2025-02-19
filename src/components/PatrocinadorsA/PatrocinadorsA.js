@@ -1,32 +1,9 @@
 import React, { useState } from 'react';
-import logoLaTostadora from '../../images/patrocinadors/logoLaTostadora.png';
-import voluntariatCaixaBank from '../../images/patrocinadors/logoCaixabank.jpg'
-import logoTeaming from '../../images/patrocinadors/logoTeaming.png'
-import logoMemora from '../../images/patrocinadors/logoMemora.png'
 
 import './PatrocinadorsA.css';
 
 const patrocinadors = [
-  {
-    logo: logoLaTostadora,
-    descripcio: '',
-    link: 'https://www.latostadora.com/',
-  },
-  {
-    logo: voluntariatCaixaBank,
-    descripcio: '',
-    link: '',
-  },
-  {
-    logo: logoTeaming,
-    descripcio: '',
-    link: '',
-  },
-  {
-    logo: logoMemora,
-    descripcio: '',
-    link: '',
-  },
+
 ];
 
 const Patrocinador = ({ logo, descripcio, link }) => {

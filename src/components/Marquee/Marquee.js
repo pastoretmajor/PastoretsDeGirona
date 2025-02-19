@@ -1,14 +1,10 @@
 import FastMarquee from 'react-fast-marquee'
 import './Marquee.css';
-import laTostadora from '../../images/patrocinadors/logoLaTostadora.png';
 import logoValvi from '../../images/patrocinadors/logoValvi.png';
-import logoCaixaBank from '../../images/patrocinadors/logoCaixabank.jpg';
-import memora from '../../images/patrocinadors/logoMemora.png';
-import marlex from '../../images/patrocinadors/logoMarlex.png';
-import teaming from '../../images/patrocinadors/logoTeaming.png';
+import logoCHFormacio from '../../images/patrocinadors/chFormacio.png';
 
 const Marquee = () => {
-  const images = [laTostadora, logoValvi, logoCaixaBank, memora, marlex, teaming, laTostadora, logoValvi, logoCaixaBank, memora, marlex, teaming, laTostadora, logoValvi, logoCaixaBank, memora, marlex, teaming, laTostadora, logoValvi, logoCaixaBank, memora, marlex, teaming, laTostadora, logoValvi, logoCaixaBank, memora, marlex, teaming, laTostadora, logoValvi, logoCaixaBank, memora, marlex, teaming];
+  const images = [logoValvi, logoCHFormacio, logoValvi, logoCHFormacio, logoValvi, logoCHFormacio, logoValvi, logoCHFormacio, logoValvi, logoCHFormacio, logoValvi, logoCHFormacio];
 
 
   return (

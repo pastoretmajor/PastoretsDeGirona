@@ -7,6 +7,7 @@ import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/Patro
 import ColumnLayout from '../components/ColumnLayout/ColumnLayout'
 import TimeLine from '../components/TimeLine/TimeLine'
 import FormulariSocis from '../components/FormulariSocis/FormSocis'
+import DadesAssociacio from '../components/DadesAssociacio/DadesAssociacio'
 
 import AssociacioImatge from '../images/banners/associacio-pastorets-de-girona.webP'
 import AssociacioImatgeBlur from '../images/blured/associacio-pastorets-de-girona.webP'
@@ -33,6 +34,7 @@ const Associacio = () => {
       <ImageComponent src={AssociacioImatge} blurSrc={AssociacioImatgeBlur} alt="Associació" text="Associació" opacity={.5}/>
       <ColumnLayout boxes={boxes} centered={true} backgroundColors={backgroundColors} />
       <FormulariSocis />
+      <DadesAssociacio />
       <TimeLine />
       <PatrocinadorsPrincipals />
       <Footer />

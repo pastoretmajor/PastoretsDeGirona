@@ -19,7 +19,7 @@ const TimeLine = () => {
                 icon={<PressIcon />}
             >
                 <h3 className="vertical-timeline-element-title rubik-title">Notícia</h3>
-                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">A ràdio Girona, emeten una entrevista realitzada a 3 dels memebres dels Pastorets de Girona </h4>
+                <h4 className="vertical-timeline-element-subtitle rubik-subtitle">A ràdio Girona, emeten una entrevista realitzada a 3 dels membres dels Pastorets de Girona </h4>
                 <p className="rubik-text">
                     Aquí podem escoltar a la Marta Nadal, tècnic de llums i so, Joan Cano, encarregat de la gestió de personal i David Vilanova, tresorer, respondre una entrevista al programa els 4 rius.
                 </p>
