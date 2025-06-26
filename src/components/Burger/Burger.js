@@ -34,7 +34,6 @@ const Burger = () => {
               <a href="#/associacio">ASSOCIACIÓ</a>
               <ul>
                 <li><a href="#/valors">· Valors</a></li>
-                <li><a href="https://www.fundacioesplaigirona.cat/" rel="noopener noreferrer" target="_blank">· Fundació esplai Girona</a></li>
                 <li><a href="#/soci">· Fes una donació</a></li>
               </ul>
             </li>
