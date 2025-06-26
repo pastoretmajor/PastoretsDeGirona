@@ -3,10 +3,8 @@ import Burger from '../components/Burger/Burger'
 
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Footer from '../components/Footer/Footer'
-import GifComponent from '../components/GifAnimation/GifComponent'
 import PatrocinadorsPrincipals from '../components/PatrocinadorsPrincipals/PatrocinadorsPrincipals'
 
-import gifUrl from '../images/logos/adria_cano_puigvert.gif'
 import LaManela from '../images/banners/lamanela-pastorets-de-girona.webP'
 import LaManelaBlur from '../images/blured/lamanela-pastorets-de-girona.webP'
 
@@ -17,8 +15,10 @@ const Manela = () => {
     <div>
       <Navbar />
       <Burger />
-      <ImageComponent src={LaManela} blurSrc={LaManelaBlur} alt="La Manela" text="La Manela" opacity={.5}/>
-      <GifComponent gif={gifUrl}/>
+      <ImageComponent src={LaManela} blurSrc={LaManelaBlur} alt="Concurs cartell 2025" text="Concurs cartell 2025" opacity={.5}/>
+      <div className='bases_concurs'>
+      <iframe src="/concurs_cartell.pdf" title="Bases concurs cartell"/>        
+      </div>
       <PatrocinadorsPrincipals />      
       <Footer />
     </div>
