@@ -53,7 +53,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link to='/manela' className='nav-links' onClick={closeMobileMenu}>
-              LA MANELA
+             CONCURS 
             </Link>
           </li>
           <li className='nav-item'>

@@ -28,7 +28,7 @@ const Burger = () => {
                 <li><a href="#/ajudants">· Ajudants de producció</a></li>
               </ul>
             </li>
-            <li><a href="#/manela">LA MANELA</a></li>
+            <li><a href="#/manela">CONCURS</a></li>
             <li><a href="https://www.giglon.cat/girona/teatremunicipal/esdeveniments?idEvent=els-pastorets-de-girona-2024">ENTRADES</a></li>
             <li>
               <a href="#/associacio">ASSOCIACIÓ</a>
