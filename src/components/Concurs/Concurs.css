@@ -1,0 +1,15 @@
+.concurs-section {
+  display:flex;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margint-top: 20px;
+  text-align: center;
+  justify-content:center;
+  alight-items: center;
+}
+
+.concurs img {
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+}

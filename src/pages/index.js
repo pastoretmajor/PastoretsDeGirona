@@ -3,6 +3,7 @@ import Burger from '../components/Burger/Burger'
 import Popup from '../components/Popup/Popup'
 import Ticket from '../components/Ticket/Ticket'
 import Poster from '../components/Poster/Poster'
+import Concurs from '../components/Concurs/Concurs'
 
 import ImageComponent from '../components/ImageComponent/ImageComponent'
 import Calendari from '../components/Calendar/Calendar'
@@ -23,10 +24,7 @@ const Inici = () => {
       <Burger />
       <Popup />      
       <ImageComponent src={AraSi} blurSrc={AraSiBlur} alt="Pastorets de Girona ara sí" text="Pastorets de Girona" opacity={.5}/>
-      <Stamp />
-      <Calendari />
-      <Ticket />
-      <Poster />
+      <Concurs />
       <PatrocinadorsPrincipals />
       <Footer />
     </div>
