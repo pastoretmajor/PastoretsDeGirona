@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.668336d0.css",
-    "main.js": "/static/js/main.8e81c1d3.js",
-    "static/media/adria_cano_puigvert.gif": "/static/media/adria_cano_puigvert.19b7fdeb4c89f7120cdb.gif",
+    "main.css": "/static/css/main.6bec1407.css",
+    "main.js": "/static/js/main.6d9813f7.js",
     "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
     "static/media/poster2024.png": "/static/media/poster2024.9179c0219ed7ed061129.png",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/capCabro.jpg": "/static/media/capCabro.e2542305accda59486e3.jpg",
     "static/media/AraSi_inclinat.png": "/static/media/AraSi_inclinat.aea38de2fb046c3017fa.png",
     "static/media/cor_xantica.png": "/static/media/cor_xantica.131fc37e875fe636fb58.png",
+    "static/media/concurs.jpeg": "/static/media/concurs.28d92ca38c316069ba5e.jpeg",
     "static/media/lamanela-pastorets-de-girona.webP": "/static/media/lamanela-pastorets-de-girona.c2505560136b49b51474.webP",
     "static/media/associacio-pastorets-de-girona.webP": "/static/media/associacio-pastorets-de-girona.5b0e09ddf5069c48ae4d.webP",
     "static/media/logoBarretinaSenseFons.png": "/static/media/logoBarretinaSenseFons.55a48edd51f252391e60.png",
@@ -37,11 +37,11 @@
     "static/media/logoValvi.png": "/static/media/logoValvi.5b52fe3beb858d90910d.png",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.668336d0.css.map": "/static/css/main.668336d0.css.map",
-    "main.8e81c1d3.js.map": "/static/js/main.8e81c1d3.js.map"
+    "main.6bec1407.css.map": "/static/css/main.6bec1407.css.map",
+    "main.6d9813f7.js.map": "/static/js/main.6d9813f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.668336d0.css",
-    "static/js/main.8e81c1d3.js"
+    "static/css/main.6bec1407.css",
+    "static/js/main.6d9813f7.js"
   ]
 }

@@ -1,7 +1,7 @@
 /*
 
 Joel Cano i Puigvert
-Last update: 27/07/2023
+Last update: 26/06/2025
 https://github.com/llop10101
 
 */
@@ -38,4 +38,18 @@ p{
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
   font-weight: normal;
+}
+
+iframe {
+  width: 80%;
+  height: 100%;
+}
+
+.bases_concurs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+
 }
