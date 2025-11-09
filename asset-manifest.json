@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2f3eb035.css",
-    "main.js": "/static/js/main.e361bb13.js",
-    "static/media/videoPosterPastorets.mp4": "/static/media/videoPosterPastorets.b4f720379a58d4333002.mp4",
-    "static/media/poster2024.png": "/static/media/poster2024.9179c0219ed7ed061129.png",
+    "main.js": "/static/js/main.c45d0cb5.js",
+    "static/media/poster2025.png": "/static/media/poster2025.d50c0c926417fdab140c.png",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/capCabro.jpg": "/static/media/capCabro.e2542305accda59486e3.jpg",
     "static/media/AraSi_inclinat.png": "/static/media/AraSi_inclinat.aea38de2fb046c3017fa.png",
@@ -38,10 +37,10 @@
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
     "main.2f3eb035.css.map": "/static/css/main.2f3eb035.css.map",
-    "main.e361bb13.js.map": "/static/js/main.e361bb13.js.map"
+    "main.c45d0cb5.js.map": "/static/js/main.c45d0cb5.js.map"
   },
   "entrypoints": [
     "static/css/main.2f3eb035.css",
-    "static/js/main.e361bb13.js"
+    "static/js/main.c45d0cb5.js"
   ]
 }
