@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f3eb035.css",
-    "main.js": "/static/js/main.c45d0cb5.js",
+    "main.css": "/static/css/main.3042a0b8.css",
+    "main.js": "/static/js/main.7605c3da.js",
     "static/media/poster2025.png": "/static/media/poster2025.d50c0c926417fdab140c.png",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/capCabro.jpg": "/static/media/capCabro.e2542305accda59486e3.jpg",
@@ -36,11 +36,11 @@
     "static/media/logoValvi.png": "/static/media/logoValvi.5b52fe3beb858d90910d.png",
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
-    "main.2f3eb035.css.map": "/static/css/main.2f3eb035.css.map",
-    "main.c45d0cb5.js.map": "/static/js/main.c45d0cb5.js.map"
+    "main.3042a0b8.css.map": "/static/css/main.3042a0b8.css.map",
+    "main.7605c3da.js.map": "/static/js/main.7605c3da.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f3eb035.css",
-    "static/js/main.c45d0cb5.js"
+    "static/css/main.3042a0b8.css",
+    "static/js/main.7605c3da.js"
   ]
 }
