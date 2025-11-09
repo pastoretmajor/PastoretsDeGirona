@@ -24,7 +24,8 @@ const Inici = () => {
       <Burger />
       <Popup />      
       <ImageComponent src={AraSi} blurSrc={AraSiBlur} alt="Pastorets de Girona ara sí" text="Pastorets de Girona" opacity={.5}/>
-      <Concurs />
+      <Poster />
+      <Ticket />
       <PatrocinadorsPrincipals />
       <Footer />
     </div>
