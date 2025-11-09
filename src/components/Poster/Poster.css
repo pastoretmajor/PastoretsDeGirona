@@ -53,4 +53,8 @@
     height: auto;
     margin-left: 0; 
   }
+
+  .descripcio {
+    max-width: 250px;
+  }
 }
