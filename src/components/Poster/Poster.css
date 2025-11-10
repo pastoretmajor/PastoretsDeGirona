@@ -9,10 +9,11 @@
 }
 
 .poster img {
-  flex: 1;
+  flex-shrink: 0;
+  width: auto;
   max-width: 25%;
   height: auto;
-  margin-right: 2rem;
+  object-fit: contain;
 }
 
 .poster video {
@@ -43,10 +44,10 @@
   }
 
   .poster img {
-    max-width: 70%;
+    max-width: 80%;
+    width: auto;
     height: auto;
-    object-fit: contain;
-    margin-right: 0;
+    margin-right: 1rem 0;
   }
 
   .poster video {
