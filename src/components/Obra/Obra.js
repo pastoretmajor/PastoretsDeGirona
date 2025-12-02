@@ -8,15 +8,12 @@ const Obra = () => {
       <div className="logo-container">
         <img className="logo" src={Logo} alt="Logo Barretina Sense Fons" />
       </div>
-      <p className='text-obra'>Després d'un any sense els Pastorets a la ciutat de Girona, aquest any tornen amb una proposta renovada i emocionant. </p>
+      <p className='text-obra'>Després de més de quaranta anys de Pastorets a càrrec del grup Proscenium, l'any 2022 es van aturar les representacions d'aquest espectacle en el Teatre Municipal de Girona. Va ser aleshores quan un grup de persones van iniciar el projecte que culminaria amb aquesta nova etapa dels Pastorets de Girona.</p>
       <p />
-      <p className='text-obra'>Els nous Pastorets mantindran el seu esperit familiar i musical, però arriben amb un format diferent, inclusiu i innovador. Una combinació magistral d'humor, música, modernitat i tradició donarà vida a la fascinant història del naixement de Jesús, amb un toc molt especial que posarà en relleu els personatges típics de la nostra estimada cultura catalana.</p>
+      <p className='text-obra'>L'elecció de la versió de l'obra a representar va ser un dels punts claus del projecte: no se'n trobava cap que s'ajustés a la durada desitjada i que permetés modificacions en les representacions de cada any per adaptar-se a l'actualitat de la ciutat, tal i com era tradicional de fer.</p>
       <p />
-      <p className='text-obra'>Amb una posada en escena repleta de sorpreses i emoció, l'obra ens portarà a viure les aventures i desventures dels protagonistes mentre superen diferents obstacles. A través d'aquesta experiència teatral, el públic podrà connectar amb el passat i el present de manera única.</p>
+      <p className='text-obra'>És en aquest context que Núria Donato es va oferir a escriure una obra amb tots els elements tradicionals dels relats dels Pastorets però amb suficient flexibilitat per a poder fer lleugeres modificacions a cada nova temporada. A més, l'autora va fer cessió dels drets d'autor a l'Associació Pastorets de Girona, qui la va registrar per tal de protegir-ne la correcta utilització segons les condicions acordades amb l'escriptora.</p>
       <p />
-      <p className='text-obra'>Així doncs, prepareu-vos per gaudir d'uns Pastorets renovats, que ens transportaran en un viatge inoblidable que ens connectarà amb les nostres arrels i alhora ens sorprendrà amb la frescor i creativitat del moment actual.</p>
-      <p />
-      <p className='text-obra'>Us convidem a compartir aquesta meravellosa experiència teatral plena d'emocions i significat, que no deixarà a ningú indiferent. Us esperem al Teatre Municipal per celebrar aquesta festa de la tradició i la cultura amb una nova perspectiva que us enamorarà.</p>
     </div>
   );
 };

@@ -13,12 +13,8 @@ import EquipTecnicBlur from '../images/blured/equiptecnic-actorsactrius-ajudants
 const Tecnics = () => {
   const teamMembers = [
     {
-      name: "Salvador de Castro Vila \n Núria Donato Vilanova",
+      name: "Salvador de Castro Vila",
       rol: "Direcció de l'obra"
-    },
-    {
-      name: "Alba Saló Rocas \nPaula Saló Rocas",
-      rol: "Gestió de comunicació i màrqueting"
     },
     {
       name: "Natàlia Donato Vilanova",
@@ -37,11 +33,7 @@ const Tecnics = () => {
       rol: "Equip musical"
     },
     {
-      name: "Isaac d'Aiguaviva",
-      rol: "Disseny d'escenografia"
-    },
-    {
-      name: "Pau Morales Albert",
+      name: "Adrià Cano Puigvert",
       rol: "Dissenyador gràfic"
     },
     {
