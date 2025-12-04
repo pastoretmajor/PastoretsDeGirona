@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logoValvi from '../../images/patrocinadors/logoValvi.png';
 import logoCHFormacio from '../../images/patrocinadors/chFormacio.png';
+import logoEtalentum from '../../images/patrocinadors/etalentum.png';
 
 import './PatrocinadorsB.css';
 
@@ -11,7 +12,7 @@ const patrocinadors = [
     link: '',
   },  
   {
-    logo: logoCHFormacio,
+    logo: logoEtalentum,
     descripcio: '',
     link: '',
   }
@@ -27,16 +28,6 @@ const Patrocinador = ({ logo, descripcio, link }) => {
     return (
       <div className="patrocinadorB" onMouseEnter={handleHover} onMouseLeave={handleHover}>
         <img src={logo} alt="Logo del patrocinador" />
-        {hover && (
-          <div className="infoB">
-            <div className="descriptionB">
-              <p>{descripcio}</p>
-            </div>
-            <div className="button-containerB">
-              <button onClick={() => window.open(link, "_blank")}>Visita la web</button>
-            </div>
-          </div>
-        )}
       </div>
     );
   };

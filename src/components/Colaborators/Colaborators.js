@@ -30,11 +30,6 @@ const colaborators = [
     link: '',
   },
   {
-    logo: centreRecerca,
-    descripcio: '',
-    link: '',
-  },
-  {
     logo: departamentCultura,
     descripcio: '',
     link: '',
@@ -64,6 +59,11 @@ const colaborators = [
     descripcio: '',
     link: '',
   },
+  {
+    logo: corXantica,
+    descripcio: '',
+    link: '',
+  },
   ];
 
 const Colaborator = ({ logo, descripcio, link }) => {
@@ -76,16 +76,6 @@ const Colaborator = ({ logo, descripcio, link }) => {
     return (
       <div className="patrocinadorC" onMouseEnter={handleHover} onMouseLeave={handleHover}>
         <img src={logo} alt="Logo del patrocinador" />
-        {hover && (
-          <div className="infoC">
-            <div className="descriptionC">
-              <p>{descripcio}</p>
-            </div>
-            <div className="button-containerC">
-              <button onClick={() => window.open(link, "_blank")}>Visita la web</button>
-            </div>
-          </div>
-        )}
       </div>
     );
   };
