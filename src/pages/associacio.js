@@ -35,7 +35,6 @@ const Associacio = () => {
       <ColumnLayout boxes={boxes} centered={true} backgroundColors={backgroundColors} />
       <FormulariSocis />
       <DadesAssociacio />
-      <TimeLine />
       <PatrocinadorsPrincipals />
       <Footer />
     </div>

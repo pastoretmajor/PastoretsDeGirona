@@ -26,7 +26,7 @@ const Tecnics = () => {
     },
     {
       name: "Marta Nadal Jiménez",
-      rol: "Tècnic de llums i so"
+      rol: "Coordinadora tècnica"
     },
     {
       name: "Natàlia Donato \n Arnau Morales\n Daniel Moreta \n Sara Pujolràs",

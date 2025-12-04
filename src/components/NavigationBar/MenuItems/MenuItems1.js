@@ -10,14 +10,4 @@ export const MenuItems = [
       path: '/tecnics',
       cName: 'dropdown-link'
     },
-    {
-      title: 'Actors i actrius',
-      path: '/actors',
-      cName: 'dropdown-link'
-    },
-    {
-      title: 'Ajudants de producció',
-      path: '/ajudants',
-      cName: 'dropdown-link'
-    }
   ];

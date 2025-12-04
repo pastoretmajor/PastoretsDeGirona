@@ -11,11 +11,6 @@ export const MenuItems = [
       cName: 'dropdown-link'
     },
     {
-      title: 'Fundació Esplai Girona',
-      path: 'https://www.fundacioesplaigirona.cat/',
-      cName: 'dropdown-link'
-    },
-    {
       title: 'Fes una donació',
       path: '/soci',
       cName: 'dropdown-link'

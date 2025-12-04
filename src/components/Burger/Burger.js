@@ -24,8 +24,6 @@ const Burger = () => {
               <a href="#/equip">EQUIP HUMÀ </a>
               <ul>
                 <li><a href="#/tecnics">· Equip tècnic</a></li>
-                <li><a href="#/actors">· Actors i actrius</a></li>
-                <li><a href="#/ajudants">· Ajudants de producció</a></li>
               </ul>
             </li>
             <li><a href="#/manela">CONCURS</a></li>
