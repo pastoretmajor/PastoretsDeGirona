@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e931ae6e.css",
-    "main.js": "/static/js/main.80379b62.js",
+    "main.js": "/static/js/main.61451759.js",
     "static/media/poster2025.png": "/static/media/poster2025.d50c0c926417fdab140c.png",
     "static/media/fons-index-pastorets-de-girona.webP": "/static/media/fons-index-pastorets-de-girona.2e9b881b5bc21c10c7ef.webP",
     "static/media/capCabro.jpg": "/static/media/capCabro.e2542305accda59486e3.jpg",
@@ -38,10 +38,10 @@
     "static/media/bombeta.webP": "/static/media/bombeta.e4592504b14effd163dc.webP",
     "index.html": "/index.html",
     "main.e931ae6e.css.map": "/static/css/main.e931ae6e.css.map",
-    "main.80379b62.js.map": "/static/js/main.80379b62.js.map"
+    "main.61451759.js.map": "/static/js/main.61451759.js.map"
   },
   "entrypoints": [
     "static/css/main.e931ae6e.css",
-    "static/js/main.80379b62.js"
+    "static/js/main.61451759.js"
   ]
 }
