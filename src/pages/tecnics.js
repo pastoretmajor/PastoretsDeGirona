@@ -14,11 +14,11 @@ const Tecnics = () => {
   const teamMembers = [
     {
       name: "Salvador de Castro Vila",
-      rol: "Direcció de l'obra"
+      rol: "Direcció"
     },
     {
       name: "Natàlia Donato Vilanova",
-      rol: "Tècnic de caracterització"
+      rol: "Caracterització"
     },
     {
       name: "Josep Mitjà Pau",
@@ -29,12 +29,12 @@ const Tecnics = () => {
       rol: "Coordinadora tècnica"
     },
     {
-      name: "Natàlia Donato \n Arnau Morales\n Daniel Moreta \n Sara Pujolràs",
+      name: "Daniel Moreta \n Sara Pujolràs",
       rol: "Equip musical"
     },
     {
       name: "Adrià Cano Puigvert",
-      rol: "Dissenyador gràfic"
+      rol: "Producció audiovisual"
     },
     {
       name: "Joan Cano Dorca",
