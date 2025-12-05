@@ -7,13 +7,16 @@ import dansaGirona from '../../images/colaborators/gironaDansa.png';
 import corXantica from '../../images/colaborators/cor_xantica.png';
 import impserDigital from '../../images/colaborators/impserDigital.jpg';
 import barStNarcis from '../../images/colaborators/BarCentreSantNarcis.jpg';
+import cafesCornella from '../../images/colaborators/cafesCornella.png'
+import kooking from '../../images/colaborators/kookingcatering.png';
+import manaies from '../../images/colaborators/manaies.webp';
 import recercaEco from '../../images/colaborators/CentreRecercaEco.jpg';
 import cultura from '../../images/colaborators/GENERALITATdeCATALUNYA-cultura_PastoretsDeGirona.png';
 
 const PatrocinadorsPrincipals = () => {
   const images = [
-    ajGirona, dansaGirona, corXantica, logoValvi, logoCaixaBank, impserDigital,
-    barStNarcis, recercaEco
+    ajGirona, dansaGirona, corXantica, logoCaixaBank, impserDigital,
+    barStNarcis, cafesCornella, kooking ,manaies
   ];
 
 

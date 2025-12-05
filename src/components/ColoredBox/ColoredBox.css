@@ -78,6 +78,10 @@ https://github.com/llop10101
   color: #1D1D1B;
 }
 
+.circle-content:hover {
+  cursor: default;
+}
+
 .red-circle {
   width: 350px;
   height: 100%;
@@ -86,13 +90,12 @@ https://github.com/llop10101
 }
 
 .red-circle:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .red-circle a {
   text-decoration: none;
   color: #ffffff;
-  cursor: pointer;
 }
 
 

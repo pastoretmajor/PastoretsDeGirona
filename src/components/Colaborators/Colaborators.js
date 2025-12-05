@@ -29,11 +29,6 @@ const colaborators = [
     descripcio: '',
     link: '',
   },
-  {
-    logo: departamentCultura,
-    descripcio: '',
-    link: '',
-  },
   { 
     logo: kooking,
     descripcio: '',

@@ -1,10 +1,11 @@
 import FastMarquee from 'react-fast-marquee'
 import './Marquee.css';
 import logoValvi from '../../images/patrocinadors/logoValvi.png';
-import logoCHFormacio from '../../images/patrocinadors/chFormacio.png';
+import logoChFormacio from '../../images/patrocinadors/chFormacio.png';
+import logoEtalentum from '../../images/patrocinadors/etalentum.png'
 
 const Marquee = () => {
-  const images = [logoValvi, logoCHFormacio, logoValvi, logoCHFormacio, logoValvi, logoCHFormacio, logoValvi, logoCHFormacio, logoValvi, logoCHFormacio, logoValvi, logoCHFormacio];
+  const images = [logoValvi, logoEtalentum, logoValvi, logoEtalentum, logoValvi, logoEtalentum, logoValvi, logoEtalentum, logoValvi, logoEtalentum, logoValvi, logoEtalentum];
 
 
   return (

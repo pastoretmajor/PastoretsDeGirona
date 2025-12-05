@@ -19,9 +19,9 @@ import AjudantsProduccio from '../images/logos/llapis.webP'
 const Equip = () => {
 
   const boxes = [
-    { textColor:'#F1F1F1', hasCircle:"true", link:"#/tecnics", backgroundColor: '#C41919', text: "Equip tècnic", src: EquipTecnic, alt: "Logo Equip Tècnic"},
-    { textColor:'#F1F1F1', hasCircle:"true", link:"#/actors", backgroundColor: '#414141', text: "Actors i actrius", src: ActorsActrius, alt: "Logo Actors i actrius" },
-    { backgroundColor: '#D9D9D9', hasCircle:"true", link:"#/ajudants", text: "Ajudants de producció", src: AjudantsProduccio, alt: "Logo Ajudants de producció" },
+    { textColor:'#F1F1F1', hasCircle:"true", link:"#/equip", backgroundColor: '#C41919', text: "Equip tècnic", src: EquipTecnic, alt: "Logo Equip Tècnic"},
+    { textColor:'#F1F1F1', hasCircle:"true", link:"#/equip", backgroundColor: '#414141', text: "Actors i actrius", src: ActorsActrius, alt: "Logo Actors i actrius" },
+    { backgroundColor: '#D9D9D9', hasCircle:"true", link:"#/equip", text: "Ajudants de producció", src: AjudantsProduccio, alt: "Logo Ajudants de producció" },
   ];
 
   const backgroundColors = boxes.map((box) => box.backgroundColor);
